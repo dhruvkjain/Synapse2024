@@ -31,7 +31,7 @@ function Navbar({changePageinApp}) {
         <div>
             <div className='contlogo'>
                 <div className='navgrid'>
-                    <img className='logo' src={logo}></img>
+                    <img onClick={() => changePageinApp('homepage')} className='logo pointer' src={logo}></img>
                     <div className='navflex'>
                         <div className='navlinks' onMouseEnter={opennavbar} onMouseLeave={closenavbar}>
                             <div className='navgrid2'>
