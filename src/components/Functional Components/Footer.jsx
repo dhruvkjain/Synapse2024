@@ -12,7 +12,7 @@ function Footer() {
                     <div className='footer1'>
                         <div>
                             <img className='logo2' src={logo}></img>
-                            <p className='reachusoutat'>Reach Us Out At</p>
+                            <p className='reachusoutat phonk'>Reach Us Out At</p>
                             <p className='satoshi'>synapse.thefest@gmail.com</p>
                             <p className='satoshi'>synapse@daiict.ac.in</p>
                             <p className='satoshi'>Raj Patel: +91 8128 909 789</p>
@@ -34,7 +34,7 @@ function Footer() {
                     </div>
                     <div className='footer2'>
                         <div>
-                            <p className='reachusoutat'>Past Websites</p>
+                            <p className='reachusoutat phonk'>Past Websites</p>
                             <p className='satoshi'>Synapse 2022</p>
                             <p className='satoshi'>Synapse 2021</p>
                             <p className='satoshi'>Synapse 2020</p>

@@ -1,7 +1,6 @@
 #root {
   margin: 0 auto;
   padding: 0rem;
-  font-family: 'Satoshi', sans-serif;
   font-size: 15px;
 }
 
@@ -26,7 +25,10 @@
 
 .satoshi {
   font-family: 'Satoshi', sans-serif;
-  font-size: 15px;
+}
+
+.phonk{
+  font-family: "Phonk Regular DEMO";
 }
 
 .navgrid {
