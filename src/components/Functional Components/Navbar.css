@@ -1,0 +1,61 @@
+.contlogo {
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+}
+
+.logo {
+    padding: 1.5rem;
+}
+
+.menuimg {
+    width: 2.5vw;
+}
+
+.navflex {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.navlinks {
+    border-radius: 43px;
+    /* background: rgba(67, 67, 67, 0.54); */
+    background-color: #0009;
+    display: grid;
+    grid-template-columns: 1fr;
+    transition: all 0.5s;
+}
+
+.navgrid2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.navptags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 0px;
+    padding-left: 1vw;
+    cursor: pointer;
+}
+
+.navflex2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.shownavbar {
+    font-size: 1.5vw;
+}
+
+.shownavback {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}

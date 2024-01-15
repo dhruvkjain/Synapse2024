@@ -1,0 +1,25 @@
+.footer{
+    width: 100vw;
+    height: 70vh;
+    background-image: url('../../assets/footerimg.png');
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size:cover;
+  }
+  .footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    height: 70vh;
+  }
+  .footer1,.footer2,.footer3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo2{
+    width: 5vw;
+  }
+  .reachusoutat{
+    font-size:40px ;
+    margin: 0px;
+  }

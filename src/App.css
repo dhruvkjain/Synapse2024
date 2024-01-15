@@ -1,212 +1,40 @@
 #root {
   margin: 0 auto;
   padding: 0rem;
-}
-.homepage{
-  width: 100vw ;
-  height: 200vh ;
-}
-.contlogo{
-  width: 100vw ;
-  height: 20vh;
-  position: absolute;
-}
-.logo{
-  padding: 1.5rem;
-}
-.synapse{
-  width: 100vw;
-  height: 200vh;
-  position: absolute;
-}
-.cont1{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: last baseline;
-}
-.homepageimgs{
-  padding:4rem;
-  width: 40vw;
-}
-.themeimg{
-  width: 30vw;
-}
-.synapseimg{
-  width: 40vw;
-}
-.scrolldownicon1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.scrolldown:hover{
-  animation: scrollicongrowth 0.5s linear 0s 1 ;
-}
-@keyframes scrollicongrowth {
-  0% {transform: scale(1);}
-  50%{transform: scale(1.2);}
-  100%{transform: scale(1);}
-}
-.bg-1{
-  width: 100vw;
-  height: 100vh;
-  background-image: url('./assets/mainimg.png');
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size:cover;
-  position:fixed;
-}
-.aboutus{
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  font-family: 'Satoshi', sans-serif;
-  font-size: 20px;                             
-}
-.aboutusheading{
-  font-size: 30px;
-}
-.cont2{
-  width: 50vw;
-}
-.cont3{
-  padding:2rem ;
-  background-color: #0009 ;
-  border-radius:20px ;
-}
-.theme{
-  width: 100vw;
-  height: 370vh;
-  position: absolute;
-  background-color: black;
-}
-.custom-box-shadow{
-  box-shadow: 20px 20px 60px rgba(255, 255, 255, 0) ,
-  inset -2px -2px 4px rgb(0, 0, 0);
-}
-.themeflexout{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-}
-.themegrid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.themeflex{
-  display: flex;
-  align-items: center;
-  justify-content: right;
-}
-.thetheme{
-  font-size: 45px;
-}
-.themetxt{
-  display: flex;
-  justify-content: center;
-  padding: 5rem 2rem 2rem 2rem;
-  font-size: 20px;
-}
-.homepageevent{
-  width: 100vw;
-  height: 100vh;
-  background-image: url('./assets/homepageevent.png');
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-size:cover;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.homepageevent > p{
-  width: 50vw;
-  font-size : 55px;
-  font-weight: 700;
-  padding: 2rem;
-}
-.gallery{
-  width: 100vw;
-  height: 100vh;
-}
-.footer{
-  width: 100vw;
-  height: 70vh;
-  background-image: url('./assets/footerimg.png');
-  background-repeat: no-repeat;
-  background-attachment:local;
-  background-size:cover;
-}
-.footer-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  height: 70vh;
-}
-.footer1,.footer2,.footer3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.logo2{
-  width: 5vw;
-}
-.reachusoutat{
-  font-size:40px ;
-  margin: 0px;
-}
-.satoshi{
   font-family: 'Satoshi', sans-serif;
   font-size: 15px;
 }
-.navgrid{
+
+.contlogo {
+  width: 100vw;
+  height: 20vh;
+  position: absolute;
+}
+
+.logo {
+  padding: 1.5rem;
+}
+
+.themeimg {
+  width: 30vw;
+}
+
+.custom-box-shadow {
+  box-shadow: 20px 20px 60px rgba(255, 255, 255, 0),
+    inset -2px -2px 4px rgb(0, 0, 0);
+}
+
+.satoshi {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 15px;
+}
+
+.navgrid {
   display: grid;
   grid-template-columns: 1fr 12fr;
 }
-.menuimg{
+
+.menuimg {
   width: 2.5vw;
 }
-.navflex{
-  display:flex;
-  justify-content: right;
-  align-items: center;
-  padding-right: 2rem;
-}
-.navlinks{
-  border-radius: 43px;
-  /* background: rgba(67, 67, 67, 0.54); */
-  background-color: #0009;
-  display:grid;
-  grid-template-columns: 1fr;
-  transition: all 0.5s;
-}
-.navgrid2{
-  display: grid;
-  grid-template-columns: repeat(6 , 1fr);
-}
-.navptags{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px;
-  font-size: 0px;
-  padding-left: 1vw;
-}
-.navflex2{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-  cursor: pointer;
-}
-.shownavbar{
-  font-size: 1.5vw;
-}
-.shownavback {
-  display: grid;
-  grid-template-columns: 6fr 1fr;
-}
+
