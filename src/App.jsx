@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='slider'>
 
       <div className='homepage'>
         <div className='bg-1'></div>

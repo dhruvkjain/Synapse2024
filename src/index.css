@@ -8,4 +8,9 @@ body{
 }
 html{
   overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+.synapse , .aboutus , .themeflexout , .homepageevent , .gallery , .footer{
+  scroll-snap-align: start;
 }

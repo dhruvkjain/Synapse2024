@@ -42,7 +42,7 @@
   align-items: center;
 }
 .scrolldown:hover{
-  animation: scrollicongrowth 0.5s linear 0s infinite ;
+  animation: scrollicongrowth 0.5s linear 0s 1 ;
 }
 @keyframes scrollicongrowth {
   0% {transform: scale(1);}
@@ -178,7 +178,8 @@
 }
 .navlinks{
   border-radius: 43px;
-  background: rgba(67, 67, 67, 0.54);
+  /* background: rgba(67, 67, 67, 0.54); */
+  background-color: #0009;
   display:grid;
   grid-template-columns: 1fr;
   transition: all 0.5s;
