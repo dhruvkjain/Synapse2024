@@ -1,0 +1,87 @@
+/* CardComponent.css */
+
+.card {
+    position: relative;
+    width: 10rem;
+    height: 450px; /* Set the desired height */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast with the background image */
+    text-shadow: 5px 2px 5px black;
+    border-radius: 8px;
+    transition: width 0.5s;
+    margin-right: 1rem;
+    filter:contrast(0.7);
+    filter:brightness(0.45);
+  }
+  
+  .card-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -80px;
+    transition: left top 1s;
+    
+  }
+  
+  .card-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    width: fit-content;
+    transform: rotate(90deg);
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.2s;
+    
+  }
+  
+  .card-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: none;
+  }
+  
+  .explore-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .explore-button:hover {
+    background-color: #2980b9;
+  }
+
+  .card:hover {
+    width: 20rem;
+    height: 450px; /* Set the desired height */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color for better contrast with the background image */
+    /* transition: transform 2s ease-in-out; */
+    filter:contrast(1);
+    filter:brightness(1);
+    
+  }
+
+  .card:hover .card-title {
+    transform: rotate(0deg);
+  }
+  .card:hover .card-description {
+    display: block;
+  }
+  .card:hover .explore-button {
+    display: block;
+  }
+  .card:hover .card-content{
+    position: absolute;
+    top: 72%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    bottom: -96px;
+  }
+  

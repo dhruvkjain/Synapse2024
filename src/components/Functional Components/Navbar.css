@@ -2,6 +2,7 @@
     width: 100vw;
     height: 20vh;
     position: absolute;
+    
 }
 
 .logo {
@@ -32,6 +33,8 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
+
+
 
 .navptags {
     display: flex;

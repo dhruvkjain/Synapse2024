@@ -1,0 +1,32 @@
+.event-page{
+    position: absolute;
+    width:100vw;
+    margin-top: 100px;
+	background-color: black;
+}
+
+.event-container{
+    position: relative;
+}
+
+.event-heading{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 7rem;
+    background:no-repeat center center;
+    background-size: 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url('/vvortex.gif');
+}
+
+.event-heading .explore{
+    font-weight: 700;
+}
+
+
+.cards-container{
+	padding: 4%;
+	display: flex;
+}
