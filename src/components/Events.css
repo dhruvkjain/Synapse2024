@@ -42,13 +42,316 @@
 	font-size:xx-large;
 	cursor: pointer;
 }
+.sub-event-image{
+	background: url('https://c4.wallpaperflare.com/wallpaper/655/92/9/concert-dance-disco-dubstep-wallpaper-preview.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.sub-events{
+	height: 300px;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	margin-top: 10rem;
+}
+.event-title, .event-desc{
+	width: 50%;
 
+}
+.event-title{
+	font-size: 3.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.event-desc{
+	font-size: 1.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+}
+
+
+
+/* flip cards  */
+.services{
+    background-color: black;
+}
+.flip-card {
+    background-color: transparent;
+    width: 384px;
+    height: 480px;
+    perspective: 1000px;
+    margin: 3% auto;
+    padding: 20px;
+
+  }
+  .flip-card-front{
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column-reverse;
+  }
+  .flip-card-back{
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin: 0 15px;
+	padding: 0 15px;
+	padding-bottom: 15px;
+  }
+  .flip-card-content{
+	padding: 0 15px;
+  }
+  /* .sub-event-btn button{
+	width: 40%;
+	margin: 15px;
+	height: 45px;
+	border-radius: 3px;
+  } */
+  .sub-event-btn button:hover{
+	opacity: 0.9;
+  }
+  .sub-event-btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  }
+
+  .services{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    
+}
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card:hover .flip-card-back{
+      border-radius: 12px;
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-card-back h1{
+      /* text-align: center; */
+	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20 0px;
+  }
+  
+  .flip-card-front {
+    background: url('https://c0.wallpaperflare.com/preview/600/388/1006/group-of-people-enjoying-concerts.jpg');
+    color: white;
+  }
+  .flip-card-front h1{
+      text-align: center;
+      color: white;
+      margin: 0.6rem;
+      font-weight: 700;
+  }
+  
+  .flip-card-back {
+    background: url('https://c0.wallpaperflare.com/preview/600/388/1006/group-of-people-enjoying-concerts.jpg');
+    /* color: white; */
+    transform: rotateY(180deg);
+
+  }
+  .flip-card-back h1{
+      color: #ffffff;
+      font-weight: 700;
+	  border-bottom:3px #40fcc0;
+  }
+  .flip-card-content p{
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  /* buttons  */
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  .header {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 34px;
+	margin-top: 12vh;
+  }
+  .footer {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 15vh;
+  }
+  .button-container-1 {
+	position: relative;
+	width: 130px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6vh;
+	overflow: hidden;
+	border: 1px solid;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	transition: 0.5s;
+	letter-spacing: 1px;
+	border-radius: 3px;
+  }
+  .button-container-1 button {
+	width: 101%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: #40fcc0;
+	-webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+	mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+	-webkit-mask-size: 2300% 100%;
+	mask-size: 2300% 100%;
+	border: none;
+	color: #000;
+	cursor: pointer;
+	-webkit-animation: ani2 0.7s steps(22) forwards;
+	animation: ani2 0.7s steps(22) forwards;
+  }
+  .button-container-1 button:hover {
+	-webkit-animation: ani 0.7s steps(22) forwards;
+	animation: ani 0.7s steps(22) forwards;
+  }
+  .button-container-2 {
+	position: relative;
+	width: 130px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6vh;
+	overflow: hidden;
+	border: 1px solid;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	transition: 0.5s;
+	letter-spacing: 1px;
+	border-radius: 3px;
+  }
+  .button-container-2 button {
+	width: 101%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: #fa4576;
+	-webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+	mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png");
+	-webkit-mask-size: 2300% 100%;
+	mask-size: 2300% 100%;
+	border: none;
+	color: #000;
+	cursor: pointer;
+	-webkit-animation: ani2 0.7s steps(22) forwards;
+	animation: ani2 0.7s steps(22) forwards;
+  }
+  .button-container-2 button:hover {
+	-webkit-animation: ani 0.7s steps(22) forwards;
+	animation: ani 0.7s steps(22) forwards;
+  }
+
+  .mas {
+	position: absolute;
+	color: #ffffff;
+	text-align: center;
+	width: 101%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	position: absolute;
+	font-size: 18px;
+	margin-top: 14px;
+	overflow: hidden;
+	font-weight: bold;
+  }
+  @-webkit-keyframes ani {
+	from {
+	  -webkit-mask-position: 0 0;
+	  mask-position: 0 0;
+	}
+	to {
+	  -webkit-mask-position: 100% 0;
+	  mask-position: 100% 0;
+	}
+  }
+  @keyframes ani {
+	from {
+	  -webkit-mask-position: 0 0;
+	  mask-position: 0 0;
+	}
+	to {
+	  -webkit-mask-position: 100% 0;
+	  mask-position: 100% 0;
+	}
+  }
+  @-webkit-keyframes ani2 {
+	from {
+	  -webkit-mask-position: 100% 0;
+	  mask-position: 100% 0;
+	}
+	to {
+	  -webkit-mask-position: 0 0;
+	  mask-position: 0 0;
+	}
+  }
+  @keyframes ani2 {
+	from {
+	  -webkit-mask-position: 100% 0;
+	  mask-position: 100% 0;
+	}
+	to {
+	  -webkit-mask-position: 0 0;
+	  mask-position: 0 0;
+	}
+  }
+  
+  
+
+  
+/* .flip-card-front img{
+	width:100%;
+	height:25rem;
+} */
 @media (max-width: 768px) {
 	/* Your styles for md or less go here */
 	body {
 	  font-size: 14px;
 	}
-
 	.event-heading{
 		text-align: center;
 		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
