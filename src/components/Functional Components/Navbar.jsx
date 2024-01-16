@@ -28,7 +28,7 @@ function Navbar({changePageinApp}) {
     }
 
     return (
-        <div>
+        <div className="navbar">
             <div className='contlogo'>
                 <div className='navgrid'>
                     <img onClick={() => changePageinApp('homepage')} className='logo pointer' src={logo}></img>
