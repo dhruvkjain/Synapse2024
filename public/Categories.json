@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "Dance",
+      "url": "https://c4.wallpaperflare.com/wallpaper/771/701/185/men-dancing-digital-art-shapes-wallpaper-preview.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Music",
+      "url": "https://c4.wallpaperflare.com/wallpaper/257/116/964/light-strings-music-sound-wallpaper-preview.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Theatre",
+      "url": "https://c1.wallpaperflare.com/preview/351/806/415/cinema-movie-theater-film-retro.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lifestyle",
+      "url": "https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "name": "Photo & Art",
+      "url": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 6,
+      "name": "Online",
+      "url": "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9ubGluZXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 7,
+      "name": "CEP",
+      "url": "https://images.unsplash.com/photo-1593073862407-a3ce22748763?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 8,
+      "name": "Fun",
+      "url": "https://images.unsplash.com/photo-1466921583968-f07aa80c526e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 9,
+      "name": "Technical",
+      "url": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ]
+  

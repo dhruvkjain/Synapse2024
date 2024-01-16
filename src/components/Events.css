@@ -1,0 +1,74 @@
+.event-page{
+    position: absolute;
+    width:100vw;
+    margin-top: 100px;
+	background-color: black;
+}
+
+.event-container{
+    position: relative;
+}
+
+
+.event-heading{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    background:no-repeat center center;
+    background-size: 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url('/src/assets/mainimg.png');
+	filter: brightness(5);
+}
+
+.event-heading .explore{
+    font-weight: 700;
+}
+
+
+.cards-container{
+	padding: 4%;
+	display: flex;
+}
+
+.sub-events-container{
+	height: 87vh;
+}
+
+.back-btn{
+	padding: 2rem;
+	font-size:xx-large;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	/* Your styles for md or less go here */
+	body {
+	  font-size: 14px;
+	}
+
+	.event-heading{
+		text-align: center;
+		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 5rem;
+		background:no-repeat center center;
+		background-size: 100%;
+		color: transparent;
+		-webkit-background-clip: text;
+		background-clip: text;
+		background-image: url('/src/assets/mainimg.png');
+		filter: brightness(5);
+	}
+  
+	/* Add more styles as needed */
+	.cards-container{
+		flex-direction: column;
+	}
+	.cards-container .card{
+		width: 90%;
+		margin: auto;
+		margin-bottom: 2%;
+	}
+  }
