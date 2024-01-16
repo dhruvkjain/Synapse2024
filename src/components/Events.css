@@ -1,7 +1,37 @@
+.bg-event {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/eventshpimg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+}
+
+.eventpageevent{
+	width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/eventpageevent.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.eventpageevent>p {
+    width: 50vw;
+    font-size: 5vw;
+    font-weight: 700;
+    padding: 2rem;
+}
+
 .event-page{
-    position: absolute;
+    /* position: absolute; */
     width:100vw;
-    margin-top: 100px;
+	height: 100vh;
+	overflow-y: auto;
 	background-color: black;
 }
 
@@ -38,9 +68,16 @@
 }
 
 .back-btn{
-	padding: 2rem;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
 	font-size:xx-large;
 	cursor: pointer;
+}
+
+.back-btn > i{
+	padding-left: 2rem;
 }
 
 @media (max-width: 768px) {
