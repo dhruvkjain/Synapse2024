@@ -5,6 +5,8 @@ import './Events.css'
 
 function Events({changePageinApp}){
     const [data, setData] = useState([])
+    const [background, setBackground] = useState('')
+    const [eventExit, setEventExit] = useState(true)
 
     useEffect(() => {
         const fetchData = async () => {
@@ -20,21 +22,40 @@ function Events({changePageinApp}){
         fetchData();
       }, []);
 
-      function handleExploreClick(){
-        console.log("Gello");
+      function handleExploreClick(url){
+        setBackground(url)
+        setEventExit(false)
       }
+
+      function handleBack(){
+        setEventExit(true)
+        setBackground('')
+      }
+
+      const eventStyle = {
+        backgroundImage: `url(${background})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center top',
+      };
 
     return(
         <>
            <Navbar changePageinApp={changePageinApp} />
 
-           <div className="event-page">
+           <div className="event-page" style={eventStyle}>
             <div className="event-container">
+                {
+                    eventExit &&
                 <div className="event-heading">
                     <span className="explore">Explore</span> Events
                 </div>
+                }
+                
             </div>
-            <div className="cards-container">
+            {
+                eventExit ===true?
+                <div className="cards-container">
                 {
                     data.map((d)=>
                         <EventCategoryCard
@@ -45,9 +66,15 @@ function Events({changePageinApp}){
                             onClickExplore={handleExploreClick}
                         />
                     )
-                }
+                }            
+                </div>:
+                <div className="sub-events-container">
+                    <div className="back-btn">
+                    <i class="fa fa-arrow-left" aria-hidden="true" onClick={handleBack} ></i>
+                    </div>
+                </div>
+            }
             
-            </div>
            </div>
         </>
     )

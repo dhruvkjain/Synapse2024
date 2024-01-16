@@ -23,7 +23,7 @@ const EventCategoryCard = ({id, imageUrl, title, onClickExplore }) => {
         <div className="card" style={cardStyle}>
           <div className="card-content">
             <h2 className="card-title">{title}</h2>
-            <button className="explore-button" onClick={onClickExplore}>
+            <button className="explore-button" onClick={()=> onClickExplore(imageUrl)}>
               Explore
             </button>
           </div>
