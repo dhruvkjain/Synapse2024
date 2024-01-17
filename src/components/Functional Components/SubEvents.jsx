@@ -3,7 +3,8 @@ import "./SubEvents.css";
 const SubEvents = ({id, event, description, backgroundUrl}) => {
   const subEventStyle = {
     backgroundImage: `url(${backgroundUrl})`,
-    backgroundSize: 'contain',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
   }
   return (
     <div className="event-cards">

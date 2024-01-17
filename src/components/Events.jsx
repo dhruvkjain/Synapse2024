@@ -118,8 +118,31 @@ function Events({ changePageinApp }) {
                             </div> :
                             <div className="sub-events-container">
                                 <div className="back-btn">
-                                    <i class="fa fa-arrow-left" aria-hidden="true" onClick={handleBack} ></i>
+                                    <i className="fa fa-arrow-left" aria-hidden="true" onClick={handleBack} ></i>
                                 </div>
+                                <div className="sub-events">
+                      <div className="event-title">{current.name}</div>
+                      <div className="event-desc"> {current.description} </div>
+                    </div>
+
+                    <div className="parent-event-cards-container">
+                      <div className="event-cards-container">
+                        {
+                          current.events ?                        
+                            current.events.map((d)=>
+                              <SubEvents
+                              key ={d.id}
+                              event= {d.name}
+                              description={d.description}
+                              backgroundUrl={d.url}
+                              />):
+                          <div>
+                            No Events Found
+                          </div>
+                        }
+
+                      </div>
+                    </div>
                             </div>
                     }
 
