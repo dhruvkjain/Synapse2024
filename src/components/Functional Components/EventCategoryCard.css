@@ -3,7 +3,7 @@
 .card {
     position: relative;
     width: 10rem;
-    height: 450px; /* Set the desired height */
+    height: 350px; /* Set the desired height */
     background-size: cover;
     background-position: center;
     color: #fff; /* Text color for better contrast with the background image */
@@ -37,6 +37,8 @@
     text-align: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: transform 0.2s;
+
+   
     
   }
 
@@ -60,8 +62,8 @@
   }
 
   .card:hover {
-    width: 20rem;
-    height: 450px; /* Set the desired height */
+    width: 25rem;
+    height: 350px; /* Set the desired height */
     background-size: cover;
     background-position: center;
     color: #fff; /* Text color for better contrast with the background image */
@@ -73,6 +75,13 @@
 
   .card:hover .card-title {
     transform: rotate(0deg);
+    background:no-repeat center center;
+    background-size: 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url('/src/assets/mainimg.png');
+	  filter: brightness(8);
   }
   .card:hover .explore-button {
     display: block;
