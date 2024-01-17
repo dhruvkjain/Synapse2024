@@ -93,12 +93,12 @@
 }
 
 .aboutusheading {
-    font-size: 30px;
+    font-size: 3vw;
 }
 
 .cont2 {
     width: 50vw;
-    font-size-adjust: 0.78;
+    padding-bottom: 4rem;
 }
 
 .cont3 {

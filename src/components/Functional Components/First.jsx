@@ -19,17 +19,17 @@ import './First.css';
 
 
 
-class First extends React.Component{
-    constructor(){
+class First extends React.Component {
+    constructor() {
         super();
-        this.state = {page : 'homepage'};
-    }
-    
-    changePageinApp=(newpageinApp)=> {
-        this.setState({page : newpageinApp});
+        this.state = { page: 'homepage' };
     }
 
-    render(){
+    changePageinApp = (newpageinApp) => {
+        this.setState({ page: newpageinApp });
+    }
+
+    render() {
         if (this.state.page == 'homepage') {
             return (
                 <div>
@@ -47,8 +47,9 @@ class First extends React.Component{
                                 </div>
                             </div>
                             <div id="aboutus" className='aboutus'>
-                                <div className='cont3'>
+                                <div className='cont3 '>
                                     <p className='aboutusheading'>About Us</p>
+
                                     <p className='cont2'>
                                         Synapse is DAIICT’s annual college fest that brings together artists,
                                         designers, and creative minds from all over the world to showcase their
@@ -68,7 +69,7 @@ class First extends React.Component{
                         </div>
                         <Navbar changePageinApp={this.changePageinApp} />
                     </div>
-    
+
                     <div>
                         <div className='theme'>
                             <Navbar changePageinApp={this.changePageinApp} />
@@ -79,7 +80,10 @@ class First extends React.Component{
                                     </div>
                                     <div className='themetxt'>
                                         <div>
-                                            <p className='thetheme phonk'>The Theme</p>
+
+                                            <p className='thetheme phonk'>
+                                                The Theme
+                                            </p>
                                             <p className="satoshi">
                                                 Synapse is DAIICT’s annual college fest that brings together artists,
                                                 designers, and creative minds from all over the world to showcase their
@@ -91,6 +95,7 @@ class First extends React.Component{
                             </div>
                             <Navbar changePageinApp={this.changePageinApp} />
                             <div className='homepageevent'>
+
                                 <p className="phonk">
                                     Embrace The
                                     Energy Pulse
@@ -100,15 +105,15 @@ class First extends React.Component{
                                     center stage
                                 </p>
                             </div>
-                            
+
                             <div className=''>
                                 <Navbar changePageinApp={this.changePageinApp} />
                                 <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
                                 <Gallery />
                             </div>
-    
+
                             <Footer />
-    
+
                         </div>
                     </div>
                 </div>
@@ -117,42 +122,42 @@ class First extends React.Component{
         else if (this.state.page == 'events') {
             return (
                 <div>
-                    <Events changePageinApp={this.changePageinApp}/>
+                    <Events changePageinApp={this.changePageinApp} />
                 </div>
             )
         }
         else if (this.state.page == 'pronight') {
             return (
                 <div>
-                    <ProNight changePageinApp={this.changePageinApp}/>
+                    <ProNight changePageinApp={this.changePageinApp} />
                 </div>
             )
         }
         else if (this.state.page == 'team') {
             return (
                 <div>
-                    <Team changePageinApp={this.changePageinApp}/>
+                    <Team changePageinApp={this.changePageinApp} />
                 </div>
             )
         }
         else if (this.state.page == 'hackout') {
             return (
                 <div>
-                    <HackOut changePageinApp={this.changePageinApp}/>
+                    <HackOut changePageinApp={this.changePageinApp} />
                 </div>
             )
         }
         else if (this.state.page == 'youthrun') {
             return (
                 <div>
-                    <YouthRun changePageinApp={this.changePageinApp}/>
+                    <YouthRun changePageinApp={this.changePageinApp} />
                 </div>
             )
         }
         else if (this.state.page == 'sponsors') {
             return (
                 <div>
-                    <Sponsors changePageinApp={this.changePageinApp}/>
+                    <Sponsors changePageinApp={this.changePageinApp} />
                 </div>
             )
         }
@@ -192,7 +197,7 @@ class First extends React.Component{
                         </div>
                         <Navbar changePageinApp={this.changePageinApp} />
                     </div>
-    
+
                     <div>
                         <div className='theme'>
                             <Navbar changePageinApp={this.changePageinApp} />
@@ -228,9 +233,9 @@ class First extends React.Component{
                             <div className='gallery'>
                                 <p>The Gallery</p>
                             </div>
-    
+
                             <Footer />
-    
+
                         </div>
                     </div>
                 </div>

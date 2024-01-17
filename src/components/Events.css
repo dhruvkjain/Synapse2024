@@ -90,7 +90,6 @@
 	display: flex;
 	align-items: center;
 	font-size:xx-large;
-	cursor: pointer;
 }
 .sub-event-image{
 	background: url('https://c4.wallpaperflare.com/wallpaper/655/92/9/concert-dance-disco-dubstep-wallpaper-preview.jpg');
@@ -138,6 +137,7 @@
 
 .back-btn > i{
 	padding-left: 2rem;
+	cursor: pointer;
 }
 
 @media (max-width: 768px) {

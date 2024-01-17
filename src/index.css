@@ -6,7 +6,7 @@
 body{
   margin: 0px;
 }
-body::-webkit-scrollbar{
+/* body::-webkit-scrollbar{
   background-color: transparent;
 }
 body::-webkit-scrollbar-thumb{
@@ -19,7 +19,7 @@ body::-webkit-scrollbar-thumb{
 .gallery::-webkit-scrollbar-thumb{
   background: linear-gradient( #ff7a18, #af002d 41.07%, #319197 76.05%);
   border-radius: 20px;
-}
+} */
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
