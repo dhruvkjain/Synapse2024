@@ -54,43 +54,47 @@ function Events({ changePageinApp }) {
     return (
         <div>
             <div className='homepage'>
-                <div className='bg-event'></div>
-                <div className='synapse'>
-                    <div className='cont1'>
-                        <div className='homepageimgs'>
-                            <div>
+                <div className='bg-event'>
+                    <Navbar changePageinApp={changePageinApp} />
+                    <div className='synapse'>
+                        <div className='cont1'>
+                            <div className='homepageimgs'>
+                                <div>
                                 <p className='synapseimg heading-flex phonk heading-8vw'>Events</p>
-                                <div className='scrolldownicon1'>
-                                    <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
+                                    <div className='scrolldownicon1'>
+                                        <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="aboutus" className='aboutus'>
-                        <div className='cont3'>
-                            <p className='aboutusheading'>About Us</p>
-                            <p className='cont2'>
-                                Synapse is DAIICT’s annual college fest that brings together artists,
-                                designers, and creative minds from all over the world to showcase their
-                                unique collages and share their creative process with others. The festival
-                                is named after the brain's synaptic connections, which inspire the organizers
-                                to create a space for creative connections and exchanges. As the night
-                                falls, the festival transforms into a vibrant party, with live music, DJ
-                                performances, and dance parties, providing attendees with an
-                                opportunity to unwind, socialize and celebrate creativity in all its forms.
-                            </p>
-                            <p className='aboutusheading'>Date</p>
-                            <p className=''>
-                                22  |  23  |  24  |  25  -  February
-                            </p>
+                        <div id="aboutus" className='aboutus'>
+                            <div className='cont3 '>
+                                <p className='aboutusheading'>About Us</p>
+
+                                <p className='cont2'>
+                                    Synapse is DAIICT’s annual college fest that brings together artists,
+                                    designers, and creative minds from all over the world to showcase their
+                                    unique collages and share their creative process with others. The festival
+                                    is named after the brain's synaptic connections, which inspire the organizers
+                                    to create a space for creative connections and exchanges. As the night
+                                    falls, the festival transforms into a vibrant party, with live music, DJ
+                                    performances, and dance parties, providing attendees with an
+                                    opportunity to unwind, socialize and celebrate creativity in all its forms.
+                                </p>
+                                <p className='aboutusheading'>Date</p>
+                                <p className=''>
+                                    22  |  23  |  24  |  25  -  February
+                                </p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-                <Navbar changePageinApp={changePageinApp} />
+
+
             </div>
 
             <div className='theme'>
-                {/* <Navbar changePageinApp={changePageinApp} /> */}
                 <div className="event-page" style={eventStyle}>
                     <div className="event-container">
                         {
@@ -121,28 +125,28 @@ function Events({ changePageinApp }) {
                                     <i className="fa fa-arrow-left" aria-hidden="true" onClick={handleBack} ></i>
                                 </div>
                                 <div className="sub-events">
-                      <div className="event-title">{current.name}</div>
-                      <div className="event-desc"> {current.description} </div>
-                    </div>
+                                    <div className="event-title">{current.name}</div>
+                                    <div className="event-desc"> {current.description} </div>
+                                </div>
 
-                    <div className="parent-event-cards-container">
-                      <div className="event-cards-container">
-                        {
-                          current.events ?                        
-                            current.events.map((d)=>
-                              <SubEvents
-                              key ={d.id}
-                              event= {d.name}
-                              description={d.description}
-                              backgroundUrl={d.url}
-                              />):
-                          <div>
-                            No Events Found
-                          </div>
-                        }
+                                <div className="parent-event-cards-container">
+                                    <div className="event-cards-container">
+                                        {
+                                            current.events ?
+                                                current.events.map((d) =>
+                                                    <SubEvents
+                                                        key={d.id}
+                                                        event={d.name}
+                                                        description={d.description}
+                                                        backgroundUrl={d.url}
+                                                    />) :
+                                                <div>
+                                                    No Events Found
+                                                </div>
+                                        }
 
-                      </div>
-                    </div>
+                                    </div>
+                                </div>
                             </div>
                     }
 

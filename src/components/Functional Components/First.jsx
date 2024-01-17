@@ -34,7 +34,8 @@ class First extends React.Component {
             return (
                 <div>
                     <div className='homepage'>
-                        <div className='bg-1'></div>
+                        <div className='bg-1'>
+                        <Navbar changePageinApp={this.changePageinApp} />
                         <div className='synapse'>
                             <div className='cont1'>
                                 <div className='homepageimgs'>
@@ -67,12 +68,14 @@ class First extends React.Component {
                                 </div>
                             </div>
                         </div>
-                        <Navbar changePageinApp={this.changePageinApp} />
+
+                        </div>
+                        
+                        
                     </div>
 
                     <div>
                         <div className='theme'>
-                            <Navbar changePageinApp={this.changePageinApp} />
                             <div className='themeflexout'>
                                 <div className='themegrid'>
                                     <div className='themeflex'>
@@ -93,7 +96,6 @@ class First extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <Navbar changePageinApp={this.changePageinApp} />
                             <div className='homepageevent'>
 
                                 <p className="phonk">
@@ -107,7 +109,6 @@ class First extends React.Component {
                             </div>
 
                             <div className=''>
-                                <Navbar changePageinApp={this.changePageinApp} />
                                 <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
                                 <Gallery />
                             </div>

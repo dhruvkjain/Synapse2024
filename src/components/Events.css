@@ -1,11 +1,10 @@
 .bg-event {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-image: url('../assets/eventshpimg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: fixed;
 }
 
 .eventpageevent{
@@ -88,7 +87,8 @@
 .back-btn{
 	padding: 16px 0px;
 	width: 100vw;
-	/* height: 100vh; */
+	position: absolute;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	font-size:xx-large;

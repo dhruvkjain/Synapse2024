@@ -6,7 +6,7 @@
 .synapse {
     width: 100vw;
     height: 200vh;
-    position: absolute;
+    /* position: absolute; */
 }
 
 .cont1 {
@@ -74,12 +74,11 @@
 
 .bg-1 {
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     background-image: url('../../assets/mainimg.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    position: fixed;
 }
 
 .aboutus {
@@ -125,14 +124,14 @@
 .theme {
     width: 100vw;
     height: 370vh;
-    position: absolute;
+    /* position: absolute; */
     background-color: black;
 }
 
 .theme2 {
     width: 100vw;
     height: 270vh;
-    position: absolute;
+    /* position: absolute; */
     background-color: black;
 }
 

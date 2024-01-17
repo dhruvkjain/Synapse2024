@@ -7,7 +7,7 @@ function Footer() {
 
     return (
         <div>
-            <div className='footer'>
+            <div className='footern pad-footer'>
                 <div className='footer-grid'>
                     <div className='footer1'>
                         <div className="pad-footer">
