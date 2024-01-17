@@ -10,7 +10,7 @@ function Footer() {
             <div className='footer'>
                 <div className='footer-grid'>
                     <div className='footer1'>
-                        <div>
+                        <div className="pad-footer">
                             <img className='logo2' src={logo}></img>
                             <p className='reachusoutat phonk'>Reach Us Out At</p>
                             <p className='satoshi'>synapse.thefest@gmail.com</p>

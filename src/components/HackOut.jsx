@@ -5,7 +5,7 @@ function HackOut({changePageinApp}){
 
     return(
         <div>
-            Hackout
+            hackout
             <Navbar changePageinApp={changePageinApp} />
         </div>
     )

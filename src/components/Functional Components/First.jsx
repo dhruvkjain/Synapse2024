@@ -11,6 +11,7 @@ import HackOut from '../HackOut';
 import YouthRun from '../YouthRun';
 import Sponsors from '../Sponsors';
 
+import Gallery from "./Gallery";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
@@ -37,9 +38,11 @@ class First extends React.Component{
                         <div className='synapse'>
                             <div className='cont1'>
                                 <div className='homepageimgs'>
-                                    <img className='synapseimg' src={synapse}></img>
-                                    <div className='scrolldownicon1'>
-                                        <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
+                                    <div>
+                                        <img className='synapseimg' src={synapse}></img>
+                                        <div className='scrolldownicon1'>
+                                            <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -97,9 +100,11 @@ class First extends React.Component{
                                     center stage
                                 </p>
                             </div>
-                            <Navbar changePageinApp={this.changePageinApp} />
-                            <div className='gallery'>
-                                <p className="phonk">The Gallery</p>
+                            
+                            <div className=''>
+                                <Navbar changePageinApp={this.changePageinApp} />
+                                <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
+                                <Gallery />
                             </div>
     
                             <Footer />

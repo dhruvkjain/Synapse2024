@@ -20,6 +20,9 @@
 .homepageimgs {
     padding: 4rem;
     width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading-8vw{
@@ -31,6 +34,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.heading-20vh{
+    height: 15vh;
 }
 
 .themeimg {
@@ -91,6 +98,7 @@
 
 .cont2 {
     width: 50vw;
+    font-size-adjust: 0.78;
 }
 
 .cont3 {
@@ -148,7 +156,7 @@
 }
 
 .thetheme {
-    font-size: 45px;
+    font-size: 5vw;
 }
 
 .themetxt {

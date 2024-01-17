@@ -2,6 +2,7 @@ import React from "react";
 
 import scrolldown from "../assets/scrolldown.png";
 
+import Gallery from "./Functional Components/Gallery";
 import Footer from "./Functional Components/Footer";
 import Navbar from "./Functional Components/Navbar";
 
@@ -16,9 +17,11 @@ function ProNight({ changePageinApp }) {
                 <div className='synapse'>
                     <div className='cont1'>
                         <div className='homepageimgs'>
-                            <p className='synapseimg heading-flex phonk heading-8vw'>ProNight</p>
-                            <div className='scrolldownicon1'>
-                                <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
+                            <div>
+                                <p className='synapseimg heading-flex phonk heading-8vw'>ProNight</p>
+                                <div className='scrolldownicon1'>
+                                    <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -57,9 +60,10 @@ function ProNight({ changePageinApp }) {
                         center stage
                     </p>
                 </div>
-                <Navbar changePageinApp={changePageinApp} />
-                <div className='gallery'>
-                    <p className="phonk">The Gallery</p>
+                <div className=''>
+                    <Navbar changePageinApp={changePageinApp} />
+                    <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
+                    <Gallery />
                 </div>
                 <Footer />
             </div>
