@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Functional Components/Navbar";
 import EventCategoryCard from "./Functional Components/EventCategoryCard";
+import SubEvents from "./Functional Components/SubEvents";
 import './Events.css'
 
 function Events({changePageinApp}){
     const [data, setData] = useState([])
     const [background, setBackground] = useState('')
     const [eventExit, setEventExit] = useState(true)
+    const [current, setCurrent] = useState({})
+    const bgUrl ='https://c0.wallpaperflare.com/preview/600/388/1006/group-of-people-enjoying-concerts.jpg'
 
     useEffect(() => {
         const fetchData = async () => {
@@ -22,14 +25,17 @@ function Events({changePageinApp}){
         fetchData();
       }, []);
 
-      function handleExploreClick(url){
-        setBackground(url)
+      function handleExploreClick(id){
+        let curr = data.find(e=>e.id===id)
+        setCurrent(curr)
+        setBackground(curr.url)
         setEventExit(false)
       }
 
       function handleBack(){
         setEventExit(true)
         setBackground('')
+        setCurrent({})
       }
 
       const eventStyle = {
@@ -73,39 +79,30 @@ function Events({changePageinApp}){
                     <i className="fa fa-arrow-left" aria-hidden="true" onClick={handleBack} ></i>
                     </div>
                     <div className="sub-events">
-                      <div className="event-title">Dance</div>
-                      <div className="event-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias obcaecati optio eveniet laboriosam quibusdam fuga quas qui exercitationem nulla! Debitis voluptas adipisci quis laudantium perspiciatis. Veritatis dolorum illo aliquam omnis sit quaerat. Saepe nemo cupiditate inventore excepturi placeat deleniti aspernatur esse, recusandae labore? Modi odit distinctio id amet. Temporibus, maxime.</div>
+                      <div className="event-title">{current.name}</div>
+                      <div className="event-desc"> {current.description} </div>
                     </div>
-                    <div className="event-cards">
-                      <div className="services">
-                      <div className="flip-card">
-                      <div className="flip-card-inner">
-                        <div className="flip-card-front">
-                          {/* <img src="" alt="Avatar" > */}
-                          <h1>Event</h1>
-                        </div>
-                        <div className="flip-card-back">
-                          <div className="flip-card-content">
-                          <h1>Event</h1>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores laboriosam iusto quas ex deleniti esse, eos odit labore possimus quisquam!</p> 
-                          </div>
 
-                          <div className="sub-event-btn">
-                          <div className="button-container-1">
-                            <span className="mas">RuleBook</span>
-                            <button id='work' type="button" name="Hover">Rulebook</button>
+                    <div className="parent-event-cards-container">
+                      <div className="event-cards-container">
+                        {
+                          current.events ?                        
+                            current.events.map((d)=>
+                              <SubEvents
+                              key ={d.id}
+                              event= {d.name}
+                              description={d.description}
+                              backgroundUrl={d.url}
+                              />):
+                          <div>
+                            No Events Found
                           </div>
-                          <div className="button-container-2">
-                            <span className="mas">Register</span>
-                            <button id='work' type="button" name="Hover">Register</button>
-                          </div>
-                          </div>
+                        }
 
-                        </div>
                       </div>
                     </div>
-                      </div>
-                    </div>
+
+                    
                 </div>
             }
             
