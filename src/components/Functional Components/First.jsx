@@ -83,11 +83,10 @@ class First extends React.Component {
                                     </div>
                                     <div className='themetxt'>
                                         <div>
-
                                             <p className='thetheme phonk'>
                                                 The Theme
                                             </p>
-                                            <p className="satoshi">
+                                            <p className="themedes satoshi">
                                                 Synapse is DAIICT’s annual college fest that brings together artists,
                                                 designers, and creative minds from all over the world to showcase their
                                                 unique collages and share their creative process with others. The festival is named after the brain's synaptic connections, which inspire the organizers to create a space for creative connections and exchanges. As the night falls, the festival transforms into a vibrant party, with live music, DJ performances, and dance parties, providing attendees with an opportunity to unwind, socialize and celebrate creativity in all its forms.

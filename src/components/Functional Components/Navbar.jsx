@@ -9,10 +9,10 @@ function Navbar({changePageinApp}) {
         const navptags = document.getElementsByClassName('navptags');
         const navlinks = document.getElementsByClassName('navlinks');
         for (let i = 0; i < navlinks.length; i++) {
-            navlinks[i].classList.add('shownavback');
+            navlinks[i].classList.toggle('shownavback');
         }
         for (let i = 0; i < navptags.length; i++) {
-            navptags[i].classList.add('shownavbar');
+            navptags[i].classList.toggle('shownavbar');
         }
     }
 
@@ -33,14 +33,14 @@ function Navbar({changePageinApp}) {
                 <div className='navgrid'>
                     <img onClick={() => changePageinApp('homepage')} className='logo pointer' src={logo}></img>
                     <div className='navflex'>
-                        <div className='navlinks' onMouseEnter={opennavbar} onMouseLeave={closenavbar}>
+                        <div className='navlinks' onClick={opennavbar} >
                             <div className='navgrid2'>
-                                <p onClick={() => changePageinApp('events') } className='navptags'>Event</p>
-                                <p onClick={() => changePageinApp('pronight') } className='navptags'>ProNight</p>
-                                <p onClick={() => changePageinApp('team') } className='navptags'>Team</p>
-                                <p onClick={() => changePageinApp('hackout') } className='navptags'>HackOut</p>
-                                <p onClick={() => changePageinApp('youthrun') } className='navptags'>YouthRun</p>
-                                <p onClick={() => changePageinApp('sponsors') } className='navptags'>Sponsors</p>
+                                <p className='navptags'><span onClick={() => changePageinApp('events') } >Event</span></p>
+                                <p className='navptags'><span onClick={() => changePageinApp('pronight') } >ProNight</span></p>
+                                <p className='navptags'><span onClick={() => changePageinApp('team') } >Team</span></p>
+                                <p className='navptags'><span onClick={() => changePageinApp('hackout') } >HackOut</span></p>
+                                <p className='navptags'><span onClick={() => changePageinApp('youthrun') } >YouthRun</span></p>
+                                <p className='navptags'><span onClick={() => changePageinApp('sponsors') } >Sponsors</span></p>
                             </div>
                             <div className='navflex2'>
                                 <img className='menuimg' src={menu}></img>

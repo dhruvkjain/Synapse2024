@@ -111,6 +111,27 @@
     font-size: 15px;
 }
 
+@media only screen and (max-width:500px) {
+    .aboutusheading{
+        font-size: 10vw ;
+        margin: 0px;
+    }
+    .cont2 {
+        width: 70vw;
+        font-size: 4vw ;
+        margin: 0px;
+    }
+    .homepageimgs {
+        padding: 4rem;
+    }
+    .cont1 {
+        align-items: center;
+    }
+    .synapseimg {
+        width: 80vw;
+    }
+    
+}
 
 
 /* ===================================================================== */
@@ -187,4 +208,47 @@
 .gallery {
     width: 100vw;
     height: 100vh;
+}
+@media only screen and (max-width:500px) {
+    .themeflexout{
+        height: fit-content;
+    }
+    .themegrid {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        width: 100vw;
+        height: fit-content;
+    }
+    .themeimg {
+        padding-top: 10px;
+        width: 90vw;
+    }
+    .themeflex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .themetxt{
+        padding: 2rem 2rem 0rem 2rem;
+        height: fit-content;
+    }
+    .thetheme {
+        font-size: 10vw;
+    }
+    .themedes {
+        font-size: 4vw;
+    }
+    .homepageevent>p {
+        width: 50vw;
+        font-size: 8vw;
+        margin: 0px;
+        padding: 0%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .homepageevent{
+        height: 80vh;
+    }
 }

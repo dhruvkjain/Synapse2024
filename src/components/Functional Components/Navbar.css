@@ -1,8 +1,6 @@
 .contlogo {
     width: 100vw;
     height: 20vh;
-    /* position: absolute;  */
-    /* position: -webkit-sticky; Safari */
     position: fixed;
     top: 0;
 }
@@ -36,16 +34,16 @@
     grid-template-columns: repeat(6, 1fr);
 }
 
-
-
 .navptags {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
     font-size: 0px;
-    padding-left: 1vw;
+    padding-left: 0vw;
     cursor: pointer;
+    pointer-events: none;
+    width: 0px;
     font-family: 'Satoshi', sans-serif;
 }
 
@@ -59,9 +57,44 @@
 
 .shownavbar {
     font-size: 1.5vw;
+    pointer-events: auto;
+    width: auto;
 }
 
 .shownavback {
     display: grid;
     grid-template-columns: 6fr 1fr;
 }
+
+@media only screen and (max-width:500px) {
+    .logo {
+        width: 80px;
+    }
+    .navflex{
+        padding-right: 1.5rem ;
+    }
+    .navflex2{
+        padding: 0.5rem;
+    }
+    .menuimg {
+        width: 20px;
+    }
+    .navgrid2 {
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+    }
+    .navlinks {
+        border-radius: 20px;
+        padding: 5px;
+    }
+    .shownavbar{
+       font-size: 10px;
+    }
+    .shownavback {
+        display: grid;
+        grid-template-rows: 6fr 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+
