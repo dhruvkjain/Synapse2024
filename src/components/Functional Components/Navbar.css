@@ -40,11 +40,14 @@
     align-items: center;
     margin: 0px;
     font-size: 0px;
-    padding-left: 0vw;
     cursor: pointer;
     pointer-events: none;
     width: 0px;
     font-family: 'Satoshi', sans-serif;
+}
+
+.navptags > span {
+    padding-left: 1vw;
 }
 
 .navflex2 {
@@ -70,6 +73,9 @@
     .logo {
         width: 80px;
     }
+    .navptags > span{
+        padding: 0px;
+    }
     .navflex{
         padding-right: 1.5rem ;
     }
@@ -89,7 +95,7 @@
         padding: 5px;
     }
     .shownavbar{
-       font-size: 10px;
+       font-size: 4vw;
     }
     .shownavback {
         display: grid;

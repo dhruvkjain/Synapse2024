@@ -34,3 +34,32 @@
 .pad-footer {
   padding-left: 1vw;
 }
+
+@media only screen and (max-width:500px) {
+  .footern {
+    background-position: center;
+  }
+  .footer-font-size {
+    font-size: 4vw;
+  }
+  .reachusoutat {
+    font-size: 6vw;
+    margin: 0px;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .footer3{
+    grid-column: span 2;
+  }
+  .footer1,
+  .footer2,
+  .footer3 {
+    padding: 0.2rem;
+  }
+  .logo2 {
+    width: 12vw;
+  }
+}

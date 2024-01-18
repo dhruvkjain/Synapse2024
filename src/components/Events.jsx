@@ -100,7 +100,7 @@ function Events({ changePageinApp }) {
                         {
                             eventExit &&
                             <div className="event-heading">
-                                <span className="explore phonk thetheme">Explore Events</span>
+                                <span className="explore phonk exploreevents">Explore Events</span>
                             </div>
                         }
 

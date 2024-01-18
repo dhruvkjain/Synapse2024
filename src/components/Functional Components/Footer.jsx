@@ -13,11 +13,11 @@ function Footer() {
                         <div className="pad-footer">
                             <img className='logo2' src={logo}></img>
                             <p className='reachusoutat phonk'>Reach Us Out At</p>
-                            <p className='satoshi'>synapse.thefest@gmail.com</p>
-                            <p className='satoshi'>synapse@daiict.ac.in</p>
-                            <p className='satoshi'>Raj Patel: +91 8128 909 789</p>
-                            <p className='satoshi'>Manan Pareek: +91 6351 132 695</p>
-                            <p className='satoshi'>Harshita Tripathi: +91 9974 760 487</p>
+                            <p className='satoshi footer-font-size'>synapse.thefest@gmail.com</p>
+                            <p className='satoshi footer-font-size'>synapse@daiict.ac.in</p>
+                            <p className='satoshi footer-font-size'>Raj Patel: +91 8128 909 789</p>
+                            <p className='satoshi footer-font-size'>Manan Pareek: +91 6351 132 695</p>
+                            <p className='satoshi footer-font-size'>Harshita Tripathi: +91 9974 760 487</p>
                             <div className=''>
 
                             </div>
@@ -33,14 +33,14 @@ function Footer() {
                         </div>
                     </div>
                     <div className='footer2'>
-                        <div>
+                        <div className="">
                             <p className='reachusoutat phonk'>Past Websites</p>
-                            <p className='satoshi'>Synapse 2022</p>
-                            <p className='satoshi'>Synapse 2021</p>
-                            <p className='satoshi'>Synapse 2020</p>
+                            <p className='satoshi footer-font-size'>Synapse 2022</p>
+                            <p className='satoshi footer-font-size'>Synapse 2021</p>
+                            <p className='satoshi footer-font-size'>Synapse 2020</p>
                         </div>
                     </div>
-                    <div className='footer3'>
+                    <div className='footer3 map'>
 
                     </div>
                 </div>

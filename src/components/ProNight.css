@@ -6,3 +6,15 @@
     background-attachment: fixed;
     background-size: cover;
 }
+.headingpronight{
+    font-size: 8vw;
+    margin: 0px;
+}
+@media only screen and (max-width:500px){
+    .headingpronight{
+        font-size: 14vw;
+    }
+    .bg-pronight{
+        background-position: center;
+    }
+}

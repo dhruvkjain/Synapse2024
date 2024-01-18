@@ -108,10 +108,12 @@
 
 .satoshi {
     font-family: 'Satoshi', sans-serif;
-    font-size: 15px;
 }
 
 @media only screen and (max-width:500px) {
+    .bg-1 {
+        background-position: center;
+    }
     .aboutusheading{
         font-size: 10vw ;
         margin: 0px;
@@ -130,7 +132,10 @@
     .synapseimg {
         width: 80vw;
     }
-    
+    .heading-8vw{
+        font-size: 18vw;
+        margin: 0px;
+    }
 }
 
 
@@ -210,6 +215,9 @@
     height: 100vh;
 }
 @media only screen and (max-width:500px) {
+    .homepageevent {
+        background-position: center;
+    }
     .themeflexout{
         height: fit-content;
     }
@@ -241,6 +249,14 @@
     }
     .homepageevent>p {
         width: 50vw;
+        font-size: 8vw;
+        margin: 0px;
+        padding: 0%;
+    }
+    .eventpageevent{
+		background-position: center;
+	}
+	.eventpageevent>p {
         font-size: 8vw;
         margin: 0px;
         padding: 0%;

@@ -19,7 +19,7 @@ function ProNight({ changePageinApp }) {
                         <div className='cont1'>
                             <div className='homepageimgs'>
                                 <div>
-                                    <p className='synapseimg heading-flex phonk heading-8vw'>ProNight</p>
+                                    <p className='synapseimg heading-flex phonk headingpronight'>ProNight</p>
                                     <div className='scrolldownicon1'>
                                         <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
                                     </div>
@@ -49,8 +49,6 @@ function ProNight({ changePageinApp }) {
                     </div>
 
                 </div>
-
-
             </div>
 
             <div className='theme2'>
