@@ -52,7 +52,6 @@ function ProNight({ changePageinApp }) {
             </div>
 
             <div className='theme2'>
-                <Navbar changePageinApp={changePageinApp} />
                 <div className='eventpageevent'>
                     <p className="phonk">
                         Embrace The
@@ -64,7 +63,6 @@ function ProNight({ changePageinApp }) {
                     </p>
                 </div>
                 <div className=''>
-                    <Navbar changePageinApp={changePageinApp} />
                     <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
                     <Gallery />
                 </div>

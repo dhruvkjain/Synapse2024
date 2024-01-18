@@ -151,7 +151,6 @@ function Events({ changePageinApp }) {
                     }
 
                 </div>
-                <Navbar changePageinApp={changePageinApp} />
                 <div className='eventpageevent'>
                     <p className="phonk">
                         Embrace The
@@ -163,7 +162,6 @@ function Events({ changePageinApp }) {
                     </p>
                 </div>
                 <div className=''>
-                    <Navbar changePageinApp={changePageinApp} />
                     <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
                     <Gallery />
                 </div>
