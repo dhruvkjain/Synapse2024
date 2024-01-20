@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Preloader</title>
+  <link rel="stylesheet" href="./preloader.css">
+</head>
+
+<body>
+  <div class="preloader">
+    <div class="logo-container">
+      <img src="./logo2.png" alt="Logo" class="logo">
+      <div class="progress-bar"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script>
+    const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+    // Initial state - logo and progress bar hidden
+    tl.set(".logo-container", { y: 50, opacity: 0 });
+    tl.set(".progress-bar", { scaleX: 0 });
+
+    // Animation for logo sliding in
+    tl.to(".logo-container", { duration: 1, y: 0, opacity: 1 });
+
+    // Animation for spinning logo
+    tl.to(".logo", { duration: 2, rotation: "360", ease: "none", repeat: -1 });
+
+    function startLoading() {
+      let progress = 0;
+      const progressBar = document.querySelector(".progress-bar");
+      const interval = setInterval(() => {
+        progress += 10;
+        gsap.to(progressBar, { duration: 0.5, scaleX: progress / 100 });
+
+        if (progress >= 100) {
+          clearInterval(interval);
+          // Animation for smooth exit when progress bar completes
+          tl.to(".logo-container", { duration: 1, opacity: 0, y: -50, onComplete: hidePreloader });
+          tl.to(".preloader", { duration: 1, opacity: 0 }, "-=0.5");
+        }
+      }, 500);
+    }
+
+    function hidePreloader() {
+      const preloader = document.querySelector(".preloader");
+      preloader.style.display = "none";
+      // Add your logic to display the main content here
+    }
+
+    // Start the loading process after the initial animations
+    tl.call(startLoading);
+
+  </script>
+</body>
+
+</html>

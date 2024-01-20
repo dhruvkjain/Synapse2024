@@ -81,7 +81,7 @@ class First extends React.Component {
                                     <div className='themeflex'>
                                         <img className='themeimg custom-box-shadow' src={theme}></img>
                                     </div>
-                                    <div className='themetxt'>
+                                    <div className='themetxt stickytxt'>
                                         <div>
                                             <p className='thetheme phonk'>
                                                 The Theme

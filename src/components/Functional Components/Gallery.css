@@ -28,7 +28,6 @@ body {
     justify-content: flex-end;
     background: black;
     overflow: hidden;
-    /* position:relative; */
 }
 
 @media (min-width: 500px) {
@@ -76,7 +75,7 @@ body {
 }
 
 .photo {
-    position: relative;
+    /* position: relative; */
     text-align: right;
     padding-bottom: 3rem;
 }
@@ -85,6 +84,25 @@ body {
     width: 90%;
     transform: translateX(30%);
     transition: 1s cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+}
+
+@media only screen and (max-width:500px) {
+    .photo {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+    
+    .photo__image img {
+        width: 90%;
+        transform: translateX(0%);
+        overflow: hidden ;
+        transition: 1s cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+    }
+
+    .photo__image:hover {
+        transform: scale(1.2);
+        transition: 0.5s ease-out 0.1s;
+    }
 }
 
 .photo__name {
