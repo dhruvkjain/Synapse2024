@@ -76,9 +76,11 @@
 
   <script>
     function hidePreloader() {
+      setTimeout(()=>{
         const preloader = document.querySelector(".preloader");
         preloader.style.display = "none";
         main.style.display = "block";
+      } , 2000)
       // Add your logic to display the main content here
     }
   </script>
