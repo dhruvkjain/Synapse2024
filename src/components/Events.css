@@ -66,10 +66,11 @@
 	height: 100vh;
 	overflow: auto;
 	overflow-x: hidden;
+	width: 100vw;
 }
 
 .parent-event-cards-container{
-	width: fit-content;
+	width: 90%;
 	margin: auto;
 }
 
@@ -85,10 +86,10 @@
 }
 
 .back-btn{
-	padding: 16px 0px;
+	padding: 24px 0px;
 	width: 100vw;
-	position: absolute;
-	height: 100vh;
+	/* position: absolute; */
+	/* height: 100vh; */
 	display: flex;
 	align-items: center;
 	font-size:xx-large;
@@ -191,11 +192,14 @@
 
 	.event-cards-container{
 		padding: 0;
+		flex-direction: column;
+
 	}
-/* 
+
 	.flip-card{
-		width: 90%;
-	} */
+		width: 20rem;
+		height: 30rem;
+	}
   }
 
 

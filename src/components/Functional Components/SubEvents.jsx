@@ -5,6 +5,7 @@ const SubEvents = ({id, event, description, backgroundUrl}) => {
     backgroundImage: `url(${backgroundUrl})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
+    backgroundPosition : 'center center'
   }
   return (
     <div className="event-cards">
