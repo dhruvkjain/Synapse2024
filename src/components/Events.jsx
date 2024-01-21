@@ -94,7 +94,7 @@ function Events({ changePageinApp }) {
 
             </div>
 
-            <div className='theme'>
+            <div className=''>
                 <div className="event-page" style={eventStyle}>
                     <div className="event-container">
                         {
@@ -160,10 +160,6 @@ function Events({ changePageinApp }) {
                         and fun takes
                         center stage
                     </p>
-                </div>
-                <div className=''>
-                    <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
-                    <Gallery />
                 </div>
                 <Footer />
             </div>

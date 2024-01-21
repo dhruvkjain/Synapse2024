@@ -8,6 +8,10 @@
 .logo {
     padding: 1.5rem;
 }
+.logo:hover {
+    transform: rotate(240deg);
+    transition: all linear 1s;
+}
 
 .menuimg {
     width: 2.5vw;

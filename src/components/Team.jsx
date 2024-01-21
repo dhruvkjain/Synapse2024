@@ -65,7 +65,7 @@ function Team({ changePageinApp }) {
                     </p>
                 </div>
                 <div className=''>
-                    <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
+                    <p className="thetheme heading-20vh heading-flex phonk">Gallery</p>
                     <Gallery />
                 </div>
                 <Footer />

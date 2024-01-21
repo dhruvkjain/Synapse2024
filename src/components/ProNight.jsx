@@ -6,6 +6,7 @@ import Gallery from "./Functional Components/Gallery";
 import Footer from "./Functional Components/Footer";
 import Navbar from "./Functional Components/Navbar";
 
+import Amit from "../assets/Amit.jpg";
 import "./ProNight.css";
 
 function ProNight({ changePageinApp }) {
@@ -62,8 +63,33 @@ function ProNight({ changePageinApp }) {
                         center stage
                     </p>
                 </div>
+
+
+                {/* <div class="swiffy-slider slider-item-ratio slider-item-ratio-16x9 slider-nav-animation slider-nav-animation-slideup" id="swiffy-animation">
+                    <ul class="slider-container" id="container1">
+                        <li id="slide1" class=""><img src={Amit} alt="..." loading="lazy"></img></li>
+                        <li id="slide2" class=""><img src={Amit} alt="..." loading="lazy"></img></li>
+                        <li id="slide3" class=""><img src={Amit} alt="..." loading="lazy"></img></li>
+                        <li id="slide4" class="slide-visible"><img src={Amit} alt="..." loading="lazy"></img></li>
+                        <li id="slide5"><img src={Amit} alt="..." loading="lazy"></img></li>
+                        <li id="slide6"><img src={Amit} alt="..." loading="lazy"></img></li>
+                    </ul>
+
+                    <button type="button" class="slider-nav" aria-label="Go to previous"></button>
+                    <button type="button" class="slider-nav slider-nav-next" aria-label="Go to next"></button>
+
+                    <div class="slider-indicators">
+                        <button aria-label="Go to slide" class=""></button>
+                        <button aria-label="Go to slide" class=""></button>
+                        <button aria-label="Go to slide" class=""></button>
+                        <button aria-label="Go to slide" class="active"></button>
+                        <button aria-label="Go to slide"></button>
+                        <button aria-label="Go to slide"></button>
+                    </div>
+                </div> */}
+
                 <div className=''>
-                    <p className="thetheme heading-20vh heading-flex phonk">The Gallery</p>
+                    <p className="thetheme heading-20vh heading-flex phonk">Gallery</p>
                     <Gallery />
                 </div>
                 <Footer />
