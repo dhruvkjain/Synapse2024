@@ -7,39 +7,21 @@
     "events":[
       {
           "id":1,
-          "name":"Salsa Night",
+          "name":"Footloose",
           "description":"Feel the heat with our Salsa Night! An evening filled with passionate moves, lively music, and the joy of dancing.",
           "url":"https://c1.wallpaperflare.com/preview/126/548/39/dancing-dance-ballroom-elegance.jpg"
       },
       {
           "id":2,
-          "name":"Ballet Showcase",
+          "name":"Naach",
           "description":"Witness the grace and beauty of ballet in our exclusive showcase. A mesmerizing blend of artistry and athleticism.",
-          "url":"https://c1.wallpaperflare.com/preview/946/849/187/ballet-ballerina-girl-dancing.jpg"
+          "url":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772157/synapse/photos%20sort%20drive/naach/PXL_20230319_133848843_p2knfv.jpg"
       },
       {
           "id":3,
-          "name":"Hip-Hop Jam",
+          "name":"Showdown",
           "description":"Get ready to groove at our Hip-Hop Jam! A celebration of urban dance culture with beats that will make you move.",
           "url":"https://c1.wallpaperflare.com/preview/126/548/39/dancing-dance-ballroom-elegance.jpg"
-      },
-      {
-          "id":4,
-          "name":"Latin Fusion Workshop",
-          "description":"Join our Latin Fusion Workshop and explore the fusion of various dance styles from Latin America. A dynamic and lively experience for all!",
-          "url":"https://c1.wallpaperflare.com/preview/946/849/187/ballet-ballerina-girl-dancing.jpg"
-      },
-      {
-          "id":5,
-          "name":"Contemporary Masterclass",
-          "description":"Unleash your creativity in our Contemporary Dance Masterclass. A platform for self-expression and artistic exploration.",
-          "url":"https://c1.wallpaperflare.com/preview/126/548/39/dancing-dance-ballroom-elegance.jpg"
-      },
-      {
-          "id":6,
-          "name":"Dance Battle Royale",
-          "description":"Compete or spectate in our Dance Battle Royale! A thrilling competition showcasing the best dance talents in town.",
-          "url":"https://w0.peakpx.com/wallpaper/661/899/HD-wallpaper-money-battleroyale-dances-fortnite-fortnite-br-fortnitebattleroyale-games-gaming-videogames.jpg"
       }
     ]
   },
@@ -51,51 +33,27 @@
     "events":[
       {
           "id":1,
-          "name":"Jazz Festival",
+          "name":"Raaga & Rhapsody",
           "description":"Experience the magic of jazz at our Jazz Festival. A night filled with smooth tunes, improvisation, and soulful performances.",
-          "url":"https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
+          "url":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774833/synapse/photos%20sort%20drive/raaga/ATM_0036_ioc72v.jpg"
       },
       {
           "id":2,
-          "name":"Rock Concert",
+          "name":"Battle Of Bands",
           "description":"Let the adrenaline rush with our Rock Concert! An electrifying showcase of powerful vocals and rocking guitar solos.",
-          "url":"https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
+          "url":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772151/synapse/photos%20sort%20drive/Battle%20of%20Bands/IMG_7496_nb3wyz.jpg"
       },
       {
           "id":3,
-          "name":"Classical Soiree",
+          "name":"Rap Showdown",
           "description":"Indulge in the elegance of classical music at our Classical Soiree. An evening of symphonies and timeless compositions.",
           "url":"https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
       },
       {
           "id":4,
-          "name":"EDM Night",
+          "name":"DJ Wars",
           "description":"Dance the night away at our EDM Night! An immersive experience with pulsating beats and vibrant light shows.",
-          "url":"https://e0.pxfuel.com/wallpapers/210/758/desktop-wallpaper-dj-music-producer-stage-dj-controller-mixing-for-huawei-mate-10.jpg"
-      },
-      {
-          "id":5,
-          "name":"Acoustic Lounge",
-          "description":"Relax and unwind in our Acoustic Lounge. A cozy atmosphere featuring acoustic performances and soul-soothing melodies.",
-          "url":"https://e0.pxfuel.com/wallpapers/210/758/desktop-wallpaper-dj-music-producer-stage-dj-controller-mixing-for-huawei-mate-10.jpg"
-      },
-      {
-          "id":6,
-          "name":"World Music Fusion",
-          "description":"Embark on a musical journey with our World Music Fusion event. A fusion of diverse musical traditions from around the globe.",
-          "url":"https://e0.pxfuel.com/wallpapers/210/758/desktop-wallpaper-dj-music-producer-stage-dj-controller-mixing-for-huawei-mate-10.jpg"
-      },
-      {
-          "id":7,
-          "name":"Pop Sensation",
-          "description":"Join us for a Pop Sensation! A concert featuring chart-topping hits and the latest pop music trends.",
-          "url":"https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
-      },
-      {
-          "id":8,
-          "name":"Country Vibes",
-          "description":"Feel the rustic charm at our Country Vibes event. A celebration of country music with twangy tunes and heartfelt lyrics.",
-          "url":"https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
+          "url":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772151/synapse/photos%20sort%20drive/dj%20war/PXL_20230316_202349387_t7uwxt.jpg"
       }
     ]
   },
@@ -106,72 +64,42 @@
     "description":"Step into the world of drama and storytelling. Our theatrical events promise captivating performances that will leave you spellbound.",
     "events":[
       {
-          "id":1,
-          "name":"Shakespearean Drama",
-          "description":"Experience the timeless beauty of Shakespearean drama. An evening of poetic dialogue and theatrical brilliance.",
-          "url":"https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg"
+        "id": 1,
+        "name": "Stage Play",
+        "description": "Immerse yourself in the world of stage plays. A theatrical experience that brings stories to life on a captivating stage.",
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774160/synapse/photos%20sort%20drive/stage%20play/ATM_0106_idmjyw.jpg"
       },
       {
-          "id":2,
-          "name":"Comedy Night",
-          "description":"Laugh out loud at our Comedy Night! A hilarious lineup of stand-up comedians and comedic performances.",
-          "url":"https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg"
+        "id": 2,
+        "name": "Nukkad Natak",
+        "description": "Experience the raw energy of street theatre with Nukkad Natak. Stories unfold in the midst of the audience, creating a vibrant and interactive atmosphere.",
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774559/synapse/photos%20sort%20drive/nukkad%20nitak/PD__9870_iiwrdo.jpg"
       },
       {
-          "id":3,
-          "name":"Mystery Theatre",
-          "description":"Solve the enigma in our Mystery Theatre event. A thrilling combination of suspense, intrigue, and unexpected twists.",
-          "url":"https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg"
+        "id": 3,
+        "name": "Mime out loud",
+        "description": "Step into the silent world of expressive mime. A unique form of theatrical art that communicates without words, yet speaks volumes.",
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774160/synapse/photos%20sort%20drive/mime%20out%20loud/your-mime-out-loud-image.jpg"
       },
       {
-          "id":4,
-          "name":"Musical Extravaganza",
-          "description":"Enjoy a Musical Extravaganza with a theatrical twist. A spectacle of song, dance, and theatrical finesse.",
-          "url":"https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
-      },
-      {
-          "id":5,
-          "name":"Historical Epic",
-          "description":"Travel through time with our Historical Epic production. A grand portrayal of historical events with theatrical flair.",
-          "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO4Q64vMswOmwdPFPkfVP2dlVaLv1iVmHpwA&usqp=CAU"
-      },
-      {
-          "id":6,
-          "name":"Experimental Theatre",
-          "description":"Challenge your perceptions with our Experimental Theatre. A showcase of innovative and thought-provoking performances.",
-          "url":"https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+        "id": 4,
+        "name": "MonoAct",
+        "description": "Witness the power of a single performer in MonoAct. A solo act that weaves a compelling narrative and showcases the versatility of a lone artist.",
+        "url": "https://example.com/monoact-image.jpg"
       }
     ]
   },
   {
     "id": 4,
-    "name": "Lifestyle",
+    "name": "Fashion",
     "url": "https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "description": "Discover a curated selection of products and experiences that enhance your lifestyle. From fashion to travel, find inspiration for a life well-lived.",
     "events": [
       {
         "id": 1,
-        "name": "Fashion Expo",
+        "name": "Rampage",
         "description": "Immerse yourself in the world of style at our Fashion Expo. Explore the latest trends, designs, and glamorous runway showcases.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
-      },
-      {
-        "id": 2,
-        "name": "Wellness Retreat",
-        "description": "Join our Wellness Retreat for a rejuvenating experience. Discover mindfulness practices, healthy living tips, and holistic well-being.",
-        "url": "https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg"
-      },
-      {
-        "id": 3,
-        "name": "Travel Adventure Talk",
-        "description": "Embark on a virtual journey with our Travel Adventure Talk. Explore exciting destinations and gather travel tips from seasoned adventurers.",
-        "url": "https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Culinary Delights Showcase",
-        "description": "Savor the flavors of life at our Culinary Delights Showcase. Experience a gastronomic journey with exquisite dishes and culinary demonstrations.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772154/synapse/photos%20sort%20drive/rampage/PD__9478_n1liru.jpg"
       }
     ]
   },
@@ -183,153 +111,147 @@
     "events": [
       {
         "id": 1,
-        "name": "Photography Masterclass",
+        "name": "Concieve",
         "description": "Hone your photography skills in our exclusive Masterclass. Learn from renowned photographers and capture the essence of visual storytelling.",
         "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
       },
       {
         "id": 2,
-        "name": "Art Gallery Opening",
+        "name": "Stroke Of Genius",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
         "url": "https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg"
       },
       {
         "id": 3,
-        "name": "Digital Art Symposium",
+        "name": "Graffiti",
         "description": "Explore the digital frontier of art at our Digital Art Symposium. Engage with digital artists and discover the intersection of technology and creativity.",
         "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
-      },
-      {
-        "id": 4,
-        "name": "Street Art Festival",
-        "description": "Experience the vibrancy of street art at our Street Art Festival. Join in the celebration of urban creativity with live mural paintings and performances.",
-        "url": "https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg"
       }
     ]
   },
   {
     "id": 6,
-    "name": "Online",
+    "name": "Fun",
     "url": "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9ubGluZXxlbnwwfHwwfHx8MA%3D%3D",
     "description": "Connect with a global community through online experiences. From virtual events to digital content, explore the limitless possibilities of the online world.",
     "events": [
       {
         "id": 1,
-        "name": "Virtual Concert",
+        "name": "Battledrome",
         "description": "Immerse yourself in the magic of music with our Virtual Concert. Experience live performances from talented artists in the comfort of your own space.",
         "url": "https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg"
       },
       {
         "id": 2,
-        "name": "Webinar Series",
+        "name": "Hunger Hikes",
         "description": "Expand your knowledge through our Webinar Series. Engage with experts and thought leaders on a variety of topics shaping the online landscape.",
         "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
       },
       {
         "id": 3,
-        "name": "Digital Art Exhibition",
+        "name": "Crimes & Clues",
         "description": "Explore groundbreaking digital art in our Digital Art Exhibition. Witness the convergence of technology and creativity in the digital realm.",
         "url": "https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg"
       },
       {
         "id": 4,
-        "name": "Online Gaming Tournament",
+        "name": "Memenation",
         "description": "Join the excitement of our Online Gaming Tournament. Compete with players worldwide and prove your skills in the virtual gaming arena.",
         "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+      },
+      {
+        "id": 5,
+        "name": "Reel-mein-feel",
+        "description": "Join the excitement of our Online Gaming Tournament. Compete with players worldwide and prove your skills in the virtual gaming arena.",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+      },
+      {
+        "id": 6,
+        "name": "Open Mic",
+        "description": "Join the excitement of our Online Gaming Tournament. Compete with players worldwide and prove your skills in the virtual gaming arena.",
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774703/synapse/photos%20sort%20drive/open%20mic/ATM_0353_ymzwo5.jpg"
       }
     ]
   },
   {
     "id": 7,
-    "name": "CEP",
+    "name": "Technical",
     "url": "https://images.unsplash.com/photo-1593073862407-a3ce22748763?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Experience the excitement of cutting-edge technology and innovation in our CEP (Consumer Electronics and Photography) category. Stay ahead with the latest gadgets and trends.",
     "events": [
       {
         "id": 1,
-        "name": "Tech Symposium",
+        "name": "Code Mutants",
         "description": "Stay on the forefront of technology with our Tech Symposium. Explore the latest innovations, hear from industry experts, and glimpse into the future of consumer electronics.",
         "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
       },
       {
         "id": 2,
-        "name": "Photography Workshop",
+        "name": "Tech Hunt",
         "description": "Capture the perfect shot with our Photography Workshop. Learn essential skills and techniques to elevate your photography game.",
         "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
       },
       {
         "id": 3,
-        "name": "Gadget Expo",
+        "name": "Anweshan",
         "description": "Get hands-on with the latest gadgets at our Gadget Expo. Experience the future of consumer electronics with live demonstrations and interactive displays.",
         "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Drone Racing Championship",
-        "description": "Witness the thrill of high-speed drone racing at our Drone Racing Championship. Top pilots compete for glory in this adrenaline-pumping event.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
       }
     ]
   },
   {
     "id": 8,
-    "name": "Fun",
+    "name": "Informal Events",
     "url": "https://images.unsplash.com/photo-1466921583968-f07aa80c526e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Embrace the spirit of joy and laughter in our Fun category. Discover entertaining activities, games, and events that bring smiles and create lasting memories.",
     "events": [
       {
         "id": 1,
-        "name": "Comedy Night",
+        "name": "Prom Night",
         "description": "Laugh out loud at our Comedy Night. Enjoy hilarious stand-up performances and comedic acts that will tickle your funny bone.",
         "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
       },
       {
         "id": 2,
-        "name": "Board Game Marathon",
+        "name": "Shailee",
         "description": "Challenge your strategic skills in our Board Game Marathon. Gather friends and family for a day of competitive and enjoyable board games.",
         "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
       },
       {
         "id": 3,
-        "name": "Outdoor Movie Night",
+        "name": "Quiz-A-Palooza",
         "description": "Experience the magic of cinema under the stars at our Outdoor Movie Night. Bring your blankets and enjoy a cinematic journey in the open air.",
         "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
-      },
-      {
-        "id": 4,
-        "name": "Funfair Extravaganza",
-        "description": "Step into a world of fun at our Funfair Extravaganza. Enjoy thrilling rides, carnival games, and delicious treats for an unforgettable day of excitement.",
-        "url": ""
       }
     ]
   },
   {
     "id": 9,
-    "name": "Technical",
+    "name": "Formal Events",
     "url": "https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Delve into the world of technology and innovation. Stay updated on the latest technical advancements, gadgets, and trends that shape our digital future.",
     "events": [
       {
         "id": 1,
-        "name": "Robotics Showcase",
+        "name": "Synocubix",
         "description": "Witness the marvels of robotics in our Robotics Showcase. Explore cutting-edge robotic technologies and their applications in various industries.",
         "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
       },
       {
         "id": 2,
-        "name": "AI Symposium",
+        "name": "DA Tank",
         "description": "Dive into the realm of artificial intelligence at our AI Symposium. Gain insights into the latest developments and future possibilities of AI technology.",
         "url": "https://media.istockphoto.com/id/1413629018/vector/comedy-night-neon-billboard-shiny-street-advertising-microphone-icon-humorous-performance.jpg?s=612x612&w=0&k=20&c=OrwAhpkSGD3H5FIYGlAGiBZ-FsBhauV3tPIo6krn7ok="
       },
       {
         "id": 3,
-        "name": "Tech Hackathon",
+        "name": "Crazy Math",
         "description": "Participate in our Tech Hackathon and showcase your coding skills. Collaborate with fellow enthusiasts to solve real-world challenges and create innovative solutions.",
         "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
       },
       {
         "id": 4,
-        "name": "VR Experience Zone",
+        "name": "Samwaad",
         "description": "Immerse yourself in virtual reality at our VR Experience Zone. Explore the immersive worlds created by cutting-edge VR technology.",
         "url": "https://media.istockphoto.com/id/1413629018/vector/comedy-night-neon-billboard-shiny-street-advertising-microphone-icon-humorous-performance.jpg?s=612x612&w=0&k=20&c=OrwAhpkSGD3H5FIYGlAGiBZ-FsBhauV3tPIo6krn7ok="
       }
