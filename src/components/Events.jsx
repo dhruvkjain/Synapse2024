@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import scrolldown from "../assets/scrolldown.png";
 
-import Gallery from "./Functional Components/Gallery";
+import ScrollToBottom from "./Functional Components/scrollToBottom";
 import Footer from "./Functional Components/Footer";
 import Navbar from "./Functional Components/Navbar";
 import EventCategoryCard from "./Functional Components/EventCategoryCard";
@@ -56,11 +56,12 @@ function Events({ changePageinApp }) {
             <div className='homepage'>
                 <div className='bg-event'>
                     <Navbar changePageinApp={changePageinApp} />
+                    <ScrollToBottom/>
                     <div className='synapse'>
                         <div className='cont1'>
                             <div className='homepageimgs'>
                                 <div>
-                                <p className='synapseimg heading-flex phonk heading-8vw'>Events</p>
+                                    <p className='synapseimg heading-flex phonk heading-8vw'>Events</p>
                                     <div className='scrolldownicon1'>
                                         <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
                                     </div>

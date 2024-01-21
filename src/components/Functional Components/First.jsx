@@ -11,6 +11,7 @@ import HackOut from '../HackOut';
 import YouthRun from '../YouthRun';
 import Sponsors from '../Sponsors';
 
+import ScrollToBottom from "./scrollToBottom";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
@@ -36,6 +37,7 @@ class First extends React.Component {
                     <div className='homepage'>
                         <div className='bg-1'>
                         <Navbar changePageinApp={this.changePageinApp} />
+                        <ScrollToBottom/>
                         <div className='synapse'>
                             <div className='cont1'>
                                 <div className='homepageimgs'>

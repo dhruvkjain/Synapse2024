@@ -2,6 +2,7 @@ import React from "react";
 
 import scrolldown from "../assets/scrolldown.png";
 
+import ScrollToBottom from "./Functional Components/scrollToBottom";
 import Gallery from "./Functional Components/Gallery";
 import Footer from "./Functional Components/Footer";
 import Navbar from "./Functional Components/Navbar";
@@ -16,6 +17,7 @@ function ProNight({ changePageinApp }) {
             <div className='homepage'>
                 <div className='bg-pronight'>
                     <Navbar changePageinApp={changePageinApp} />
+                    <ScrollToBottom/>
                     <div className='synapse'>
                         <div className='cont1'>
                             <div className='homepageimgs'>

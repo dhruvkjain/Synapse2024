@@ -24,6 +24,7 @@
 
 .logo2 {
   width: 5vw;
+  transition: all linear 0.314159265358979s;
 }
 
 .logo2:hover {
@@ -118,7 +119,7 @@
 }
 
 .Btn:hover .BG {
-  transform: scale(1.5);
+  transform: scale(1.45);
   /* transform-origin: bottom; */
   font-size: 20px;
   color: white;
@@ -177,12 +178,17 @@ iframe {
     width: 30px;
     height: 30px;
   }
-
 }
 
+@media only screen and (max-width:350px) {
+  .Btn {
+    width: 25px;
+    height: 25px;
+  }
+}
 @media only screen and (max-width:300px) {
   .Btn {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 }

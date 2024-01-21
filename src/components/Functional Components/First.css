@@ -1,6 +1,7 @@
 .homepage {
     width: 100vw;
     height: 200vh;
+    z-index: 90;
 }
 
 .synapse {
@@ -52,11 +53,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
 }
 
 .scrolldown:hover {
     animation: scrollicongrowth 0.5s linear 0s 1;
 }
+
+.scrolltobottom{
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+}
+.scrolltobottom > img {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    z-index: 99;
+    margin: 2vw;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.628318530718);
+}
+
 
 @keyframes scrollicongrowth {
     0% {
@@ -102,7 +125,7 @@
 
 .cont3 {
     padding: 2rem;
-    background-color: #0009;
+    background-color: rgba(0, 0, 0, 0.628318530718);
     border-radius: 20px;
 }
 
