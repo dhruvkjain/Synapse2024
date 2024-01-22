@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .contlogo {
     width: 100vw;
     height: 20vh;
@@ -8,10 +15,16 @@
 
 .logo {
     padding: 1.5rem;
+    -webkit-transition: all linear 0.314159265358979s;
+    -o-transition: all linear 0.314159265358979s;
     transition: all linear 0.314159265358979s;
 }
 .logo:hover {
-    transform: rotate(240deg);
+    -webkit-transform: rotate(240deg);
+        -ms-transform: rotate(240deg);
+            transform: rotate(240deg);
+    -webkit-transition: all linear 1s;
+    -o-transition: all linear 1s;
     transition: all linear 1s;
 }
 
@@ -20,9 +33,15 @@
 }
 
 .navflex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: right;
-    align-items: center;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding-right: 2rem;
 }
 
@@ -30,20 +49,32 @@
     border-radius: 43px;
     /* background: rgba(67, 67, 67, 0.54); */
     background-color: #0009;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
 .navgrid2 {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: (1fr)[6];
     grid-template-columns: repeat(6, 1fr);
 }
 
 .navptags {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0px;
     font-size: 0px;
     cursor: pointer;
@@ -57,9 +88,15 @@
 }
 
 .navflex2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 1rem;
     cursor: pointer;
 }
@@ -71,7 +108,9 @@
 }
 
 .shownavback {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 6fr 1fr;
     grid-template-columns: 6fr 1fr;
 }
 
@@ -93,9 +132,36 @@
         width: 20px;
     }
     .navgrid2 {
+        display: -ms-grid;
         display: grid;
+        -ms-grid-rows: (1fr)[6];
         grid-template-rows: repeat(6, 1fr);
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    }
+    .navgrid2 > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .navgrid2 > *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    .navgrid2 > *:nth-child(3) {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+    }
+    .navgrid2 > *:nth-child(4) {
+        -ms-grid-row: 4;
+        -ms-grid-column: 1;
+    }
+    .navgrid2 > *:nth-child(5) {
+        -ms-grid-row: 5;
+        -ms-grid-column: 1;
+    }
+    .navgrid2 > *:nth-child(6) {
+        -ms-grid-row: 6;
+        -ms-grid-column: 1;
     }
     .navlinks {
         border-radius: 20px;
@@ -105,9 +171,19 @@
        font-size: 4vw;
     }
     .shownavback {
+        display: -ms-grid;
         display: grid;
+        -ms-grid-rows: 6fr 1fr;
         grid-template-rows: 6fr 1fr;
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     }
+    .shownavback > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .shownavback > *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
 }
-

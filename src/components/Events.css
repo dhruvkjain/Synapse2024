@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .bg-event {
     width: 100vw;
     height: 200vh;
@@ -14,9 +21,15 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .eventpageevent>p {
@@ -49,7 +62,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     background-image: url('/src/assets/mainimg.png');
-	filter: brightness(5);
+	-webkit-filter: brightness(5);
+	        filter: brightness(5);
 }
 
 .event-heading .explore{
@@ -59,6 +73,8 @@
 
 .cards-container{
 	padding: 4%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -76,10 +92,15 @@
 
 .event-cards-container{
 	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	margin: auto;
-	justify-content:space-evenly;
+	-webkit-box-pack:space-evenly;
+	    -ms-flex-pack:space-evenly;
+	        justify-content:space-evenly;
 	gap: 16px;
 	padding: 3%;
 	/* margin: auto; */
@@ -90,8 +111,12 @@
 	width: 100vw;
 	position: absolute;
 	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	font-size:xx-large;
 }
 .sub-event-image{
@@ -104,8 +129,13 @@
 	height: 300px;
 	width: 80%;
 	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	margin-top: 3rem;
 }
 .event-title, .event-desc{
@@ -113,16 +143,29 @@
 }
 .event-title{
 	font-size: 3.5rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-shadow: 5px 5px 8px black;
 }
 .event-desc{
 	font-size: 1.3rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: justify;
 	padding: 2rem;
     background-color: rgba(0, 0, 0, 0.7);
@@ -163,12 +206,16 @@
 		-webkit-background-clip: text;
 		background-clip: text;
 		background-image: url('/src/assets/mainimg.png');
-		filter: brightness(5);
+		-webkit-filter: brightness(5);
+		        filter: brightness(5);
 	}
   
 	/* Add more styles as needed */
 	.cards-container{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		margin-top: 2rem;
 	}
 	.cards-container .card{
@@ -178,7 +225,10 @@
 	}
 
 	.sub-events{
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 		margin-top: 0;
 	}
 	.event-title, .event-desc{
@@ -196,7 +246,10 @@
 
 	.event-cards-container{
 		padding: 0;
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
 
 	}
 
@@ -214,5 +267,9 @@
 	
 	.exploreevents{
 		font-size: 14vw;
+	}
+
+	.back-btn > i{
+		margin-left: 0.4rem;
 	}
   }
