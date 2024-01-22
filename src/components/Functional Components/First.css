@@ -11,6 +11,24 @@
     z-index: 90;
 }
 
+@supports (-webkit-touch-callout : none) {
+    .bg-event , .bg-1 , .bg-pronight , .bg-team{
+        background-attachment: scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+@supports not (-webkit-touch-callout : none) {
+    .bg-event , .bg-1 , .bg-pronight , .bg-team {
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
 .synapse {
     width: 100vw;
     height: 200vh;
@@ -24,11 +42,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: last baseline;
-        -ms-flex-align: last baseline;
-            align-items: last baseline;
+    -ms-flex-align: last baseline;
+    align-items: last baseline;
 }
 
 .homepageimgs {
@@ -38,31 +56,31 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-.heading-8vw{
+.heading-8vw {
     font-size: 8vw;
     margin: 0px;
 }
 
-.heading-flex{
+.heading-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
-.heading-20vh{
+.heading-20vh {
     height: 15vh;
 }
 
@@ -79,20 +97,20 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: sticky;
 }
 
 .scrolldown:hover {
     -webkit-animation: scrollicongrowth 0.5s linear 0s 1;
-            animation: scrollicongrowth 0.5s linear 0s 1;
+    animation: scrollicongrowth 0.5s linear 0s 1;
 }
 
-.scrolltobottom{
+.scrolltobottom {
     width: 100vw;
     height: 100vh;
     background: transparent;
@@ -100,14 +118,15 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    -ms-flex-pack: end;
+    justify-content: end;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: end;
+    -ms-flex-align: end;
+    align-items: end;
     position: absolute;
 }
-.scrolltobottom > img {
+
+.scrolltobottom>img {
     position: fixed;
     width: 70px;
     height: 70px;
@@ -122,17 +141,17 @@
 @-webkit-keyframes scrollicongrowth {
     0% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
     }
 
     50% {
         -webkit-transform: scale(1.2);
-                transform: scale(1.2);
+        transform: scale(1.2);
     }
 
     100% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
     }
 }
 
@@ -140,17 +159,17 @@
 @keyframes scrollicongrowth {
     0% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
     }
 
     50% {
         -webkit-transform: scale(1.2);
-                transform: scale(1.2);
+        transform: scale(1.2);
     }
 
     100% {
         -webkit-transform: scale(1);
-                transform: scale(1);
+        transform: scale(1);
     }
 }
 
@@ -170,11 +189,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-family: 'Satoshi', sans-serif;
     font-size: 20px;
 }
@@ -202,27 +221,33 @@
     .bg-1 {
         background-position: center;
     }
-    .aboutusheading{
-        font-size: 10vw ;
+
+    .aboutusheading {
+        font-size: 10vw;
         margin: 0px;
     }
+
     .cont2 {
         width: 70vw;
-        font-size: 4vw ;
+        font-size: 4vw;
         margin: 0px;
     }
+
     .homepageimgs {
         padding: 4rem;
     }
+
     .cont1 {
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
+
     .synapseimg {
         width: 80vw;
     }
-    .heading-8vw{
+
+    .heading-8vw {
         font-size: 18vw;
         margin: 0px;
     }
@@ -255,11 +280,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
 }
@@ -276,11 +301,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: right;
-        -ms-flex-pack: right;
-            justify-content: right;
+    -ms-flex-pack: right;
+    justify-content: right;
 }
 
 .thetheme {
@@ -292,13 +317,13 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding: 0rem 2rem 2rem 2rem;
     font-size: 20px;
 }
 
-.stickytxt{
+.stickytxt {
     position: sticky;
 }
 
@@ -313,11 +338,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .homepageevent>p {
@@ -331,15 +356,18 @@
     width: 100vw;
     height: 100vh;
 }
+
 @media only screen and (max-width:500px) {
     .homepageevent {
         background-position: center;
     }
-    .themeflexout{
+
+    .themeflexout {
         height: -webkit-fit-content;
         height: -moz-fit-content;
         height: fit-content;
     }
+
     .themegrid {
         display: -ms-grid;
         display: grid;
@@ -352,51 +380,61 @@
         height: -moz-fit-content;
         height: fit-content;
     }
-    .themegrid > *:nth-child(1) {
+
+    .themegrid>*:nth-child(1) {
         -ms-grid-row: 1;
         -ms-grid-column: 1;
     }
-    .themegrid > *:nth-child(2) {
+
+    .themegrid>*:nth-child(2) {
         -ms-grid-row: 2;
         -ms-grid-column: 1;
     }
+
     .themeimg {
         padding-top: 10px;
         width: 90vw;
     }
-    .themeflex{
+
+    .themeflex {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
-    .themetxt{
+
+    .themetxt {
         padding: 2rem 2rem 0rem 2rem;
         height: -webkit-fit-content;
         height: -moz-fit-content;
         height: fit-content;
     }
+
     .thetheme {
         font-size: 10vw;
     }
+
     .themedes {
         font-size: 4vw;
     }
+
     .homepageevent>p {
         width: 50vw;
         font-size: 8vw;
         margin: 0px;
         padding: 0%;
     }
-    .eventpageevent{
-		background-position: center;
-	}
-	.eventpageevent>p {
+
+    .eventpageevent {
+        background-position: center;
+    }
+
+    .eventpageevent>p {
         font-size: 8vw;
         margin: 0px;
         padding: 0%;
@@ -404,7 +442,7 @@
 }
 
 @media only screen and (max-width:400px) {
-    .homepageevent{
+    .homepageevent {
         height: 80vh;
     }
 }

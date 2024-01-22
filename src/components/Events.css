@@ -17,19 +17,6 @@
 	-o-background-size: cover;
 }
 
-@supports (-webkit-touch-callout : none) {
-	.bg-event {
-		background-attachment: scroll
-	}
-}
-
-@supports not (-webkit-touch-callout : none) {
-	.bg-event {
-		background-attachment: fixed;
-	}
-}
-
-
 .eventpageevent {
 	width: 100vw;
 	height: 100vh;
