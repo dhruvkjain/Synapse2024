@@ -32,6 +32,8 @@ body {
 
 .gallery__strip {
     min-height: 85vh;
+    width: 90%;
+    overflow: hidden;
 }
 
 .gallery__strip__wrapper {
@@ -43,6 +45,8 @@ body {
             justify-content: flex-end;
     background: black;
     overflow: hidden;
+    width: 90%;
+    /* padding-right: 20px; */
 }
 
 @media (min-width: 500px) {
