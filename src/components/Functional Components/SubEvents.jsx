@@ -18,6 +18,7 @@ const SubEvents = ({id, event, description, backgroundUrl}) => {
             </div>
             <div className="flip-card-back" style={subEventStyle}>
               <div className="flip-card-content">
+                {/* <div className="flip-back-bg"></div> */}
                 <h1>{event}</h1>
                 <p>
                   {description}
