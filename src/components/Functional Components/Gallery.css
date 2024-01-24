@@ -151,6 +151,11 @@ body {
         -o-transition: 0.5s ease-out 0.1s;
         transition: 0.5s ease-out 0.1s;
     }
+
+    .gallery__strip {
+        width: 100%;
+    }
+    
 }
 
 .photo__name {

@@ -91,8 +91,6 @@ function Events({ changePageinApp }) {
                     </div>
 
                 </div>
-
-
             </div>
 
             <div className=''>
