@@ -6,9 +6,9 @@ import ScrollToBottom from "./Functional Components/scrollToBottom";
 import Gallery from "./Functional Components/Gallery";
 import Footer from "./Functional Components/Footer";
 import Navbar from "./Functional Components/Navbar";
-
 import Amit from "../assets/Amit.jpg";
 import "./ProNight.css";
+import Slider from "./Functional Components/Slider";
 
 function ProNight({ changePageinApp }) {
 
@@ -29,7 +29,7 @@ function ProNight({ changePageinApp }) {
                                 </div>
                             </div>
                         </div>
-                        <div id="aboutus" className='aboutus'>
+                        {/* <div id="aboutus" className='aboutus'>
                             <div className='cont3 '>
                                 <p className='aboutusheading'>About Us</p>
 
@@ -48,14 +48,18 @@ function ProNight({ changePageinApp }) {
                                     22  |  23  |  24  |  25  -  February
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
             </div>
 
             <div className='theme2'>
-                <div className='eventpageevent'>
+            <div id="aboutus">
+                    
+                </div>
+                <Slider/>
+                {/* <div className='eventpageevent'>
                     <p className="phonk">
                         Embrace The
                         Energy Pulse
@@ -64,7 +68,7 @@ function ProNight({ changePageinApp }) {
                         and fun takes
                         center stage
                     </p>
-                </div>
+                </div> */}
 
 
                 {/* <div class="swiffy-slider slider-item-ratio slider-item-ratio-16x9 slider-nav-animation slider-nav-animation-slideup" id="swiffy-animation">
@@ -89,6 +93,8 @@ function ProNight({ changePageinApp }) {
                         <button aria-label="Go to slide"></button>
                     </div>
                 </div> */}
+                
+
 
                 <div className=''>
                     <p className="thetheme heading-20vh heading-flex phonk">Gallery</p>
