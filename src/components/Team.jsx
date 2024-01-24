@@ -127,7 +127,7 @@ function Team({ changePageinApp }) {
 
             </div>
 
-            <div className='theme2'>
+            <div className=''>
 
                 <div className=''>
                     <p className="thetheme heading-20vh heading-flex phonk">Gallery</p>
