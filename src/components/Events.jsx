@@ -124,7 +124,7 @@ function Events({ changePageinApp }) {
                                     <i className="fa fa-arrow-left" aria-hidden="true" onClick={handleBack} ></i>
                                 </div>
                                 <div className="sub-events">
-                                    <div className="event-title">{current.name}</div>
+                                    <div className="event-title phonk">{current.name}</div>
                                     <div className="event-desc"> {current.description} </div>
                                 </div>
 
