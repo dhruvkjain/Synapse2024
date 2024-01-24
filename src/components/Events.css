@@ -75,10 +75,11 @@
 
 
 .cards-container {
-	padding: 4%;
+	padding: 5%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	justify-content: center;
 }
 
 .sub-events-container {
@@ -147,9 +148,12 @@
 .event-title,
 .event-desc {
 	width: 50%;
+	font-size: 18px;
 }
 
 .event-title {
+	
+	text-align: center;
 	font-size: 3.5rem;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -242,6 +246,7 @@
 		-ms-flex-direction: column;
 		flex-direction: column;
 		margin-top: 0;
+		margin-bottom: 20px;
 	}
 
 	.event-title,
@@ -251,6 +256,8 @@
 
 	.event-title {
 		font-size: 2.5rem;
+		margin-top: 30px;
+		margin-bottom: 10px;
 	}
 
 	.event-desc {
@@ -269,7 +276,7 @@
 
 	.flip-card {
 		width: 20rem;
-		height: 30rem;
+		height: 25rem;
 	}
 }
 

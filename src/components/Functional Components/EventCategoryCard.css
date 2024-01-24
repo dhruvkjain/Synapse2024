@@ -9,44 +9,48 @@
 
 .card {
   position: relative;
-  width: 10rem;
-  height: 350px; /* Set the desired height */
+  width: 6.5rem;
+  height: 400px; /* Set the desired height */
   background-size: cover;
   background-position: center;
   color: #fff; /* Text color for better contrast with the background image */
   text-shadow: 5px 2px 5px black;
-  border-radius: 8px;
-  -webkit-transition: width 0.5s;
-  -o-transition: width 0.5s;
-  transition: width 0.5s;
+  border-radius: 5px;
+  -webkit-transition: width 1.2s;
+  -o-transition: width 1.2s;
+  transition: width 1.2s;
   margin-right: 1rem;
-  -webkit-filter:contrast(0.7);
+  /* -webkit-filter:contrast(0.7);
           filter:contrast(0.7);
   -webkit-filter:brightness(0.45);
           filter:brightness(0.45);
   -webkit-filter: saturate(0.2);
           filter: saturate(0.2);
-  -webkit-box-shadow: 0 0 8px #fff;
-  box-shadow: 0 0 8px #fff;
+  -webkit-box-shadow: 0 0 8px #fff; */
+  /* box-shadow: 0 0 8px #fff; */
 }
 
 .card-content {
   position: absolute;
   top: 70%;
-  left: 60%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   bottom: -80px;
-  -webkit-transition: left top 1s;
-  -o-transition: left top 1s;
-  transition: left top 1s;
+  -webkit-transition: left top 1.2s;
+  -o-transition: left top 1.2s;
+  transition: left top 1.2s;
   padding-left: 1em;
+  /* margin: 0 auto; */
   
+}
+.card-content h2{
+  width: 200px;
 }
 
 .card-title {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 10px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -68,32 +72,27 @@
 
 
 .explore-button {
-  background-color: #3498db;
+  background-color: #000000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 13px 35px;
   font-size: 18px;
-  border: none;
   cursor: pointer;
   display: none;
-  -webkit-transition: background-color 2s, color 2s;
-  -o-transition: background-color 2s, color 2s;
-  transition: background-color 2s, color 2s;
   border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  
 }
 
 .explore-button:hover {
-  background-color: #2980b9;
-  background-image: -webkit-gradient(linear, left top, right top, from(#3498db), color-stop(50%, #2ecc71), to(#3498c1));
-  background-image: -o-linear-gradient(left, #3498db 0%, #2ecc71 50%, #3498c1);
-  background-image: linear-gradient(to right, #3498db 0%, #2ecc71 50%, #3498c1);
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
+  background-color: #000000be;
+
 }
 
 .card:hover {
   width: 25rem;
-  height: 350px; /* Set the desired height */
+  height: 400px; /* Set the desired height */
   background-size: cover;
   background-position: center;
   color: #fff; /* Text color for better contrast with the background image */
@@ -111,20 +110,23 @@
           transform: rotate(0deg);
   background:no-repeat center center;
   background-size: 100%;
+  text-align: center;
+  
   /* color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   background-image: url('/src/assets/mainimg.png'); */
   -webkit-filter: brightness(8);
           filter: brightness(8);
+          
 }
 .card:hover .explore-button {
   display: block;
 }
 .card:hover .card-content{
   position: absolute;
-  top: 72%;
-  left: 39%;
+  top: 70%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -143,12 +145,47 @@
               filter:contrast(1);
       -webkit-filter:brightness(1);
               filter:brightness(1);
+      text-align: center;
       
+      
+    }
+    .card-content {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      bottom: -96px;
+      -webkit-transition: left top 1.2s;
+      -o-transition: left top 1.2s;
+      transition: left top 1.2s;
+      padding-left: 1em;
+      text-align: center;
+      /* margin: 0 auto; */
+      
+    }
+    .card-content h2{
+      width: 200px;
+    }
+    
+    .card:hover{
+      width: 20rem;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* transition: transform 2s ease-in-out; */
+    -webkit-filter: contrast(1);
+    filter: contrast(1);
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
     }
     .card-title {
       -webkit-transform: rotate(0deg);
           -ms-transform: rotate(0deg);
               transform: rotate(0deg);
+              text-align: center;
     }
     .explore-button {
       display: block;
