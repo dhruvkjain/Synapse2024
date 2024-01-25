@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 
-import leftarrow from "../../assets/leftarrow.png";
-import rightarrow from "../../assets/rightarrow.png";
 import Amit from "../../assets/Amit.jpg";
 import './Slider.css'
 
