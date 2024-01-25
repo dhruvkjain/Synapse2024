@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
-import Swiper from 'react-id-swiper';
-import 'swiper/swiper-bundle.css';
+
+import leftarrow from "../../assets/leftarrow.png";
+import rightarrow from "../../assets/rightarrow.png";
+import Amit from "../../assets/Amit.jpg";
 import './Slider.css'
 
 const Slider = () => {
@@ -20,36 +22,38 @@ const Slider = () => {
 
   ];
 
-  const params = {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    scrollbar: {
-      el: '.swiper-scrollbar',
-      hide: true,
-    },
-    zoom: true,
+  // useEffect(() => {
+  //   const slider2 = document.getElementsByClassName("slider2")[0];
+  //   slider2.addEventListener("wheel", (e) => {
+  //     e.preventDefault();
+  //     slider2.scrollLeft += 100;
+  //   })
+  // }, [])
 
-  }
 
   return (
-    <div>
-      {/* <div className='eventpageslider'>
-        <Swiper {...params}>
-          {images.map((image, i) => (
-            <div key={i} className='swiperCont'>
-              <img src={image.imgUrl} className='swiperImg' alt={`image ${i}`} />
-              <p className='SwiperCaption'>{image.caption}</p>
-            </div>
-          ))}
-        </Swiper>
+    <div className='slidercover'>
+      <div className="slider2">
+        {/* <div className='buttons'>
+            <button className='rbtn'><img src={leftarrow}></img></button>
+            <button className='lbtn'><img src={rightarrow}></img></button>
+          </div> */}
+        <section className="pronightpageslide" style={{ backgroundImage: `url(${Amit})` }}>
+          <h1 className='slideCaption'>Section One</h1>
+        </section>
+        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>
+          <h1 className='slideCaption'>Section Two</h1>
+        </section>
+        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>
+          <h1 className='slideCaption'>Section Three</h1>
+        </section>
+        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>
+          <h1 className='slideCaption'>Section Four</h1>
+        </section>
+        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>
+          <h1 className='slideCaption'>Section Five</h1>
+        </section>
       </div>
-      <div className='swipe'>
-      
-      </div> */}
     </div>
   );
 };

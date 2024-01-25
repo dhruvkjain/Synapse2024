@@ -17,6 +17,11 @@
     /* position: absolute; */
 }
 
+.synapse2{
+    width: 100vw;
+    height: 100vh;
+}
+
 .cont1 {
     width: 100vw;
     height: 100vh;
@@ -430,4 +435,13 @@
     .homepageevent {
         height: 80vh;
     }
+}
+
+.hackout{
+    width: fit-content;
+    height: 100vh;
+}
+.hackoutcover{
+    display: flex;
+    justify-content: center;
 }
