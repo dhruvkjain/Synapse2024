@@ -165,8 +165,10 @@
       /* margin: 0 auto; */
       
     }
+    
     .card-content h2{
       width: 200px;
+      font-size: 17px;
     }
     
     .card:hover{
