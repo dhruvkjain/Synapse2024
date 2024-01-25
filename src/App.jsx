@@ -5,7 +5,7 @@ import First from './components/Functional Components/First';
 function App() {
 
     return (
-      <div className='slider'>
+      <div className=''>
           <First />
       </div>
     )
