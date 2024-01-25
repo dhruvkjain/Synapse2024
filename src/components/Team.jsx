@@ -39,8 +39,8 @@ function Team({ changePageinApp }) {
                                 </div>
                             </div>
                         </div>
-                        <div id="aboutus" className='aboutus'>
-                            <div className='cont3 '>
+                        <div  className='aboutus'>
+                            {/* <div className='cont3 '>
                                 <p className='aboutusheading'>About Us</p>
 
                                 <p className='cont2'>
@@ -57,10 +57,10 @@ function Team({ changePageinApp }) {
                                 <p className=''>
                                     22  |  23  |  24  |  25  -  February
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
-                    <div className='team'>
+                    <div id="aboutus" className='team'>
                         <p className="phonk thetheme heading-flex">Teams</p>
                         {
                             teams.map((team) => {

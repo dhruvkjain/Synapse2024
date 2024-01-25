@@ -28,7 +28,7 @@
     justify-content: center;
     -webkit-box-align: last baseline;
     -ms-flex-align: last baseline;
-    align-items: last baseline;
+    align-items: last center;
 }
 
 .homepageimgs {
@@ -158,10 +158,11 @@
 .bg-1 {
     width: 100%;
     height: 200vh;
-    background-image: url('../../assets/mainimg.png');
+    background-image: url('https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706118555/synapse/photos%20sort%20drive/main%20vortex%20video/bgvideo-ezgif.com-video-to-gif-converter_cb0ndj.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 .aboutus {

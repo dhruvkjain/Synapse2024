@@ -13,7 +13,8 @@
 .team {
     width: 100vw;
     height: fit-content;
-    background-color: #0009
+    background-color: #0009;
+    padding: 2%;
 }
 
 .team-heading {

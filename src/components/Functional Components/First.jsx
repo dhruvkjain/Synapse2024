@@ -54,7 +54,7 @@ class First extends React.Component {
                                     <p className='aboutusheading'>About Us</p>
 
                                     <p className='cont2'>
-                                        Synapse is DAIICT’s annual college fest that brings together artists,
+                                        Synapse is DAIICT's annual college fest that brings together artists,
                                         designers, and creative minds from all over the world to showcase their
                                         unique collages and share their creative process with others. The festival
                                         is named after the brain's synaptic connections, which inspire the organizers
