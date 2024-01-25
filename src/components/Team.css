@@ -199,4 +199,7 @@
         font-size: 6vw;
         margin: 0px;
     }
+    .membercard{
+        height: 300px;
+    }
 }

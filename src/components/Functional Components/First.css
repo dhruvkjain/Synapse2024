@@ -11,22 +11,6 @@
     z-index: 90;
 }
 
-@supports (-webkit-touch-callout : none) {
-    .bg-event , .bg-1 , .bg-pronight , .bg-team{
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
-}
-
-@supports not (-webkit-touch-callout : none) {
-    .bg-event , .bg-1 , .bg-pronight , .bg-team {
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
-}
-
 .synapse {
     width: 100vw;
     height: 200vh;
