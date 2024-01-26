@@ -1,4 +1,4 @@
-.slidercover{
+.slidercover {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@
     height: 80vh;
 }
 
-.slider2::-webkit-scrollbar{
+.slider2::-webkit-scrollbar {
     display: none;
 }
 
@@ -54,12 +54,14 @@
     position: relative;
     background-color: antiquewhite;
     background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
 }
-.slideCaption  {
+
+.slideCaption {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -68,4 +70,15 @@
     width: 100%;
     left: 0;
     font-size: calc(1rem + 3vw);
-  }
+}
+
+@media only screen and (max-width: 500px) {
+    .slider2{
+        width: 100vw;
+        height: 100vh;
+    }
+    .pronightpageslide{
+        width: 100vw;
+        height: 100vh;
+    }
+}
