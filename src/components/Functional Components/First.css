@@ -239,6 +239,10 @@
         font-size: 18vw;
         margin: 0px;
     }
+
+    .scrolltobottom{
+        display: none;
+    }
 }
 
 

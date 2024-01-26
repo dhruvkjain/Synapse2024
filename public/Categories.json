@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Dance",
-    "url": "https://c4.wallpaperflare.com/wallpaper/771/701/185/men-dancing-digital-art-shapes-wallpaper-preview.jpg",
+    "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description":"Explore the rhythm of life through dance. Join us for electrifying performances, workshops, and events that will make your heart beat to the music of motion.",
     "events":[
       {
@@ -28,7 +28,7 @@
   {
     "id": 2,
     "name": "Music",
-    "url": "https://c4.wallpaperflare.com/wallpaper/257/116/964/light-strings-music-sound-wallpaper-preview.jpg",
+    "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description":"Immerse yourself in the world of music. From soulful melodies to heart-pounding beats, our events cater to every music enthusiast.",
     "events":[
       {
@@ -60,7 +60,7 @@
   {
     "id": 3,
     "name": "Theatre",
-    "url": "https://c1.wallpaperflare.com/preview/351/806/415/cinema-movie-theater-film-retro.jpg",
+    "url": "https://images.unsplash.com/photo-1550026593-cb89847b168d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description":"Step into the world of drama and storytelling. Our theatrical events promise captivating performances that will leave you spellbound.",
     "events":[
       {
@@ -92,7 +92,7 @@
   {
     "id": 4,
     "name": "Fashion",
-    "url": "https://images.pexels.com/photos/1172253/pexels-photo-1172253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "url": "https://images.unsplash.com/photo-1543728069-a3f97c5a2f32?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "description": "Discover a curated selection of products and experiences that enhance your lifestyle. From fashion to travel, find inspiration for a life well-lived.",
     "events": [
       {

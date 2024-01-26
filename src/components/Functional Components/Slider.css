@@ -8,7 +8,7 @@
 
 .slider2 {
     font-family: sans-serif;
-    /* scroll-snap-type: x mandatory; */
+    scroll-snap-type: y mandatory;
     -webkit-overflow-scrolling: touch;
     /* display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@
 
 .pronightpageslide {
     /* border-right: 1px solid white; */
-    /* scroll-snap-align: start; */
+    scroll-snap-align: start;
     width: 80vw;
     height: 80vh;
     text-align: center;
