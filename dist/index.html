@@ -14,11 +14,11 @@
   <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
   <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
   <title>Synapse</title>
-  <script type="module" crossorigin src="/Synapse-2024/assets/index-e9Jh07YM.js"></script>
-  <link rel="stylesheet" crossorigin href="/Synapse-2024/assets/index-w_tfwWTU.css">
+  <script type="module" crossorigin src="/Synapse-2024/assets/index-8qyuMWrb.js"></script>
+  <link rel="stylesheet" crossorigin href="/Synapse-2024/assets/index-TcEacYwk.css">
 </head>
 
-<body>
+<body onload ="hidePreloader()">
 
   <div class="preloader">
     <div class="logo-container">
@@ -73,12 +73,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
 
   <script>
-    window.onload = function hidePreloader() {
+    
+    function hidePreloader() {
       setTimeout(()=>{
         const preloader = document.querySelector(".preloader");
         preloader.style.display = "none";
         main.style.display = "block";
-      } , 2000)
+      } , 4000)
       // Add your logic to display the main content here
     }
   </script>
