@@ -28,6 +28,7 @@ body {
     overflow-y: scroll;
     background-color: black;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 .gallery__strip {

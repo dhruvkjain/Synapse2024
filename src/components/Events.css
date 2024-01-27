@@ -45,7 +45,8 @@
 .event-page {
 	/* position: absolute; */
 	width: 100vw;
-	height: 105vh;
+	height: fit-content;
+	overflow-x: hidden;
 	overflow-y: auto;
 	background-color: black;
 }

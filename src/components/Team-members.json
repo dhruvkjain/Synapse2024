@@ -1,13 +1,13 @@
 [
     {
         "id":1,
-        "teamtitle": "CORE TEAM",
+        "teamtitle": "TEAM",
         "members": [
             {
                 "id":1,
                 "name":"Vedant_Shah",
                 "post":"Conveyor",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Conveyor%20deputy%20con/Vedant_Shah-_Conveyor_ewcjj4.heic",
+                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Conveyor%20deputy%20con/Vedant_Shah-_Conveyor_ewcjj4.jpg?_s=public-apps",
                 "linkedin":"https://www.facebook.com/synapsedaiict/",
                 "instagram":"https://www.instagram.com/synapsedaiict/"
             },
@@ -22,136 +22,8 @@
         ]
     },
     {
-        "id":2,
-        "teamtitle": "Mentors",
-        "members": [
-            {
-                "id":1,
-                "name":"Manav_chinchavde",
-                "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117652/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Manav_chinchavde_wbsbgu.png",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            },
-            {
-                "id":2,
-                "name":"Janvi_Garg",
-                "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Janvi_Garg_jjgugv.jpg",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            },
-            {
-                "id":3,
-                "name":"Harshita_Tripathi",
-                "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117647/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Harshita_Tripathi_xcgubm.jpg",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            },
-            {
-                "id":4,
-                "name":"Devansh_Patel",
-                "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117647/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Devansh_Patel_txuidx.heic",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            },
-            {
-                "id":5,
-                "name":"Prarthee_Desai",
-                "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117644/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Prarthee_Desai_xmgsye.jpg",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            }
-        ]
-    },
-    {
-        "id":3,
-        "teamtitle": "Web development",
-        "members": [
-            {
-                "id":1,
-                "name":"ABC",
-                "post":"abc",
-                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            },
-            {
-                "id":2,
-                "name":"ABC",
-                "post":"abc",
-                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            },
-            {
-                "id":3,
-                "name":"ABC",
-                "post":"abc",
-                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-                "linkedin":"",
-                "instagram":""
-            },
-            {
-                "id":4,
-                "name":"ABC",
-                "post":"abc",
-                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            },
-            {
-                "id":5,
-                "name":"ABC",
-                "post":"abc",
-                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
-                "linkedin":"",
-                "instagram":""
-            }
-        ]
-    },
-    {
-        "id":4,
-        "teamtitle": "Graphic Design Team",
-        "members": [
-            {
-                "id":1,
-                "name":"Akshat_Prasad",
-                "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/gd%20team/akshat_prasad_ogdfsx.jpg",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            },
-            {
-                "id":2,
-                "name":"Sahil",
-                "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117648/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/gd%20team/WhatsApp_Image_2023-11-20_at_17.05.37_814158e7_ghagqj.jpg",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            }
-        ]
-    },
-    {
-        "id":5,
-        "teamtitle": "Video Editing Team",
-        "members": [
-            {
-                "id":1,
-                "name":"XYZ",
-                "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117665/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/video%20editor/WhatsApp_Image_2024-01-20_at_16.36.17_10de3414_ikde8j.jpg",
-                "linkedin":"https://www.facebook.com/synapsedaiict/",
-                "instagram":"https://www.instagram.com/synapsedaiict/"
-            }
-        ]
-    },
-    {
         "id":6,
-        "teamtitle": "Synapse Team",
+        "teamtitle": "",
         "members": [
             {
                 "id":1,
@@ -286,6 +158,110 @@
                 "name":"Bhavya_Shah",
                 "post":"",
                 "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Bhavya_Shah_lc6tip.jpg",
+                "linkedin":"https://www.facebook.com/synapsedaiict/",
+                "instagram":"https://www.instagram.com/synapsedaiict/"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "teamtitle": "Mentors",
+        "members": [
+            {
+                "id":1,
+                "name":"Prarthee_Desai",
+                "post":"",
+                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117644/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Prarthee_Desai_xmgsye.jpg",
+                "linkedin":"https://www.facebook.com/synapsedaiict/",
+                "instagram":"https://www.instagram.com/synapsedaiict/"
+            },
+            {
+                "id":2,
+                "name":"Devansh_Patel",
+                "post":"",
+                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117647/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Devansh_Patel_txuidx.heic",
+                "linkedin":"https://www.facebook.com/synapsedaiict/",
+                "instagram":"https://www.instagram.com/synapsedaiict/"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "teamtitle": "Web development",
+        "members": [
+            {
+                "id":1,
+                "name":"ABC",
+                "post":"abc",
+                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                "linkedin":"https://www.facebook.com/synapsedaiict/",
+                "instagram":"https://www.instagram.com/synapsedaiict/"
+            },
+            {
+                "id":2,
+                "name":"ABC",
+                "post":"abc",
+                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                "linkedin":"https://www.facebook.com/synapsedaiict/",
+                "instagram":"https://www.instagram.com/synapsedaiict/"
+            },
+            {
+                "id":3,
+                "name":"ABC",
+                "post":"abc",
+                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                "linkedin":"",
+                "instagram":""
+            },
+            {
+                "id":4,
+                "name":"ABC",
+                "post":"abc",
+                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                "linkedin":"https://www.facebook.com/synapsedaiict/",
+                "instagram":"https://www.instagram.com/synapsedaiict/"
+            },
+            {
+                "id":5,
+                "name":"ABC",
+                "post":"abc",
+                "imgurl":"https://th.bing.com/th/id/OIP.evUMYFwlMncUnlz-sqBP5wHaEo?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+                "linkedin":"",
+                "instagram":""
+            }
+        ]
+    },
+    {
+        "id":4,
+        "teamtitle": "Graphic Design Team",
+        "members": [
+            {
+                "id":1,
+                "name":"Akshat_Prasad",
+                "post":"",
+                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/gd%20team/akshat_prasad_ogdfsx.jpg",
+                "linkedin":"https://www.facebook.com/synapsedaiict/",
+                "instagram":"https://www.instagram.com/synapsedaiict/"
+            },
+            {
+                "id":2,
+                "name":"Sahil",
+                "post":"",
+                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117648/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/gd%20team/WhatsApp_Image_2023-11-20_at_17.05.37_814158e7_ghagqj.jpg",
+                "linkedin":"https://www.facebook.com/synapsedaiict/",
+                "instagram":"https://www.instagram.com/synapsedaiict/"
+            }
+        ]
+    },
+    {
+        "id":5,
+        "teamtitle": "Video Editing Team",
+        "members": [
+            {
+                "id":1,
+                "name":"XYZ",
+                "post":"",
+                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117665/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/video%20editor/WhatsApp_Image_2024-01-20_at_16.36.17_10de3414_ikde8j.jpg",
                 "linkedin":"https://www.facebook.com/synapsedaiict/",
                 "instagram":"https://www.instagram.com/synapsedaiict/"
             }

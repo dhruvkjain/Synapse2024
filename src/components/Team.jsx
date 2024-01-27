@@ -32,21 +32,21 @@ function Team({ changePageinApp }) {
                         <div className='cont1'>
                             <div className='homepageimgs'>
                                 <div>
-                                    <p className='synapseimg heading-flex phonk heading-8vw'>Team</p>
+                                    <p className='heading-flex phonk heading-8vw'>Team</p>
                                     <div className='scrolldownicon1'>
-                                        <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
+                                        <a href="#team"><img className='scrolldown' src={scrolldown}></img></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="aboutus" className='team'>
+                    <div id="team" className='team'>
                         <p className="phonk thetheme heading-flex">Teams</p>
                         {
                             teams.map((team) => {
                                 return (
                                 <div key={team.id} className="">
-                                    <div className="satoshi team-heading heading-flex">{team.teamtitle}</div>
+                                    <div className="phonk team-heading heading-flex">{team.teamtitle}</div>
                                     {
                                         <div className="team-flex">
                                             {
@@ -108,10 +108,10 @@ function Team({ changePageinApp }) {
             </div>
 
             <div className=''>
-                <div className=''>
+                {/* <div className=''>
                     <p className="thetheme heading-20vh heading-flex phonk">Gallery</p>
                     <Gallery />
-                </div>
+                </div> */}
                 <Footer />
             </div>
         </div>

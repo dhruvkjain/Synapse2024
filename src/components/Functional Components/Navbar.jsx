@@ -39,7 +39,7 @@ function Navbar({changePageinApp}) {
                                 <p className='navptags'><span onClick={() => changePageinApp('pronight') } >ProNight</span></p>
                                 <p className='navptags'><span onClick={() => changePageinApp('team') } >Team</span></p>
                                 <p className='navptags'><span onClick={() => changePageinApp('hackout') } >HackOut</span></p>
-                                <p className='navptags'><span onClick={() => changePageinApp('youthrun') } >YouthRun</span></p>
+                                <p className='navptags'><a href="http://synapse.daiict.ac.in/youth.html" >YouthRun</a></p>
                                 <p className='navptags'><span onClick={() => changePageinApp('sponsors') } >Sponsors</span></p>
                             </div>
                             <div className='navflex2'>

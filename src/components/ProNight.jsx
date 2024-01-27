@@ -17,36 +17,16 @@ function ProNight({ changePageinApp }) {
             <div className='homepage'>
                 <div className='bg-pronight'>
                     <Navbar changePageinApp={changePageinApp} />
-                    <ScrollToBottom/>
+                    <ScrollToBottom />
                     <div className='synapse'>
                         <div className='cont1'>
                             <div className='homepageimgs'>
                                 <div>
-                                    <p className='synapseimg heading-flex phonk headingpronight'>ProNight</p>
+                                    <p className='heading-flex phonk headingpronight'>ProNight</p>
                                     <div className='scrolldownicon1'>
-                                        <a href="#aboutus"><img className='scrolldown' src={scrolldown}></img></a>
+                                        <a href="#slider"><img className='scrolldown' src={scrolldown}></img></a>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div id="aboutus" className='aboutus'>
-                            <div className='cont3 '>
-                                <p className='aboutusheading'>About Us</p>
-
-                                <p className='cont2'>
-                                    Synapse is DAIICT’s annual college fest that brings together artists,
-                                    designers, and creative minds from all over the world to showcase their
-                                    unique collages and share their creative process with others. The festival
-                                    is named after the brain's synaptic connections, which inspire the organizers
-                                    to create a space for creative connections and exchanges. As the night
-                                    falls, the festival transforms into a vibrant party, with live music, DJ
-                                    performances, and dance parties, providing attendees with an
-                                    opportunity to unwind, socialize and celebrate creativity in all its forms.
-                                </p>
-                                <p className='aboutusheading'>Date</p>
-                                <p className=''>
-                                    22  |  23  |  24  |  25  -  February
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -54,11 +34,22 @@ function ProNight({ changePageinApp }) {
                 </div>
             </div>
 
-            <div className='theme2'>
-                <Slider/>               
+            <div id="slider" className='theme2'>
+                <Slider />
                 <div className=''>
                     <p className="thetheme heading-20vh heading-flex phonk">Gallery</p>
                     <Gallery />
+                </div>
+                <div className="aboutus aboutus3">
+                    <div className='cont3'>
+                        <p className='aboutusheading phonk'>About Us</p>
+                        <p className='cont2 phonk'>
+                            Synapse<span className="satoshi">,</span> DAIICT<span className="satoshi">’</span>s annual college fest<span className="satoshi">,</span> unites global artists and creative
+                            minds to showcase unique collages<span className="satoshi">,</span> share creative processes<span className="satoshi">,</span> and transforms
+                            into a vibrant night of live music<span className="satoshi">,</span> DJ performances<span className="satoshi">,</span> and dance parties<span className="satoshi">,</span> fostering
+                            creative connections and celebrating artistic expression<span className="satoshi">.</span>
+                        </p>
+                    </div>
                 </div>
                 <Footer />
             </div>
