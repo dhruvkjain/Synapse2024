@@ -36,21 +36,18 @@ const Slider = () => {
             <button className='rbtn'><img src={leftarrow}></img></button>
             <button className='lbtn'><img src={rightarrow}></img></button>
           </div> */}
-        <section className="pronightpageslide" style={{ backgroundImage: `url(${Amit})` }}>
-          <h1 className='slideCaption'>Section One</h1>
+        <section className="pronightpageslide" style={{ backgroundImage: 'url(https://res.cloudinary.com/dxk9jobnq/image/upload/v1706346449/Synpase%20gallery/DSC02406_ep6cum.jpg)' }}>
         </section>
-        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>
-          <h1 className='slideCaption'>Section Two</h1>
+        <h1 className='slideCaption2'><span className='phonk artisttext'>Section One</span></h1>
+        <section className='pronightpageslide' style={{ backgroundImage: 'url(https://res.cloudinary.com/dxk9jobnq/image/upload/v1706346747/Synpase%20gallery/DSC02732_dwuxb0.jpg)' }}>
         </section>
-        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>
-          <h1 className='slideCaption'>Section Three</h1>
+        <h1 className='slideCaption'><span className='phonk artisttext'>Section Two</span></h1>
+        <section className='pronightpageslide' style={{ backgroundImage: 'url(https://res.cloudinary.com/dxk9jobnq/image/upload/v1706346927/Synpase%20gallery/DSC02827_mv01b1.jpg)' }}>
         </section>
-        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>
-          <h1 className='slideCaption'>Section Four</h1>
+        <h1 className='slideCaption2'><span className='phonk artisttext'>Section Three</span></h1>
+        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>  
         </section>
-        <section className='pronightpageslide' style={{ backgroundImage: `url(${Amit})` }}>
-          <h1 className='slideCaption'>Section Five</h1>
-        </section>
+        <h1 className='slideCaption'><span className='phonk artisttext'>Section Four</span></h1>
       </div>
     </div>
   );
