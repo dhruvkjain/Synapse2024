@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-
+  <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/Synapse-2024/assets/logo-RefYU1NW.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.cdnfonts.com/css/satoshi" rel="stylesheet">
@@ -15,11 +14,11 @@
   <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
   <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
   <title>Synapse</title>
-  <script type="module" crossorigin src="/Synapse2024/assets/index-kWGfkP1h.js"></script>
-  <link rel="stylesheet" crossorigin href="/Synapse2024/assets/index-4ZCT2v-A.css">
+  <script type="module" crossorigin src="/Synapse-2024/assets/index-8qyuMWrb.js"></script>
+  <link rel="stylesheet" crossorigin href="/Synapse-2024/assets/index-TcEacYwk.css">
 </head>
 
-<body>
+<body onload ="hidePreloader()">
 
   <div class="preloader">
     <div class="logo-container">
@@ -70,17 +69,17 @@
     tl.call(startLoading);
 
   </script>
-
-
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
 
   <script>
-    window.onload = function hidePreloader() {
+    
+    function hidePreloader() {
       setTimeout(()=>{
         const preloader = document.querySelector(".preloader");
         preloader.style.display = "none";
         main.style.display = "block";
-      } , 2000)
+      } , 4000)
       // Add your logic to display the main content here
     }
   </script>
