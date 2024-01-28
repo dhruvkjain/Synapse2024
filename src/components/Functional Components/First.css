@@ -11,6 +11,12 @@
     z-index: 90;
 }
 
+.prevent_txt_selection{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none;     /* IE 10 and IE 11 */
+    user-select: none;         /* Standard syntax */
+}
+
 .synapse {
     width: 100vw;
     height: 100vh;
@@ -522,4 +528,20 @@
 .hackoutcover {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:500px) {
+    .hackout {
+        width: 100vw;
+        height: 70vh;
+    }
+    .hackoutcover {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }

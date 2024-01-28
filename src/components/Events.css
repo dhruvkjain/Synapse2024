@@ -85,7 +85,7 @@
 }
 
 .sub-events-container {
-	height: 100vh;
+	height: fit-content;
 	overflow: auto;
 	overflow-x: hidden;
 	width: 100vw;
