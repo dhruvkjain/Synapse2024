@@ -41,13 +41,6 @@
   margin: 0px;
 }
 
-.navgrid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 12fr;
-  grid-template-columns: 1fr 12fr;
-}
-
 .menuimg {
   width: 2.5vw;
 }

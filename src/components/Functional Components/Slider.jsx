@@ -24,7 +24,7 @@ const Slider = () => {
   //   const slider2 = document.getElementsByClassName("slider2")[0];
   //   slider2.addEventListener("wheel", (e) => {
   //     e.preventDefault();
-  //     slider2.scrollLeft += 100;
+
   //   })
   // }, [])
 

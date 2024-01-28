@@ -10,6 +10,8 @@
   height: 60vh;
   margin: 0px;
   background-image: url('../../assets/footerimg.png');
+  /* background: linear-gradient(130deg , black 20% , blue , orange , pink ); */
+  /* background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%); */
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: cover;
@@ -190,6 +192,11 @@
 
 iframe {
   border-radius: 20px;
+}
+
+.footer-font-size {
+  font-size: 1vw;
+  line-height: 25px;
 }
 
 @media only screen and (max-width:500px) {

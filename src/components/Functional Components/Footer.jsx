@@ -13,19 +13,19 @@ function Footer() {
                         <div className="pad-footer">
                             <img className='logo2' src={logo}></img>
                             <p className='reachusoutat phonk'>Reach Us Out At</p>
+                            <p className='satoshi footer-font-size'>Vivek Chaudhari: +91 6354 042 414</p>
+                            <p className='satoshi footer-font-size'>Harshali Darmik: +91 7600 051 765</p>
+                            <p className='satoshi footer-font-size'>Kushal Desai: +91 9727 055 132</p>
                             <p className='satoshi footer-font-size'>synapse.thefest@gmail.com</p>
                             <p className='satoshi footer-font-size'>synapse@daiict.ac.in</p>
-                            <p className='satoshi footer-font-size'>Raj Patel: +91 8128 909 789</p>
-                            <p className='satoshi footer-font-size'>Manan Pareek: +91 6351 132 695</p>
-                            <p className='satoshi footer-font-size'>Harshita Tripathi: +91 9974 760 487</p>
                         </div>
                     </div>
                     <div className='footer2'>
                         <div className="">
                             <p className='reachusoutat phonk'>Past Websites</p>
+                            <p className='satoshi footer-font-size'>Synapse 2023</p>
                             <p className='satoshi footer-font-size'>Synapse 2022</p>
                             <p className='satoshi footer-font-size'>Synapse 2021</p>
-                            <p className='satoshi footer-font-size'>Synapse 2020</p>
                             <div className='social-link'>
                                 <div className="social-card">
                                     <a className="Btn instagram" href="https://www.instagram.com/synapsedaiict/">

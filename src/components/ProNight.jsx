@@ -34,12 +34,8 @@ function ProNight({ changePageinApp }) {
                 </div>
             </div>
 
-            <div id="slider" className='theme2'>
+            <div id="slider" className='theme2 preventscroll'>
                 <Slider />
-                <div className=''>
-                    <p className="thetheme heading-20vh heading-flex phonk">Gallery</p>
-                    <Gallery />
-                </div>
                 <div className="aboutus aboutus3">
                     <div className='cont3'>
                         <p className='aboutusheading phonk'>About Us</p>

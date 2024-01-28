@@ -237,12 +237,14 @@
 
 .aboutusheading {
     font-size: 5vw;
+    text-align: right;
 }
 
 .cont2 {
     width: 50vw;
     line-height: 50px;
     font-size: 2.5vw;
+    text-align: right;
 }
 
 .cont3 {

@@ -44,7 +44,7 @@ class First extends React.Component {
                                         <div>
                                             <p className="DAka satoshi">#DA Ka Tyohaar!</p>
                                             <img className='synapseimg' src={synapse}></img>
-                                            <p className="phonk vibrantvortex">A VIBRANT VORTEX</p>
+                                            <p className="phonk vibrantvortex">VIBRANT VORTEX</p>
                                             <p className="satoshi dates">22  |  23  |  24  |  25  - February</p>
                                             <div className='scrolldownicon1'>
                                                 <a href="#theme"><img className='scrolldown' src={scrolldown}></img></a>
