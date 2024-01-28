@@ -13,7 +13,7 @@
 
 .synapse {
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     /* position: absolute; */
 }
 
@@ -216,6 +216,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 .aboutus1 {
@@ -282,7 +283,7 @@
     }
 
     .synapseimg {
-        width: 80vw;
+        width: 90vw;
     }
 
     .heading-8vw {
@@ -292,6 +293,26 @@
 
     .scrolltobottom {
         display: none;
+    }
+
+    .DAka{
+        font-size: 6vw;
+    }
+
+    .vibrantvortex{
+        font-size: 4vw;
+    }
+
+    .dates{
+        font-size: 6vw;
+    }
+
+    .scrolldown{
+        width: 10vw;
+    }
+
+    .synapse{
+        transform: translateY(1.4%);
     }
 }
 

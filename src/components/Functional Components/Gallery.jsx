@@ -106,7 +106,7 @@ function Gallery() {
                         row1.map((item, index) => 
                         <div className="photo" key={item.id}>
                         <div className="photo__image">
-                            <img loading="lazy" src={item.src} alt="Kyoto"></img>
+                            <img loading="eager" src={item.src} alt="Kyoto"></img>
                         </div>
                         <div className="photo__name">{item.name}</div>
                     </div>
@@ -121,7 +121,7 @@ function Gallery() {
                         row2.map((item, index)=>
                         <div className="photo" key={item.id}>
                             <div className="photo__image">
-                                <img loading="lazy" src={item.src} alt="Italy"></img>
+                                <img loading="eager" src={item.src} alt="Italy"></img>
                             </div>
                             <div className="photo__name">{item.name}</div>
                         </div>
@@ -136,7 +136,7 @@ function Gallery() {
                         row3.map((item, index)=>
                         <div className="photo" key={item.id}>
                         <div className="photo__image">
-                            <img loading="lazy" src={item.src} alt="Kyoto"></img>
+                            <img loading="eager" src={item.src} alt="Kyoto"></img>
                         </div>
                         <div className="photo__name">{item.name}</div>
                     </div>
@@ -151,7 +151,7 @@ function Gallery() {
                         row4.map((item, index)=>
                         <div className="photo" key={item.id}>
                             <div className="photo__image">
-                                <img loading="lazy" src={item.src} alt="Italy"></img>
+                                <img loading="eager" src={item.src} alt="Italy"></img>
                             </div>
                             <div className="photo__name">{item.name}</div>
                         </div>

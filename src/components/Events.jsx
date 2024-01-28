@@ -19,7 +19,7 @@ function Events({ changePageinApp }) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('/Synapse-2024/Categories.json');
+                const response = await fetch('/Synapse2024/Categories.json');
                 const jsonData = await response.json();
                 setData(jsonData);
             } catch (error) {
