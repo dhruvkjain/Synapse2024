@@ -202,19 +202,19 @@ a {
     }
 
     .navptags {
-        -webkit-transition: all ease-in 0.314s;
-        -o-transition: all ease-in 0.314s;
-        transition: all ease-in 0.314s;
-        transform: translateX(-200%);
+        -webkit-transition: all linear 0.314s;
+        -o-transition: all linear 0.314s;
+        transition: all linear 0.314s;
+        transform: translateX(-300%);
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     
     .navptags:hover {
         transform: translateX(0%);
-        -webkit-transition: all ease-in 0.614s;
-        -o-transition: all ease-in 0.614s;
-        transition: all ease-in 0.614s;
+        -webkit-transition: all linear 0.614s;
+        -o-transition: all linear 0.614s;
+        transition: all linear 0.614s;
         color: orange;
     }
 
