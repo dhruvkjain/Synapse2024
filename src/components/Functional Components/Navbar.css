@@ -17,6 +17,8 @@
 }
 
 a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: white;
     -webkit-transition: all ease-in 0.5s;
@@ -68,19 +70,21 @@ a:hover {
 }
 
 .navptags>span {
+    display: flex;
+    align-items: center;
     cursor: pointer;
-    -webkit-transition: all ease-in 0.5s;
-    -o-transition: all ease-in 0.5s;
-    transition: all ease-in 0.5s;
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none;     /* IE 10 and IE 11 */
     user-select: none;         /* Standard syntax */
 }
 
 .navptags {
-    -webkit-transition: all ease-in 0.5s;
-    -o-transition: all ease-in 0.5s;
-    transition: all ease-in 0.5s;
+    -webkit-transition: all ease-in 0.3s;
+    -o-transition: all ease-in 0.3s;
+    transition: all ease-in 0.3s;
+    transform: translateX(-100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .navptags:hover {
@@ -89,6 +93,67 @@ a:hover {
     -o-transition: all ease-in 0.5s;
     transition: all ease-in 0.5s;
     color: orange;
+}
+
+.navp1{
+    animation: comeback 1s ease-in-out 0.02s 1 normal forwards;
+}
+.navp2{
+    animation: comeback 1s ease-in-out 0.06s 1 normal forwards;
+}
+.navp3{
+    animation: comeback 1s ease-in-out 0.10s 1 normal forwards;
+}
+.navp4{
+    animation: comeback 1s ease-in-out 0.14s 1 normal forwards;
+}
+.navp5{
+    animation: comeback 1s ease-in-out 0.18s 1 normal forwards;
+}
+.navp6{
+    animation: comeback 1s ease-in-out 0.22s 1 normal forwards;
+}
+
+@keyframes comeback {
+    0%{transform: translateX(-100%);}
+    100%{transform: translateX(0%);}
+}
+
+.arrowsvg1{
+    width: 100px; 
+    height: 100px; 
+}
+
+.arrowsvgcontainer{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-left: 5vw;
+}
+
+.navptags:hover .arrowsvg1{
+    animation: arrowanimation 0.628s linear 0s 1 normal forwards;
+}
+
+.navptags:hover .arrowsvgcolor{
+    -webkit-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+    transition: all ease-in 0.5s;
+    fill: orange;
+}
+
+.arrowsvgcolor{
+    -webkit-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+    transition: all ease-in 0.5s;
+    fill: white;
+}
+
+@keyframes arrowanimation {
+    0%{transform: translateX(0%);}
+    50%{transform: translateX(100%);}
+    50.1%{transform: translateX(-100%);}
+    100%{transform: translateX(0%);}
 }
 
 .navgrid {
@@ -127,6 +192,10 @@ a:hover {
 
     .menuimg {
         width: 20px;
+    }
+    
+    .arrowsvgcontainer{
+        display: none;
     }
 
 }

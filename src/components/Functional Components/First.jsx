@@ -41,7 +41,7 @@ class First extends React.Component {
                             <div className='synapse'>
                                 <div className='cont1'>
                                     <div className='homepageimgs'>
-                                        <div>
+                                        <div className="animationonopacity">
                                             <p className="DAka satoshi prevent_txt_selection">#DA Ka Tyohaar!</p>
                                             <img className='synapseimg' src={synapse}></img>
                                             <p className="phonk vibrantvortex prevent_txt_selection">VIBRANT VORTEX</p>
