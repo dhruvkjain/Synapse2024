@@ -26,8 +26,8 @@ function Navbar({ changePageinApp }) {
                     </div>
                 </div>
                 <div className='navgrid2 phonk'>
-                    <p className='navptags navp1'>
-                        <span onClick={() => changePageinApp('events')} >Event</span>
+                    <p className='navptags navp1' onClick={() => changePageinApp('events')} >
+                        <span>Event</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 475 292"
@@ -52,8 +52,8 @@ function Navbar({ changePageinApp }) {
                         </svg>
                         </div>
                     </p>
-                    <p className='navptags navp2'>
-                        <span onClick={() => changePageinApp('pronight')} >ProNight</span>
+                    <p className='navptags navp2' onClick={() => changePageinApp('pronight')} >
+                        <span>ProNight</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 475 292"
@@ -78,8 +78,8 @@ function Navbar({ changePageinApp }) {
                         </svg>
                         </div>
                     </p>
-                    <p className='navptags navp3'>
-                        <span onClick={() => changePageinApp('team')} >Team</span>
+                    <p className='navptags navp3' onClick={() => changePageinApp('team')} >
+                        <span>Team</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 475 292"
@@ -104,8 +104,8 @@ function Navbar({ changePageinApp }) {
                         </svg>
                         </div>
                     </p>
-                    <p className='navptags navp4'>
-                        <span onClick={() => changePageinApp('hackout')} >HackOut</span>
+                    <p className='navptags navp4' onClick={() => changePageinApp('hackout')} >
+                        <span>HackOut</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 475 292"
@@ -130,8 +130,8 @@ function Navbar({ changePageinApp }) {
                         </svg>
                         </div>
                     </p>
-                    <p className='navptags navp5'>
-                        <a href="http://synapse.daiict.ac.in/youth.html" >YouthRun</a>
+                    <a className='navptags navp5'  href="http://synapse.daiict.ac.in/youth.html" >
+                        <span>YouthRun</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 475 292"
@@ -155,9 +155,9 @@ function Navbar({ changePageinApp }) {
                             </g>
                         </svg>
                         </div>
-                    </p>
-                    <p className='navptags navp6'>
-                        <span onClick={() => changePageinApp('sponsors')} >Sponsors</span>
+                    </a>
+                    <p className='navptags navp6' onClick={() => changePageinApp('sponsors')} >
+                        <span>Sponsors</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 475 292"
