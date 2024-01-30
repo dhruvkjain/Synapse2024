@@ -7,7 +7,7 @@
                 "id":1,
                 "name":"Vedant Shah",
                 "post":"Conveyor",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Conveyor%20deputy%20con/Vedant_Shah-_Conveyor_ewcjj4.jpg?_s=public-apps",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Conveyor deputy con/Vedant_Shah-_Conveyor_ewcjj4.jpg",
                 "linkedin":"",
                 "instagram":""
             },
@@ -15,7 +15,7 @@
                 "id":2,
                 "name":"Manan Pareek",
                 "post":"Deputy Conveyor",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117680/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Conveyor%20deputy%20con/Manan_Pareek_frlhey.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Conveyor deputy con/Manan_Pareek_frlhey.jpg",
                 "linkedin":"",
                 "instagram":""
             }
@@ -29,7 +29,7 @@
                 "id":1,
                 "name":"Vivek Chaudhari",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117679/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Vivek_Chaudhari_yhq20i.heic",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Vivek_Chaudhari_yhq20i.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -37,7 +37,7 @@
                 "id":2,
                 "name":"Yasho",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117678/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Yasho_xtk8ov.png",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Yasho_xtk8ov.png",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -45,7 +45,7 @@
                 "id":3,
                 "name":"Kirtan Mevada",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117678/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Kirtan_Mevada_uv9dqm.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Kirtan_Mevada_uv9dqm.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -53,7 +53,7 @@
                 "id":4,
                 "name":"Raj Patel",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117675/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Raj_Patel_wyx778.heic",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Raj_Patel_wyx778.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -61,7 +61,7 @@
                 "id":5,
                 "name":"Yash Tiwari",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117674/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Yash_Tiwari_pdwvyx.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Yash_Tiwari_pdwvyx.jpg",
                 "linkedin":"",
                 "instagram":"https://www.instagram.com/yashtiwari48/"
             }, 
@@ -69,7 +69,7 @@
                 "id":6,
                 "name":"Devamm Patel",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117661/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Devamm_Patel_zxir8z.heic",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Devamm_Patel_zxir8z.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -77,7 +77,7 @@
                 "id":7,
                 "name":"Rishabh Jain",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117660/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Rishabh_Jain_hndita.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Rishabh_Jain_hndita.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -85,7 +85,7 @@
                 "id":8,
                 "name":"Siddhant gupta",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117659/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Siddhant_gupta_k9cubj.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Siddhant_gupta_k9cubj.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -93,7 +93,7 @@
                 "id":9,
                 "name":"Meet Desai",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117659/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/MIT_zefafj.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/MIT_zefafj.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -101,7 +101,7 @@
                 "id":10,
                 "name":"Kushal Desai",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117658/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/kushal_Desai_ex6lzj.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/kushal_Desai_ex6lzj.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -109,7 +109,7 @@
                 "id":11,
                 "name":"Drashti Makani",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117657/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Drashti_Makani_xhc92v.heic",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Drashti_Makani_xhc92v.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -117,7 +117,7 @@
                 "id":12,
                 "name":"Harshali Dharmik",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117657/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Harshali_Dharmik_abpfb6.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Harshali_Dharmik_abpfb6.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -125,7 +125,7 @@
                 "id":13,
                 "name":"Kavya Kumar",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117656/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Kavya_Kumar_hqotrq.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Kavya_Kumar_hqotrq.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -133,7 +133,7 @@
                 "id":14,
                 "name":"Kanishk Pareek",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117656/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Kanishk_Pareek_uf0zd7.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Kanishk_Pareek_uf0zd7.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -141,7 +141,7 @@
                 "id":15,
                 "name":"Gunjan Saroliya",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117655/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Gunjan_Saroliya_vkxcws.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Gunjan_Saroliya_vkxcws.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -149,7 +149,7 @@
                 "id":16,
                 "name":"Jayant Sharma",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117653/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Jayant_Sharma_hckfvt.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Jayant_Sharma_hckfvt.jpg",
                 "linkedin":"",
                 "instagram":""
             }, 
@@ -157,7 +157,7 @@
                 "id":17,
                 "name":"Bhavya Shah",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Team/Bhavya_Shah_lc6tip.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Team/Bhavya_Shah_lc6tip.jpg",
                 "linkedin":"",
                 "instagram":""
             }
@@ -171,7 +171,7 @@
                 "id":1,
                 "name":"Prarthee Desai",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117644/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Prarthee_Desai_xmgsye.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Mentors/Prarthee_Desai_xmgsye.jpg",
                 "linkedin":"",
                 "instagram":""
             },
@@ -179,7 +179,23 @@
                 "id":2,
                 "name":"Devansh Patel",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117647/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/Mentors/Devansh_Patel_txuidx.heic",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Mentors/Devansh_Patel_txuidx.jpg",
+                "linkedin":"",
+                "instagram":""
+            },
+            {
+                "id":3,
+                "name":"Harshita Tripathi",
+                "post":"",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Mentors/Harshita_Tripathi_xcgubm.jpg",
+                "linkedin":"",
+                "instagram":""
+            },
+            {
+                "id":2,
+                "name":"Janvi Garg",
+                "post":"",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/Mentors/Janvi_Garg_jjgugv.jpg",
                 "linkedin":"",
                 "instagram":""
             }
@@ -263,7 +279,7 @@
                 "id":1,
                 "name":"Akshat Prasad",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117650/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/gd%20team/akshat_prasad_ogdfsx.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/gdteam/akshat_prasad_ogdfsx.jpg",
                 "linkedin":"",
                 "instagram":""
             },
@@ -271,7 +287,7 @@
                 "id":2,
                 "name":"Sahil",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117648/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/gd%20team/WhatsApp_Image_2023-11-20_at_17.05.37_814158e7_ghagqj.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/gdteam/WhatsApp_Image_2023-11-20_at_17.05.37_814158e7_ghagqj.jpg",
                 "linkedin":"",
                 "instagram":""
             }
@@ -285,7 +301,7 @@
                 "id":1,
                 "name":"Harmit",
                 "post":"",
-                "imgurl":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1706117665/synapse/photos%20sort%20drive/team%20page/Pictures%20for%20website/video%20editor/WhatsApp_Image_2024-01-20_at_16.36.17_10de3414_ikde8j.jpg",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/video editor/WhatsApp_Image_2024-01-20_at_16.36.17_10de3414_ikde8j.jpg",
                 "linkedin":"",
                 "instagram":""
             }
