@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 
-import Amit from "../../assets/Amit.jpg";
 import './Slider.css'
 
 const Slider = () => {

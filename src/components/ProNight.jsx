@@ -3,10 +3,8 @@ import React from "react";
 import scrolldown from "../assets/scrolldown.png";
 
 import ScrollToBottom from "./Functional Components/scrollToBottom";
-import Gallery from "./Functional Components/Gallery";
 import Footer from "./Functional Components/Footer";
 import Navbar from "./Functional Components/Navbar";
-import Amit from "../assets/Amit.jpg";
 import "./ProNight.css";
 import Slider from "./Functional Components/Slider";
 

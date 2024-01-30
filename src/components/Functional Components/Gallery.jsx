@@ -7,22 +7,22 @@ function Gallery() {
     const row1 = [
         {
             id:1,
-            src:'src/assets/synapse/assem sharma/ATM_0452_qh5qqp.jpg',
+            src:'./assets/synapse/assem sharma/ATM_0452_qh5qqp.jpg',
             name:'Aseem Sharma'
         },
         {
             id:2,
-            src:'src/assets/synapse/Battle of Bands/IMG_0163_eiivgh.jpg',
+            src:'./assets/synapse/Battle of Bands/IMG_0163_eiivgh.jpg',
             name:'Battle of Bands'
         },
         {
             id:3,
-            src:'src/assets/synapse/dj_war/PXL_20230316_202349387_t7uwxt.jpg',
+            src:'./assets/synapse/dj_war/PXL_20230316_202349387_t7uwxt.jpg',
             name:'DJ War'
         },
         {
             id:4,
-            src:'src/assets/synapse/innaugral/IMG_6951_umbjgp.jpg',
+            src:'./assets/synapse/innaugral/IMG_6951_umbjgp.jpg',
             name:'Inaugural'
         }
     ]
@@ -30,22 +30,22 @@ function Gallery() {
     const row2 = [
         {
             id:1,
-            src:'src/assets/synapse/jonitagandhi/DSC03415_fpxnxq.jpg',
+            src:'./assets/synapse/jonitagandhi/DSC03415_fpxnxq.jpg',
             name:'Jonita Gandhi'
         },
         {
             id:2,
-            src:'src/assets/synapse/mimeoutloud/Screenshot_2024-01-28_225217_jk0bry.png',
+            src:'./assets/synapse/mimeoutloud/Screenshot_2024-01-28_225217_jk0bry.png',
             name:'Mime Out Loud'
         },
         {
             id:3,
-            src:'src/assets/synapse/ktm/IMG_9296_i695nv.jpg',
+            src:'./assets/synapse/ktm/IMG_9296_i695nv.jpg',
             name:'KTM'
         },
         {
             id:4,
-            src:'src/assets/synapse/naach/Screenshot_2024-01-28_225349_puzwn2.png',
+            src:'./assets/synapse/naach/Screenshot_2024-01-28_225349_puzwn2.png',
             name:'Naach'
         }
     ]
@@ -53,22 +53,22 @@ function Gallery() {
     const row3 = [
         {
             id: 1,
-            src: 'src/assets/synapse/openmic/ATM_0353_ymzwo5.jpg',
+            src: './assets/synapse/openmic/ATM_0353_ymzwo5.jpg',
             name: 'Open Mic'
         },
         {
             id: 2,
-            src: 'src/assets/synapse/rampage/Screenshot_2024-01-28_230206_rhdrfb.png',
+            src: './assets/synapse/rampage/Screenshot_2024-01-28_230206_rhdrfb.png',
             name: 'Rampage'
         },
         {
             id: 3,
-            src: 'src/assets/synapse/sachin-jigar/PSB07784_nofk2p.jpg',
+            src: './assets/synapse/sachin-jigar/PSB07784_nofk2p.jpg',
             name: 'Sachin Jigar'
         },
         {
             id: 4,
-            src: 'src/assets/synapse/SamayRaina/PXL_20230316_143155325_qxdvpu.jpg',
+            src: './assets/synapse/SamayRaina/PXL_20230316_143155325_qxdvpu.jpg',
             name: 'Samay Raina'
         }
     ];
@@ -76,22 +76,22 @@ function Gallery() {
     const row4 = [
         {
             id: 1,
-            src: 'src/assets/synapse/Vishal Mishra/ATM_0566_qeqzxh.jpg',
+            src: './assets/synapse/Vishal Mishra/ATM_0566_qeqzxh.jpg',
             name: 'Vishal Mishra'
         },
         {
             id: 2,
-            src: 'src/assets/synapse/vanmoon/DSC04951_bvz8jv.jpg',
+            src: './assets/synapse/vanmoon/DSC04951_bvz8jv.jpg',
             name: 'Vanmoon'
         },
         {
             id: 3,
-            src: 'src/assets/synapse/stageplay/ATM_0106_idmjyw.jpg',
+            src: './assets/synapse/stageplay/ATM_0106_idmjyw.jpg',
             name: 'Stage Play'
         },
         {
             id: 4,
-            src: 'src/assets/synapse/nukkadnitak/PD__9982_cfguzt.jpg',
+            src: './assets/synapse/nukkadnitak/PD__9982_cfguzt.jpg',
             name: 'Nukkad Natak'
         },
     ]
