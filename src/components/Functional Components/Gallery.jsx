@@ -35,7 +35,7 @@ function Gallery() {
         },
         {
             id:2,
-            src:'src/assets/synapse/mimeoutloud/ATM_0162_r0mbtu.jpg',
+            src:'src/assets/synapse/mimeoutloud/Screenshot_2024-01-28_225217_jk0bry.png',
             name:'Mime Out Loud'
         },
         {
@@ -45,7 +45,7 @@ function Gallery() {
         },
         {
             id:4,
-            src:'src/assets/synapse/naach/PXL_20230319_133848843_p2knfv.jpg',
+            src:'src/assets/synapse/naach/Screenshot_2024-01-28_225349_puzwn2.png',
             name:'Naach'
         }
     ]
@@ -58,12 +58,12 @@ function Gallery() {
         },
         {
             id: 2,
-            src: 'src/assets/synapse/rampage/PD__9452_anmn80.jpg',
+            src: 'src/assets/synapse/rampage/Screenshot_2024-01-28_230206_rhdrfb.png',
             name: 'Rampage'
         },
         {
             id: 3,
-            src: 'src/assets/synapse/sachin-jigar/20230318_235400_1_yefoqh.jpg',
+            src: 'src/assets/synapse/sachin-jigar/PSB07784_nofk2p.jpg',
             name: 'Sachin Jigar'
         },
         {
