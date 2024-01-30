@@ -231,11 +231,27 @@
             },
             {
                 "id":6,
+                "name":"Meet Desai",
+                "post":"",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/DevTeam/Meet.jpg",
+                "linkedin":"https://www.linkedin.com/in/meet-desai-235655208",
+                "instagram":"https://www.instagram.com/i_meetdesai?igsh=cGRoNmhtYW85czZ0"
+            },
+            {
+                "id":7,
                 "name":"Dhruv Jain",
                 "post":"",
                 "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/DevTeam/photo_lbalhl.jpg",
                 "linkedin":"https://www.linkedin.com/in/dhruv-jain-980a88294",
                 "instagram":"https://www.instagram.com/dhruvkjain"
+            },
+            {
+                "id":8,
+                "name":"Heet Thakkar",
+                "post":"",
+                "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/DevTeam/heet.jpg",
+                "linkedin":"https://www.linkedin.com/in/heet-thakkar-6b7b33264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram":"https://www.instagram.com/heet4747/"
             }
         ]
     },
