@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "teamtitle": "TEAM",
+        "teamtitle": "",
         "members": [
             {
                 "id":1,
@@ -234,8 +234,8 @@
                 "name":"Dhruv Jain",
                 "post":"",
                 "imgurl":"src/assets/synapse/team_page/PicturesForwebsite/DevTeam/photo_lbalhl.jpg",
-                "linkedin":"",
-                "instagram":""
+                "linkedin":"https://www.linkedin.com/in/dhruv-jain-980a88294",
+                "instagram":"https://www.instagram.com/dhruvkjain"
             }
         ]
     },
