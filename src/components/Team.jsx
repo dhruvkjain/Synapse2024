@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import scrolldown from "../assets/scrolldown.png";
 
-import ScrollToBottom from "./Functional Components/scrollToBottom";
+// import ScrollToBottom from "./Functional Components/scrollToBottom";
 import Footer from "./Functional Components/Footer";
 import Navbar from "./Functional Components/Navbar";
 
@@ -26,7 +26,7 @@ function Team({ changePageinApp }) {
             <div className=''>
                 <div className='bg-team'>
                     <Navbar changePageinApp={changePageinApp} />
-                    <ScrollToBottom />
+                    {/* <ScrollToBottom /> */}
                     <div className='synapse2'>
                         <div className='cont1'>
                             <div className='homepageimgs'>
