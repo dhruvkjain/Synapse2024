@@ -14,7 +14,7 @@ function Footer() {
                             <img className='logo2' src={logo}></img>
                             <p className='reachusoutat phonk'>Reach Us Out At</p>
                             <p className='satoshi footer-font-size'>Vivek Chaudhari: +91 6354 042 414</p>
-                            <p className='satoshi footer-font-size'>Harshali Darmik: +91 7600 051 765</p>
+                            <p className='satoshi footer-font-size'>Harshali Dharmik: +91 7600 051 765</p>
                             <p className='satoshi footer-font-size'>Kushal Desai: +91 9727 055 132</p>
                             <p className='satoshi footer-font-size'>synapse.thefest@gmail.com</p>
                             <p className='satoshi footer-font-size'>synapse@daiict.ac.in</p>

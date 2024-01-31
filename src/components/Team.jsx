@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import scrolldown from "../assets/scrolldown.png";
 
 import ScrollToBottom from "./Functional Components/scrollToBottom";
-import Gallery from "./Functional Components/Gallery";
 import Footer from "./Functional Components/Footer";
 import Navbar from "./Functional Components/Navbar";
 
