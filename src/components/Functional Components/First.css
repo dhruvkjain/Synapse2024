@@ -274,6 +274,7 @@
 @media only screen and (max-width:500px) {
     .bg-1 {
         background-position: center;
+        background-size:auto;
     }
 
     .aboutusheading {
