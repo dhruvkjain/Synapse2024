@@ -292,6 +292,14 @@
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/gdteam/WhatsApp_Image_2023-11-20_at_17.05.37_814158e7_ghagqj.jpg",
                 "linkedin": "",
                 "instagram": ""
+            },
+            {
+                "id": 3,
+                "name": "Tushar",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/gdteam/tushar.jpg",
+                "linkedin": "",
+                "instagram": ""
             }
         ]
     },
@@ -304,6 +312,14 @@
                 "name": "Harmit",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/video-editor/WhatsApp_Image_2024-01-20_at_16.36.17_10de3414_ikde8j.jpg",
+                "linkedin": "",
+                "instagram": ""
+            },
+            {
+                "id": 2,
+                "name": "Izhan Sheth",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/video-editor/izhan.jpg",
                 "linkedin": "",
                 "instagram": ""
             }
