@@ -35,7 +35,7 @@ const Slider = () => {
             <button className='rbtn'><img src={leftarrow}></img></button>
             <button className='lbtn'><img src={rightarrow}></img></button>
           </div> */}
-        <section className="pronightpageslide" style={{ backgroundImage: 'url(./src/assets/synapse/pronight/amit.png)' }}>
+        <section className="pronightpageslide" style={{ backgroundImage: 'url(./assets/synapse/pronight/amit.png)' }}>
           <div className='pronighttxtgrid'>
             <div className='pronighttxtgrid1'>
               <div>
@@ -50,7 +50,7 @@ const Slider = () => {
           </div>
         </section>
         {/* <h1 className='slideCaption2'><span className='phonk artisttext'>Amit Trivedi</span></h1> */}
-        <section className='pronightpageslide' style={{ backgroundImage: 'url(./src/assets/synapse/pronight/salim.png)' }}>
+        <section className='pronightpageslide' style={{ backgroundImage: 'url(./assets/synapse/pronight/salim.png)' }}>
           <div className='pronighttxtgrid'>
           <div>
               <p className='satoshi pronightartistname txt_align_left'>
