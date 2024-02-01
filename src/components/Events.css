@@ -43,7 +43,6 @@
 }
 
 .event-page {
-	/* position: absolute; */
 	width: 100vw;
 	height: fit-content;
 	overflow-x: hidden;
@@ -116,7 +115,7 @@
 	padding: 24px 0px;
 	width: 100vw;
 	position: absolute;
-	height: 100vh;
+	height: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -288,6 +287,11 @@
 @media only screen and (max-width:500px) {
 	.bg-event {
 		background-position: center;
+		background-size: auto;
+	}
+
+	.eventpageevent{
+		background-size: auto;
 	}
 
 	.exploreevents {

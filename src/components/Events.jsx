@@ -100,8 +100,10 @@ function Events({ changePageinApp }) {
                                 }
                             </div> :
                             <div className="sub-events-container">
-                                <div className="back-btn">
-                                    <i className="fa fa-arrow-left" aria-hidden="true" onClick={handleBack} ></i>
+                                <div className="back_btn_cover">
+                                    <div className="back-btn">
+                                        <i className="fa fa-arrow-left" aria-hidden="true" onClick={handleBack} ></i>
+                                    </div>
                                 </div>
                                 <div className="sub-events">
                                     <div className="event-title phonk">{current.name}</div>
