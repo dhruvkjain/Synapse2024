@@ -118,6 +118,8 @@ function Events({ changePageinApp }) {
                                                         event={d.name}
                                                         description={d.description}
                                                         backgroundUrl={d.url}
+                                                        rulebookLink={d.rulebookLink}
+                                                        registerLink={d.registerLink}
                                                     />) :
                                                 <div>
                                                     No Events Found
