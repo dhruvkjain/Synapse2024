@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import React from "react";
 import logo from "../../assets/logo.png";
 import menu from "../../assets/menu.png";
@@ -5,6 +6,14 @@ import "./Navbar.css";
 
 function Navbar({ changePageinApp }) {
 
+    useEffect(()=>{
+        const logo = document.getElementsByClassName("logo")[0];
+        window.addEventListener('scroll', ()=>{
+          const scrolled = window.pageYOffset;
+          // console.log(scrolled);
+          logo.style.transform = `rotate(${0.2*scrolled}deg)`;
+      })
+      } , []) 
     function opennavbar() {
         const contlogo = document.getElementsByClassName('contlogo')[0];
         contlogo.classList.toggle('shownavbar');

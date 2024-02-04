@@ -67,7 +67,7 @@ class First extends React.Component {
                             <div className='themeflexout'>
                                 <div className='themegrid'>
                                     <div className='themeflex'>
-                                        <img className='themeimg custom-box-shadow' src={theme}></img>
+                                        <img data-aos="fade-right" className='themeimg custom-box-shadow' src={theme}></img>
                                     </div>
                                     <div className='themetxt stickytxt'>
                                         <div>
@@ -82,7 +82,7 @@ class First extends React.Component {
                                 </div>
                             </div>
                             <div className='homepageevent'>
-                                <p className="phonk">
+                                <p data-aos="fade-up" data-aos-delay="300" className="phonk">
                                     Embrace The
                                     Energy Pulse
                                     where joy knows
@@ -100,7 +100,7 @@ class First extends React.Component {
                             <div className="aboutus aboutus1">
                                 <div className='cont3'>
                                     <p className='aboutusheading phonk'>About Us</p>
-                                    <p className='cont2 phonk'>
+                                    <p data-aos="fade-up" data-aos-delay="300" className='cont2 phonk'>
                                         Synapse<span className="satoshi">,</span> DAIICT<span className="satoshi">’</span>s annual college fest<span className="satoshi">,</span> unites global artists and creative
                                         minds to showcase unique collages<span className="satoshi">,</span> share creative processes<span className="satoshi">,</span> and transforms
                                         into a vibrant night of live music<span className="satoshi">,</span> DJ performances<span className="satoshi">,</span> and dance parties<span className="satoshi">,</span> fostering

@@ -28,19 +28,19 @@ a {
 
 .logo {
     padding: 1.5rem;
-    -webkit-transition: all linear 0.314159265358979s;
+    /* -webkit-transition: all linear 0.314159265358979s;
     -o-transition: all linear 0.314159265358979s;
-    transition: all linear 0.314159265358979s;
+    transition: all linear 0.314159265358979s; */
 }
 
-.logo:hover {
+/* .logo:hover {
     -webkit-transform: rotate(240deg);
     -ms-transform: rotate(240deg);
     transform: rotate(240deg);
     -webkit-transition: all linear 1s;
     -o-transition: all linear 1s;
     transition: all linear 1s;
-}
+} */
 
 .menuimg {
     width: 2.5vw;

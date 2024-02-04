@@ -45,7 +45,7 @@ const Slider = () => {
               </div>
             </div>
             <div>
-              <p className='satoshi pronightartistname'>Amit Trivedi</p>
+              <p data-aos="fade-up" data-aos-delay="600" className='satoshi pronightartistname'>Amit Trivedi</p>
             </div>
           </div>
         </section>
@@ -53,7 +53,7 @@ const Slider = () => {
         <section className='pronightpageslide' style={{ backgroundImage: 'url(./assets/synapse/pronight/salim.png)' }}>
           <div className='pronighttxtgrid'>
           <div>
-              <p className='satoshi pronightartistname txt_align_left'>
+              <p data-aos="fade-up" data-aos-delay="600" className='satoshi pronightartistname txt_align_left'>
                 Salim Sulaiman
               </p>
             </div>
@@ -68,7 +68,7 @@ const Slider = () => {
         </section>
         {/* <h1 className='slideCaption'><span className='phonk artisttext'>Salim Sulaiman</span></h1> */}
         <section className='pronightpageslide' style={{ backgroundImage: 'url(https://img.playbook.com/VdJ1QgA518xfJWtqQLJlB_-LApRtie4jzKvSJtRUwXg/Z3M6Ly9wbGF5Ym9v/ay1hc3NldHMtcHVi/bGljLzlhMDU2OGQx/LTczNjItNDNkYi04/MDIyLTdjY2NjNWYy/YTY5OQ)' }}>
-          <div className='phonk comingsoon'>Coming soon</div>
+          <div data-aos="fade-up" data-aos-delay="600" className='phonk comingsoon'>Coming soon</div>
         </section>
         {/* <h1 className='slideCaption'><span className='phonk artisttext'>Coming soon <span className='satoshi'>.....</span></span></h1> */}
       </div>
