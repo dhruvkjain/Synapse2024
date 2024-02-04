@@ -41,7 +41,7 @@ const Slider = () => {
               <div>
                 <p className='satoshi pronighttxt1'>Cynosure</p>
                 <p className='satoshi pronighttxt2'>Featuring</p>
-                <p className='satoshi pronighttxt3'>The Multi Award Winner, Composer and Singer of Songs <span className='highlighttxt'>'Kaise Hua', 'Phela Pyar', 'Aaj Bhi', 'Teri Hogayiyan', 'Nai Lagda'</span> and Many More....Get ready to feel the beat, the rhythm, and the soul of the music. From the moment they step onto the stage, you'll be transported to another world, where every note, every chord, and every lyric will take you on a journey you'll never forget!</p>
+                <p className='satoshi pronighttxt3'>The Multi Award Winner, Composer and Singer of Songs <span className='highlighttxt'>'Iktara', 'Chokra Jawan', 'Naina da kasoor', 'Nayan Tarse'</span> and Many More....Get ready to feel the beat, the rhythm, and the soul of the music. From the moment they step onto the stage, you'll be transported to another world, where every note, every chord, and every lyric will take you on a journey you'll never forget!</p>
               </div>
             </div>
             <div>
@@ -61,7 +61,7 @@ const Slider = () => {
               <div>
                 <p className='satoshi pronighttxt1'>Soulstice</p>
                 <p className='satoshi pronighttxt2'>Featuring</p>
-                <p className='satoshi pronighttxt3'>The Multi Award Winner, Composer and Singer of Songs <span className='highlighttxt'>'Kaise Hua', 'Phela Pyar', 'Aaj Bhi', 'Teri Hogayiyan', 'Nai Lagda'</span> and Many More....Get ready to feel the beat, the rhythm, and the soul of the music. From the moment they step onto the stage, you'll be transported to another world, where every note, every chord, and every lyric will take you on a journey you'll never forget!</p>
+                <p className='satoshi pronighttxt3'>The Multi Award Winner, Composer and Singer of Songs <span className='highlighttxt'>'Kurban Hua', 'Shukran Allah', 'Kurban Hua', 'Chak de India', 'Ainwayi Ainwayi'</span> and Many More....Get ready to feel the beat, the rhythm, and the soul of the music. From the moment they step onto the stage, you'll be transported to another world, where every note, every chord, and every lyric will take you on a journey you'll never forget!</p>
               </div>
             </div>
           </div>

@@ -3,91 +3,106 @@
     "id": 1,
     "name": "Dance",
     "url": "https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description":"Explore the rhythm of life through dance. Join us for electrifying performances, workshops, and events that will make your heart beat to the music of motion.",
-    "events":[
+    "description": "Explore the rhythm of life through dance. Join us for electrifying performances, workshops, and events that will make your heart beat to the music of motion.",
+    "events": [
       {
-          "id":1,
-          "name":"Footloose",
-          "description":"Feel the heat with our Salsa Night! An evening filled with passionate moves, lively music, and the joy of dancing.",
-          "url":"https://c1.wallpaperflare.com/preview/126/548/39/dancing-dance-ballroom-elegance.jpg"
+        "id": 1,
+        "name": "Footloose",
+        "description": "Feel the heat with our Salsa Night! An evening filled with passionate moves, lively music, and the joy of dancing.",
+        "url": "src/assets/synapse/events/footloose_2.png",
+        "rulebookLink": "https://drive.google.com/file/d/1tPmX6O2Ghozy1cvq-PHPDgMn8CiYUdEo/view?usp=sharing",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfpz1GdUo5AP2bLF1iRhnz_IxambIx4dncL8pzqCtjARmJi3w/viewform"
       },
       {
-          "id":2,
-          "name":"Naach",
-          "description":"Witness the grace and beauty of ballet in our exclusive showcase. A mesmerizing blend of artistry and athleticism.",
-          "url":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772157/synapse/photos%20sort%20drive/naach/PXL_20230319_133848843_p2knfv.jpg"
+        "id": 2,
+        "name": "Naach",
+        "description": "Witness the grace and beauty of ballet in our exclusive showcase. A mesmerizing blend of artistry and athleticism.",
+        "url": "src/assets/synapse/events/NAACH.png",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSc8ss240z4pHCVEhzo6IGbGMljXBgrFBPqXJm5v5X7FAzr0hw/viewform"
       },
       {
-          "id":3,
-          "name":"Showdown",
-          "description":"Get ready to groove at our Hip-Hop Jam! A celebration of urban dance culture with beats that will make you move.",
-          "url":"https://c1.wallpaperflare.com/preview/126/548/39/dancing-dance-ballroom-elegance.jpg"
+        "id": 3,
+        "name": "Showdown",
+        "description": "Get ready to groove at our Hip-Hop Jam! A celebration of urban dance culture with beats that will make you move.",
+        "url": "https://c1.wallpaperflare.com/preview/126/548/39/dancing-dance-ballroom-elegance.jpg",
+        "rulebookLink": "https://drive.google.com/file/d/10MnY1IE0r-BG5VWksyn6bEqH2VQr6pUZ/view",
+        "registerLink": "https://forms.gle/RK2dLBsV9mywvPW17"
       }
     ]
+    
   },
   {
     "id": 2,
     "name": "Music",
     "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description":"Immerse yourself in the world of music. From soulful melodies to heart-pounding beats, our events cater to every music enthusiast.",
-    "events":[
+    "description": "Immerse yourself in the world of music. From soulful melodies to heart-pounding beats, our events cater to every music enthusiast.",
+    "events": [
       {
-          "id":1,
-          "name":"Raaga & Rhapsody",
-          "description":"Experience the magic of jazz at our Jazz Festival. A night filled with smooth tunes, improvisation, and soulful performances.",
-          "url":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774833/synapse/photos%20sort%20drive/raaga/ATM_0036_ioc72v.jpg"
+        "id": 1,
+        "name": "Raaga & Rhapsody",
+        "description": "Experience the magic of jazz at our Jazz Festival. A night filled with smooth tunes, improvisation, and soulful performances.",
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774833/synapse/photos%20sort%20drive/raaga/ATM_0036_ioc72v.jpg",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdJ1RwJPD07941IkTBBUm4SdmoxdyZRGZ5Q3PJYuZ1Ii-lNsw/viewform"
       },
       {
-          "id":2,
-          "name":"Battle Of Bands",
-          "description":"Let the adrenaline rush with our Rock Concert! An electrifying showcase of powerful vocals and rocking guitar solos.",
-          "url":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772151/synapse/photos%20sort%20drive/Battle%20of%20Bands/IMG_7496_nb3wyz.jpg"
+        "id": 2,
+        "name": "Battle Of Bands",
+        "description": "Let the adrenaline rush with our Rock Concert! An electrifying showcase of powerful vocals and rocking guitar solos.",
+        "url": "src/assets/synapse/events/battle_of_bands_2.png",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeco4UlC55H7cF9dMTKrExzoRZiULVnRCh4LRQX-_C8af3byA/viewform"
       },
       {
-          "id":3,
-          "name":"Rap Showdown",
-          "description":"Indulge in the elegance of classical music at our Classical Soiree. An evening of symphonies and timeless compositions.",
-          "url":"https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
-      },
-      {
-          "id":4,
-          "name":"DJ Wars",
-          "description":"Dance the night away at our EDM Night! An immersive experience with pulsating beats and vibrant light shows.",
-          "url":"https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772151/synapse/photos%20sort%20drive/dj%20war/PXL_20230316_202349387_t7uwxt.jpg"
+        "id": 3,
+        "name": "Rap Showdown",
+        "description": "Indulge in the elegance of classical music at our Classical Soiree. An evening of symphonies and timeless compositions.",
+        "url": "src/assets/synapse/events/raganrapsodi.png",
+        "rulebookLink": "",
+        "registerLink": "https://forms.gle/vR8zd2kxKSex4gth9"
       }
-    ]
+    ]    
   },
   {
     "id": 3,
     "name": "Theatre",
     "url": "https://images.unsplash.com/photo-1550026593-cb89847b168d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "description":"Step into the world of drama and storytelling. Our theatrical events promise captivating performances that will leave you spellbound.",
-    "events":[
+    "description": "Step into the world of drama and storytelling. Our theatrical events promise captivating performances that will leave you spellbound.",
+    "events": [
       {
         "id": 1,
         "name": "Stage Play",
         "description": "Immerse yourself in the world of stage plays. A theatrical experience that brings stories to life on a captivating stage.",
-        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774160/synapse/photos%20sort%20drive/stage%20play/ATM_0106_idmjyw.jpg"
+        "url": "src/assets/synapse/events/stage_play.png",
+        "rulebookLink": "https://drive.google.com/file/d/1V5dF0du0PIq-qf8XRytsoTFbUzw7PVnh/view",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSd31UwRfBvTvIuCOe_tmwAXshCKp9mqN1cIRDKkm_VvItNUAA/viewform"
       },
       {
         "id": 2,
         "name": "Nukkad Natak",
         "description": "Experience the raw energy of street theatre with Nukkad Natak. Stories unfold in the midst of the audience, creating a vibrant and interactive atmosphere.",
-        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774559/synapse/photos%20sort%20drive/nukkad%20nitak/PD__9870_iiwrdo.jpg"
+        "url": "src/assets/synapse/events/nukad_natak.png",
+        "rulebookLink": "https://drive.google.com/file/d/105p6Y2pYeMs9RNNeH_U5vfrDiTZvbDNi/view",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeQTPAaK01iKxzPfeGee4bfoCNCS6wfMaPYc6QwMcrwKiBBZw/viewform"
       },
       {
         "id": 3,
         "name": "Mime out loud",
         "description": "Step into the silent world of expressive mime. A unique form of theatrical art that communicates without words, yet speaks volumes.",
-        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774160/synapse/photos%20sort%20drive/mime%20out%20loud/your-mime-out-loud-image.jpg"
+        "url": "src/assets/synapse/events/mimeoutloud.png",
+        "rulebookLink": "https://drive.google.com/file/d/1qrnOD2yuMkGuQO417vEVIms2FqQ92gp0/view",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLScJM74sW9ihS8lt2el0nm0h-_2L5wCSNbnLTnzESqjxnTQnhQ/viewform"
       },
       {
         "id": 4,
         "name": "MonoAct",
         "description": "Witness the power of a single performer in MonoAct. A solo act that weaves a compelling narrative and showcases the versatility of a lone artist.",
-        "url": "https://example.com/monoact-image.jpg"
+        "url": "src/assets/synapse/events/mono_acte_2.png",
+        "rulebookLink": "https://drive.google.com/file/d/1h5HSzzCeZw5LHcLdQDCNXBBxq8uSKP2I/view",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfP7GW3n9WI7OFQzNARIHP-gZZ7D2RS7nMLH9syGedxqbY5WQ/viewform"
       }
-    ]
+    ]    
   },
   {
     "id": 4,
@@ -99,7 +114,17 @@
         "id": 1,
         "name": "Rampage",
         "description": "Immerse yourself in the world of style at our Fashion Expo. Explore the latest trends, designs, and glamorous runway showcases.",
-        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772154/synapse/photos%20sort%20drive/rampage/PD__9478_n1liru.jpg"
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772154/synapse/photos%20sort%20drive/rampage/PD__9478_n1liru.jpg",
+        "rulebookLink": "https://drive.google.com/file/d/1uU-pyC02zmxkcA4vPz8hAcZlZBo-0rG4/view",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdjecECgII-l7KSjf66j1R5Wck5TIAKmGVl-WZIQV5tiVPNcA/viewform"
+      },
+      {
+        "id": 2,
+        "name": "CosCon",
+        "description": "",
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772154/synapse/photos%20sort%20drive/rampage/PD__9478_n1liru.jpg",
+        "rulebookLink": "hhttps://docs.google.com/document/d/1gzkvVC98sgtsEGWQR67f_n6xLVVidVwArllVQ3HHEVs/edit#heading=h.872luicxxia6",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeaWdK0XHyTfLLXF_04-NoRA0MlaI8qvOrrPcEelBcklkeuLA/viewform"
       }
     ]
   },
@@ -113,21 +138,44 @@
         "id": 1,
         "name": "Concieve",
         "description": "Hone your photography skills in our exclusive Masterclass. Learn from renowned photographers and capture the essence of visual storytelling.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "rulebookLink": "",
+        "registerLink": "https://forms.gle/oRqpJBULJV4Vg1RG6"
       },
       {
         "id": 2,
         "name": "Stroke Of Genius",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg"
+        "url": "https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg",
+        "rulebookLink": "",
+        "registerLink": "https://forms.gle/eTAaLAdFdYNvrot56"
       },
       {
         "id": 3,
-        "name": "Graffiti",
-        "description": "Explore the digital frontier of art at our Digital Art Symposium. Engage with digital artists and discover the intersection of technology and creativity.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+        "name": "Synapshot",
+        "description": "",
+        "url": "",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSewqj7fpuXEzdNE6ndTxtMh6XR3AFoORtBBJpZiYFpTTKFq5g/viewform"
+      },
+      {
+        "id": 4,
+        "name": "ClipFlicks",
+        "description": "",
+        "url": "",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfARttQIxCGu13crJsU0PkBqeXLfpL_8FjEMMvBgYroIe4z0g/viewform"
+      },
+      {
+        "id": 5,
+        "name": "Shailee",
+        "description": "",
+        "url": "",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLScBJV3eiAgJvDxe1_J7Tyimt5LkJBm9SIRwNmoBKwVmI5oI0A/viewform"
       }
     ]
+    
   },
   {
     "id": 6,
@@ -139,39 +187,52 @@
         "id": 1,
         "name": "Battledrome",
         "description": "Immerse yourself in the magic of music with our Virtual Concert. Experience live performances from talented artists in the comfort of your own space.",
-        "url": "https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg"
+        "url": "https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdcMzSJZtaAh_OXBYKQOg76bBe_xagXK8kWQa0aEM4lWY7DNg/viewform"
       },
       {
         "id": 2,
         "name": "Hunger Hikes",
         "description": "Expand your knowledge through our Webinar Series. Engage with experts and thought leaders on a variety of topics shaping the online landscape.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+        "url": "src/assets/synapse/events/hungar_hikes.png",
+        "rulebookLink": "https://docs.google.com/document/d/1a3FbH0H-el9TGberEhlxi3fGFQIASTPwDBei6PsQooo/edit",
+        "registerLink": "https://forms.gle/xdS59ge7ii6FzSBP9"
       },
       {
         "id": 3,
         "name": "Crimes & Clues",
         "description": "Explore groundbreaking digital art in our Digital Art Exhibition. Witness the convergence of technology and creativity in the digital realm.",
-        "url": "https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg"
+        "url": "https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeCqRqHXgVB-7Jz5lYFkemm_V_LcLPcT6_ijKL6UV-c2v72hA/viewform"
       },
       {
         "id": 4,
-        "name": "Memenation",
-        "description": "Join the excitement of our Online Gaming Tournament. Compete with players worldwide and prove your skills in the virtual gaming arena.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+        "name": "UpDating",
+        "description": "",
+        "url": "",
+        "rulebookLink": "",
+        "registerLink": ""
       },
       {
         "id": 5,
-        "name": "Reel-mein-feel",
-        "description": "Join the excitement of our Online Gaming Tournament. Compete with players worldwide and prove your skills in the virtual gaming arena.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+        "name": "DaRush",
+        "description": "",
+        "url": "",
+        "rulebookLink": "",
+        "registerLink": ""
       },
       {
         "id": 6,
         "name": "Open Mic",
         "description": "Join the excitement of our Online Gaming Tournament. Compete with players worldwide and prove your skills in the virtual gaming arena.",
-        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774703/synapse/photos%20sort%20drive/open%20mic/ATM_0353_ymzwo5.jpg"
+        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774703/synapse/photos%20sort%20drive/open%20mic/ATM_0353_ymzwo5.jpg",
+        "rulebookLink": "",
+        "registerLink": ""
       }
     ]
+    
   },
   {
     "id": 7,
@@ -183,19 +244,25 @@
         "id": 1,
         "name": "Code Mutants",
         "description": "Stay on the forefront of technology with our Tech Symposium. Explore the latest innovations, hear from industry experts, and glimpse into the future of consumer electronics.",
-        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
+        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/1aiRfK-PnsAXWaNLO2GLs8vMoyDXYJWKwsRKSLvLUv-s/edit"
       },
       {
         "id": 2,
         "name": "Tech Hunt",
         "description": "Capture the perfect shot with our Photography Workshop. Learn essential skills and techniques to elevate your photography game.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
+        "url": "src/assets/synapse/events/techhunt.png",
+        "rulebookLink": "",
+        "registerLink": "https://forms.gle/Moz98hRdkNnmxjgy8"
       },
       {
         "id": 3,
         "name": "Anweshan",
         "description": "Get hands-on with the latest gadgets at our Gadget Expo. Experience the future of consumer electronics with live demonstrations and interactive displays.",
-        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
+        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg",
+        "rulebookLink": "https://drive.google.com/file/d/16GLyL9CS4_SWCTzKvQfpN6wZSIOLA75_/view",
+        "registerLink": "https://forms.gle/dcAv6TpeCtiy2dfc6"
       }
     ]
   },
@@ -209,19 +276,17 @@
         "id": 1,
         "name": "Prom Night",
         "description": "Laugh out loud at our Comedy Night. Enjoy hilarious stand-up performances and comedic acts that will tickle your funny bone.",
-        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
+        "url": "src/assets/synapse/events/promnight.png",
+        "rulebookLink": "",
+        "registerLink": "https://forms.gle/Ukhxi77QP54iJkks8"
       },
       {
         "id": 2,
-        "name": "Shailee",
-        "description": "Challenge your strategic skills in our Board Game Marathon. Gather friends and family for a day of competitive and enjoyable board games.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI="
-      },
-      {
-        "id": 3,
         "name": "Quiz-A-Palooza",
-        "description": "Experience the magic of cinema under the stars at our Outdoor Movie Night. Bring your blankets and enjoy a cinematic journey in the open air.",
-        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
+        "description": "",
+        "url": "",
+        "rulebookLink": "",
+        "registerLink": "https://forms.gle/JnMuSq3ehxFQYXq69"
       }
     ]
   },
@@ -235,25 +300,25 @@
         "id": 1,
         "name": "Synocubix",
         "description": "Witness the marvels of robotics in our Robotics Showcase. Explore cutting-edge robotic technologies and their applications in various industries.",
-        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
+        "url": "src/assets/synapse/events/synocubix.png",
+        "rulebookLink": "",
+        "registerLink": "https://forms.gle/KhMNKdVv9HhftPhg6"
       },
       {
         "id": 2,
-        "name": "DA Tank",
-        "description": "Dive into the realm of artificial intelligence at our AI Symposium. Gain insights into the latest developments and future possibilities of AI technology.",
-        "url": "https://media.istockphoto.com/id/1413629018/vector/comedy-night-neon-billboard-shiny-street-advertising-microphone-icon-humorous-performance.jpg?s=612x612&w=0&k=20&c=OrwAhpkSGD3H5FIYGlAGiBZ-FsBhauV3tPIo6krn7ok="
+        "name": "Math-ify",
+        "description": "",
+        "url": "",
+        "rulebookLink": "",
+        "registerLink": "https://forms.gle/kRwugxXP9D9SXzAZ6"
       },
       {
         "id": 3,
-        "name": "Crazy Math",
-        "description": "Participate in our Tech Hackathon and showcase your coding skills. Collaborate with fellow enthusiasts to solve real-world challenges and create innovative solutions.",
-        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg"
-      },
-      {
-        "id": 4,
         "name": "Samwaad",
-        "description": "Immerse yourself in virtual reality at our VR Experience Zone. Explore the immersive worlds created by cutting-edge VR technology.",
-        "url": "https://media.istockphoto.com/id/1413629018/vector/comedy-night-neon-billboard-shiny-street-advertising-microphone-icon-humorous-performance.jpg?s=612x612&w=0&k=20&c=OrwAhpkSGD3H5FIYGlAGiBZ-FsBhauV3tPIo6krn7ok="
+        "description": "",
+        "url": "",
+        "rulebookLink": "",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdKUYnOyBGJ-mRCmSnRUm6cfLAXoYbzXu77UYzdmgF_uqujPQ/viewform"
       }
     ]
   }
