@@ -17,7 +17,6 @@
     -webkit-transition: all linear 0.314159265358979s;
     -o-transition: all linear 0.314159265358979s;
     transition: all linear 0.314159265358979s;
-    overflow: auto;
 }
 
 a {
@@ -73,7 +72,6 @@ a {
 .overflowgrid{
     z-index: 101;
     padding-bottom: 40px;
-    overflow: auto;
 }
 
 .navptags>span {
