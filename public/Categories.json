@@ -9,7 +9,7 @@
         "id": 1,
         "name": "Footloose",
         "description": "Feel the heat with our Salsa Night! An evening filled with passionate moves, lively music, and the joy of dancing.",
-        "url": "src/assets/synapse/events/footloose_2.png",
+        "url": "./assets/synapse/events/footloose_2.png",
         "rulebookLink": "https://drive.google.com/file/d/1tPmX6O2Ghozy1cvq-PHPDgMn8CiYUdEo/view?usp=sharing",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfpz1GdUo5AP2bLF1iRhnz_IxambIx4dncL8pzqCtjARmJi3w/viewform"
       },
@@ -17,7 +17,7 @@
         "id": 2,
         "name": "Naach",
         "description": "Witness the grace and beauty of ballet in our exclusive showcase. A mesmerizing blend of artistry and athleticism.",
-        "url": "src/assets/synapse/events/NAACH.png",
+        "url": "./assets/synapse/events/NAACH.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSc8ss240z4pHCVEhzo6IGbGMljXBgrFBPqXJm5v5X7FAzr0hw/viewform"
       },
@@ -42,7 +42,7 @@
         "id": 1,
         "name": "Raaga & Rhapsody",
         "description": "Experience the magic of jazz at our Jazz Festival. A night filled with smooth tunes, improvisation, and soulful performances.",
-        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705774833/synapse/photos%20sort%20drive/raaga/ATM_0036_ioc72v.jpg",
+        "url": "./assets/synapse/events/raganrapsodi.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdJ1RwJPD07941IkTBBUm4SdmoxdyZRGZ5Q3PJYuZ1Ii-lNsw/viewform"
       },
@@ -50,7 +50,7 @@
         "id": 2,
         "name": "Battle Of Bands",
         "description": "Let the adrenaline rush with our Rock Concert! An electrifying showcase of powerful vocals and rocking guitar solos.",
-        "url": "src/assets/synapse/events/battle_of_bands_2.png",
+        "url": "./assets/synapse/events/battle_of_bands_2.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeco4UlC55H7cF9dMTKrExzoRZiULVnRCh4LRQX-_C8af3byA/viewform"
       },
@@ -58,7 +58,7 @@
         "id": 3,
         "name": "Rap Showdown",
         "description": "Indulge in the elegance of classical music at our Classical Soiree. An evening of symphonies and timeless compositions.",
-        "url": "src/assets/synapse/events/raganrapsodi.png",
+        "url": "",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/vR8zd2kxKSex4gth9"
       }
@@ -74,7 +74,7 @@
         "id": 1,
         "name": "Stage Play",
         "description": "Immerse yourself in the world of stage plays. A theatrical experience that brings stories to life on a captivating stage.",
-        "url": "src/assets/synapse/events/stage_play.png",
+        "url": "./assets/synapse/events/stage_play.png",
         "rulebookLink": "https://drive.google.com/file/d/1V5dF0du0PIq-qf8XRytsoTFbUzw7PVnh/view",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSd31UwRfBvTvIuCOe_tmwAXshCKp9mqN1cIRDKkm_VvItNUAA/viewform"
       },
@@ -82,7 +82,7 @@
         "id": 2,
         "name": "Nukkad Natak",
         "description": "Experience the raw energy of street theatre with Nukkad Natak. Stories unfold in the midst of the audience, creating a vibrant and interactive atmosphere.",
-        "url": "src/assets/synapse/events/nukad_natak.png",
+        "url": "./assets/synapse/events/nukad_natak.png",
         "rulebookLink": "https://drive.google.com/file/d/105p6Y2pYeMs9RNNeH_U5vfrDiTZvbDNi/view",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeQTPAaK01iKxzPfeGee4bfoCNCS6wfMaPYc6QwMcrwKiBBZw/viewform"
       },
@@ -90,7 +90,7 @@
         "id": 3,
         "name": "Mime out loud",
         "description": "Step into the silent world of expressive mime. A unique form of theatrical art that communicates without words, yet speaks volumes.",
-        "url": "src/assets/synapse/events/mimeoutloud.png",
+        "url": "./assets/synapse/events/mimeoutloud.png",
         "rulebookLink": "https://drive.google.com/file/d/1qrnOD2yuMkGuQO417vEVIms2FqQ92gp0/view",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLScJM74sW9ihS8lt2el0nm0h-_2L5wCSNbnLTnzESqjxnTQnhQ/viewform"
       },
@@ -98,7 +98,7 @@
         "id": 4,
         "name": "MonoAct",
         "description": "Witness the power of a single performer in MonoAct. A solo act that weaves a compelling narrative and showcases the versatility of a lone artist.",
-        "url": "src/assets/synapse/events/mono_acte_2.png",
+        "url": "./assets/synapse/events/mono_acte_2.png",
         "rulebookLink": "https://drive.google.com/file/d/1h5HSzzCeZw5LHcLdQDCNXBBxq8uSKP2I/view",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfP7GW3n9WI7OFQzNARIHP-gZZ7D2RS7nMLH9syGedxqbY5WQ/viewform"
       }
@@ -195,7 +195,7 @@
         "id": 2,
         "name": "Hunger Hikes",
         "description": "Expand your knowledge through our Webinar Series. Engage with experts and thought leaders on a variety of topics shaping the online landscape.",
-        "url": "src/assets/synapse/events/hungar_hikes.png",
+        "url": "./assets/synapse/events/hungar_hikes.png",
         "rulebookLink": "https://docs.google.com/document/d/1a3FbH0H-el9TGberEhlxi3fGFQIASTPwDBei6PsQooo/edit",
         "registerLink": "https://forms.gle/xdS59ge7ii6FzSBP9"
       },
@@ -252,7 +252,7 @@
         "id": 2,
         "name": "Tech Hunt",
         "description": "Capture the perfect shot with our Photography Workshop. Learn essential skills and techniques to elevate your photography game.",
-        "url": "src/assets/synapse/events/techhunt.png",
+        "url": "./assets/synapse/events/techhunt.png",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/Moz98hRdkNnmxjgy8"
       },
@@ -276,7 +276,7 @@
         "id": 1,
         "name": "Prom Night",
         "description": "Laugh out loud at our Comedy Night. Enjoy hilarious stand-up performances and comedic acts that will tickle your funny bone.",
-        "url": "src/assets/synapse/events/promnight.png",
+        "url": "./assets/synapse/events/promnight.png",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/Ukhxi77QP54iJkks8"
       },
@@ -300,7 +300,7 @@
         "id": 1,
         "name": "Synocubix",
         "description": "Witness the marvels of robotics in our Robotics Showcase. Explore cutting-edge robotic technologies and their applications in various industries.",
-        "url": "src/assets/synapse/events/synocubix.png",
+        "url": "./assets/synapse/events/synocubix.png",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/KhMNKdVv9HhftPhg6"
       },
