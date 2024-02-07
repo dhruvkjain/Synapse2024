@@ -50,7 +50,7 @@
         "id": 2,
         "name": "Battle Of Bands",
         "description": "Let the adrenaline rush with our Rock Concert! An electrifying showcase of powerful vocals and rocking guitar solos.",
-        "url": "./assets/synapse/events/battle_of_bands_2.png",
+        "url": "./assets/synapse/events/battleofbands.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeco4UlC55H7cF9dMTKrExzoRZiULVnRCh4LRQX-_C8af3byA/viewform"
       },
@@ -58,7 +58,7 @@
         "id": 3,
         "name": "Rap Showdown",
         "description": "Indulge in the elegance of classical music at our Classical Soiree. An evening of symphonies and timeless compositions.",
-        "url": "",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/vR8zd2kxKSex4gth9"
       }
@@ -153,24 +153,24 @@
       {
         "id": 3,
         "name": "Synapshot",
-        "description": "",
-        "url": "",
+        "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSewqj7fpuXEzdNE6ndTxtMh6XR3AFoORtBBJpZiYFpTTKFq5g/viewform"
       },
       {
         "id": 4,
         "name": "ClipFlicks",
-        "description": "",
-        "url": "",
+        "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfARttQIxCGu13crJsU0PkBqeXLfpL_8FjEMMvBgYroIe4z0g/viewform"
       },
       {
         "id": 5,
         "name": "Shailee",
-        "description": "",
-        "url": "",
+        "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLScBJV3eiAgJvDxe1_J7Tyimt5LkJBm9SIRwNmoBKwVmI5oI0A/viewform"
       }
@@ -210,8 +210,8 @@
       {
         "id": 4,
         "name": "UpDating",
-        "description": "",
-        "url": "",
+        "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": ""
       },
@@ -219,7 +219,7 @@
         "id": 5,
         "name": "DaRush",
         "description": "",
-        "url": "",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": ""
       },
@@ -283,8 +283,8 @@
       {
         "id": 2,
         "name": "Quiz-A-Palooza",
-        "description": "",
-        "url": "",
+        "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/JnMuSq3ehxFQYXq69"
       }
@@ -307,16 +307,16 @@
       {
         "id": 2,
         "name": "Math-ify",
-        "description": "",
-        "url": "",
+        "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/kRwugxXP9D9SXzAZ6"
       },
       {
         "id": 3,
         "name": "Samwaad",
-        "description": "",
-        "url": "",
+        "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdKUYnOyBGJ-mRCmSnRUm6cfLAXoYbzXu77UYzdmgF_uqujPQ/viewform"
       }
