@@ -224,39 +224,7 @@
                 "instagram": "https://www.instagram.com/samarthmotka?igsh=MzRlODBiNWFlZA=="
             },
             {
-                "id": 6,
-                "name": "Meet Desai",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/Meet.jpg",
-                "linkedin": "https://www.linkedin.com/in/meet-desai-235655208",
-                "instagram": "https://www.instagram.com/i_meetdesai?igsh=cGRoNmhtYW85czZ0"
-            },
-            {
                 "id": 3,
-                "name": "Aditya Patel",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/Adi.jpg",
-                "linkedin": "https://www.linkedin.com/in/aditya-patel-794605238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                "instagram": "https://www.linkedin.com/in/aditya-patel-794605238?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            },
-            {
-                "id": 4,
-                "name": "Keyur Dhanani",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/cheyur.jpg",
-                "linkedin": "https://www.linkedin.com/in/keyur-dhanani-5242261b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-                "instagram": "https://www.instagram.com/k.dhanani?igsh=MXV0ZDNpb2xzYXhtZQ%3D%3D&utm_source=qr"
-            },
-            {
-                "id": 5,
-                "name": "Deepak Khatri",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/Deepak.jpg",
-                "linkedin": "https://www.linkedin.com/in/deepak-khatri-a4b883225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-                "instagram": "https://www.instagram.com/mr_deepak_k?igsh=OGQ5ZDc2ODk2ZA=="
-            },
-            {
-                "id": 7,
                 "name": "Dhruv Jain",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/photo_lbalhl.jpg",
@@ -264,12 +232,12 @@
                 "instagram": "https://www.instagram.com/dhruvkjain"
             },
             {
-                "id": 8,
-                "name": "Heet Thakkar",
+                "id": 4,
+                "name": "Kanishk Kant",
                 "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/heet.jpg",
-                "linkedin": "https://www.linkedin.com/in/heet-thakkar-6b7b33264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-                "instagram": "https://www.instagram.com/heet4747/"
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/Kanishk.jpg",
+                "linkedin": "https://www.linkedin.com/in/kanishk-kant-746638284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+                "instagram": "https://www.instagram.com/kanishkisxzell"
             }
         ]
     },
