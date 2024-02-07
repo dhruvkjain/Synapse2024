@@ -22,7 +22,7 @@ const EventCategoryCard = ({id, imageUrl, title, onClickExplore }) => {
       return (
         <div className="card" style={cardStyle}>
           <div className="card-content">
-            <h2 className="card-title">{title}</h2>
+            <h2 className="card-title phonk">{title}</h2>
             <button className="explore-button custom-box-shadow" onClick={()=> onClickExplore(id)}>
               Explore
             </button>

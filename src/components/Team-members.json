@@ -104,6 +104,14 @@
                 "instagram": ""
             },
             {
+                "id": 9,
+                "name": "Meet Desai",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/MIT_zefafj.jpg",
+                "linkedin": "",
+                "instagram": ""
+            },
+            {
                 "id": 5,
                 "name": "Yash Tiwari",
                 "post": "",
@@ -140,14 +148,6 @@
                 "name": "Siddhant gupta",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Siddhant_gupta_k9cubj.jpg",
-                "linkedin": "",
-                "instagram": ""
-            },
-            {
-                "id": 9,
-                "name": "Meet Desai",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/MIT_zefafj.jpg",
                 "linkedin": "",
                 "instagram": ""
             },
@@ -224,6 +224,14 @@
                 "instagram": "https://www.instagram.com/samarthmotka?igsh=MzRlODBiNWFlZA=="
             },
             {
+                "id": 6,
+                "name": "Meet Desai",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/Meet.jpg",
+                "linkedin": "https://www.linkedin.com/in/meet-desai-235655208",
+                "instagram": "https://www.instagram.com/i_meetdesai?igsh=cGRoNmhtYW85czZ0"
+            },
+            {
                 "id": 3,
                 "name": "Aditya Patel",
                 "post": "",
@@ -246,14 +254,6 @@
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/Deepak.jpg",
                 "linkedin": "https://www.linkedin.com/in/deepak-khatri-a4b883225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
                 "instagram": "https://www.instagram.com/mr_deepak_k?igsh=OGQ5ZDc2ODk2ZA=="
-            },
-            {
-                "id": 6,
-                "name": "Meet Desai",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/DevTeam/Meet.jpg",
-                "linkedin": "https://www.linkedin.com/in/meet-desai-235655208",
-                "instagram": "https://www.instagram.com/i_meetdesai?igsh=cGRoNmhtYW85czZ0"
             },
             {
                 "id": 7,

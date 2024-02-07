@@ -50,7 +50,7 @@
         "id": 2,
         "name": "Battle Of Bands",
         "description": "Let the adrenaline rush with our Rock Concert! An electrifying showcase of powerful vocals and rocking guitar solos.",
-        "url": "./assets/synapse/events/battle_of_bands_2.png",
+        "url": "./assets/synapse/events/battleofbands.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeco4UlC55H7cF9dMTKrExzoRZiULVnRCh4LRQX-_C8af3byA/viewform"
       },
@@ -58,7 +58,7 @@
         "id": 3,
         "name": "Rap Showdown",
         "description": "Indulge in the elegance of classical music at our Classical Soiree. An evening of symphonies and timeless compositions.",
-        "url": "",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/vR8zd2kxKSex4gth9"
       }
@@ -219,7 +219,7 @@
         "id": 5,
         "name": "DaRush",
         "description": "",
-        "url": "",
+        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
         "rulebookLink": "",
         "registerLink": ""
       },

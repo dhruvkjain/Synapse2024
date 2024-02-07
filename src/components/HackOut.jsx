@@ -4,7 +4,7 @@ import Navbar from "./Functional Components/Navbar";
 import hackout from "../assets/hackout.jpg";
 
 function HackOut({changePageinApp}){
-z
+
     return(
         <div>
             <div style={{backgroundImage:`url("${hackout}")`}} className="hackoutcover">

@@ -166,7 +166,7 @@ function Navbar({ changePageinApp }) {
                         </svg>
                         </div>
                     </a>
-                    <div className='navptags navp6' onClick={() => changePageinApp('sponsors')} >
+                    {/* <div className='navptags navp6' onClick={() => changePageinApp('sponsors')} >
                         <span>Sponsors</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +191,7 @@ function Navbar({ changePageinApp }) {
                             </g>
                         </svg>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 </div>
             </div>
