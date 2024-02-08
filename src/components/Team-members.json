@@ -43,6 +43,14 @@
             },
             {
                 "id": 3,
+                "name": "Manav Chinchawde",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/manav.jpg",
+                "linkedin": "",
+                "instagram": ""
+            },
+            {
+                "id": 4,
                 "name": "Harshita Tripathi",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Harshita_Tripathi_xcgubm.jpg",
@@ -50,7 +58,7 @@
                 "instagram": ""
             },
             {
-                "id": 4,
+                "id": 5,
                 "name": "Janvi Garg",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Janvi_Garg_jjgugv.jpg",
