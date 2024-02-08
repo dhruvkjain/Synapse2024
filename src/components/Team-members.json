@@ -25,8 +25,15 @@
         "id": 2,
         "teamtitle": "",
         "members": [
+            
+        ]
+    },
+    {
+        "id": 6,
+        "teamtitle": "",
+        "members": [
             {
-                "id": 1,
+                "id": 100,
                 "name": "Prarthee Desai",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Prarthee_Desai_xmgsye.jpg",
@@ -34,43 +41,13 @@
                 "instagram": ""
             },
             {
-                "id": 2,
+                "id": 111,
                 "name": "Devansh Patel",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Devansh_Patel_txuidx.jpg",
                 "linkedin": "",
                 "instagram": ""
             },
-            {
-                "id": 3,
-                "name": "Manav Chinchawde",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/manav.jpg",
-                "linkedin": "",
-                "instagram": ""
-            },
-            {
-                "id": 4,
-                "name": "Harshita Tripathi",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Harshita_Tripathi_xcgubm.jpg",
-                "linkedin": "",
-                "instagram": ""
-            },
-            {
-                "id": 5,
-                "name": "Janvi Garg",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Janvi_Garg_jjgugv.jpg",
-                "linkedin": "",
-                "instagram": ""
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "teamtitle": "",
-        "members": [
             {
                 "id": 3,
                 "name": "Kirtan Mevada",
@@ -296,6 +273,50 @@
                 "name": "Izhan Sheth",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/video-editor/izhan.jpg",
+                "linkedin": "",
+                "instagram": ""
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "teamtitle": "Media Team",
+        "members": [
+            {
+                "id": 1,
+                "name": "Mana Gohil",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/manan_gohil.jpg",
+                "linkedin": "",
+                "instagram": ""
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "teamtitle": "Honorable Mentors",
+        "members": [
+            {
+                "id": 1,
+                "name": "Manav Chinchawde",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/manav.jpg",
+                "linkedin": "",
+                "instagram": ""
+            },
+            {
+                "id": 2,
+                "name": "Harshita Tripathi",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Harshita_Tripathi_xcgubm.jpg",
+                "linkedin": "",
+                "instagram": ""
+            },
+            {
+                "id": 3,
+                "name": "Janvi Garg",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Janvi_Garg_jjgugv.jpg",
                 "linkedin": "",
                 "instagram": ""
             }
