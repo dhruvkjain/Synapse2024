@@ -63,7 +63,7 @@ function Navbar({ changePageinApp }) {
                         </div>
                     </div>
                     <div className='navptags navp2' onClick={() => changePageinApp('pronight')} >
-                        <span>ProNight</span>
+                        <span>ProNite</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 475 292"

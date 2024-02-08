@@ -20,7 +20,7 @@ function ProNight({ changePageinApp }) {
                         <div className='cont1'>
                             <div className='homepageimgs'>
                                 <div>
-                                    <p className='heading-flex phonk headingpronight'>ProNight</p>
+                                    <p className='heading-flex phonk headingpronight'>ProNite</p>
                                     <div className='scrolldownicon1'>
                                         <a href="#slider"><img className='scrolldown' src={scrolldown}></img></a>
                                     </div>
