@@ -80,9 +80,7 @@ display: flex;
         justify-content: space-around;
   gap: 8px;
   padding: 16px 4px;
-  height: 100%;
-
-  
+  height: fit-content;
 }
 
 .services{

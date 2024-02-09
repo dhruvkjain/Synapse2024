@@ -37,7 +37,7 @@ function Navbar({ changePageinApp }) {
                 <div className='navgrid2 phonk'>
                 <div className="overflowgrid">
                     <div className='navptags navp1' onClick={() => changePageinApp('events')} >
-                        <span>Event</span>
+                        <span>Events</span>
                         <div className="arrowsvgcontainer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 475 292"

@@ -26,8 +26,8 @@
           filter:brightness(0.45);
   -webkit-filter: saturate(0.2);
           filter: saturate(0.2);
-  -webkit-box-shadow: 0 0 8px #fff; */
-  /* box-shadow: 0 0 8px #fff; */
+  -webkit-box-shadow: 0 0 8px #fff;
+  box-shadow: 0 0 8px #fff; */
 }
 
 .card-content {
@@ -65,30 +65,124 @@
   -o-transition: transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
-
- 
-  
 }
 
 
 .explore-button {
-  background-color: #000000;
-  color: #fff;
-  padding: 13px 30px;
-  font-size: 13px;
+  background-color: rgba(255,255,255,.2);
+  color: black;
+  padding: 10px 14px;
+  font-size: 16px;
+  font-weight:bolder;
   cursor: pointer;
   display: none;
-  border-radius: 8px;
+  border-radius: 28px;
   margin: 0 auto;
   margin-bottom: 20px;
   font-weight: bolder;
-  
+  border: none;
+  box-shadow: inset 0 3px 12px rgba(255, 223, 52, .9), inset 0 -3px 4px rgba(255, 250, 215, .8) ;
 }
 
-.explore-button:hover {
-  background-color: #000000be;
-
+.card:hover .color-1{
+  border-radius: 50%;
+  /* top: 0; */
+  left: 50%;
+  width: 36px;
+  height: 36px;
+  transform: translateY(-25%);
+  background-color: palevioletred;
+  filter: blur(3px);
+  position: absolute;
+  z-index: -1;
+  margin: 0px;
+  padding: 0px;
 }
+.card:hover .color-2{
+  border-radius: 50%;
+  /* top: 0; */
+  left: 40%;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-28%);
+  background-color: blueviolet;
+  filter: blur(2px);
+  position: absolute;
+  z-index: -1;
+  margin: 0px;
+  padding: 0px;
+}
+.card:hover .color-3{
+  border-radius: 50%;
+  /* top: 0; */
+  left: 33%;
+  width: 35px;
+  height: 35px;
+  transform: translateY(-23%);
+  background-color: rgb(253, 166, 84);
+  filter: blur(3px);
+  position: absolute;
+  z-index: -1;
+  margin: 0px;
+  padding: 0px;
+}
+.card:hover .color-4{
+  border-radius: 50%;
+  /* top: 0; */
+  left: 54%;
+  width: 32px;
+  height: 32px;
+  transform: translateY(-16%);
+  background-color: rgb(86, 184, 89);
+  filter: blur(2px);
+  position: absolute;
+  z-index: -1;
+  margin: 0px;
+  padding: 0px;
+}
+.card:hover .color-5{
+  border-radius: 50%;
+  /* top: 0; */
+  left: 59%;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-28%);
+  background-color: rgb(112, 216, 209);
+  filter: blur(2px);
+  position: absolute;
+  z-index: -1;
+  margin: 0px;
+  padding: 0px;
+}
+.card:hover .color-6{
+  border-radius: 50%;
+  /* top: 0; */
+  left: 40%;
+  width: 26px;
+  height: 26px;
+  transform: translateY(15%);
+  background-color: rgb(182, 184, 86);
+  filter: blur(4px);
+  position: absolute;
+  z-index: -1;
+  margin: 0px;
+  padding: 0px;
+}
+.card:hover .color-7{
+  border-radius: 50%;
+  /* top: 0; */
+  left: 59.5%;
+  width: 23px;
+  height: 23px;
+  transform: translate(18% , 14%);
+  background-color: rgb(112, 197, 216);
+  filter: blur(1.2px);
+  position: absolute;
+  z-index: -1;
+  margin: 0px;
+  padding: 0px;
+}
+
 
 .card:hover {
   width: 25rem;
@@ -198,6 +292,105 @@
       left: 50%;
       /* transform: translate(-50%, -50%); */
       bottom: -96px;
+    }
+
+    .color-1{
+      border-radius: 50%;
+      /* top: 0; */
+      left: 50%;
+      width: 36px;
+      height: 36px;
+      transform: translateY(-25%);
+      background-color: palevioletred;
+      filter: blur(3px);
+      position: absolute;
+      z-index: -1;
+      margin: 0px;
+      padding: 0px;
+    }
+    .color-2{
+      border-radius: 50%;
+      /* top: 0; */
+      left: 40%;
+      width: 40px;
+      height: 40px;
+      transform: translateY(-28%);
+      background-color: blueviolet;
+      filter: blur(2px);
+      position: absolute;
+      z-index: -1;
+      margin: 0px;
+      padding: 0px;
+    }
+    .color-3{
+      border-radius: 50%;
+      /* top: 0; */
+      left: 33%;
+      width: 35px;
+      height: 35px;
+      transform: translateY(-23%);
+      background-color: rgb(253, 166, 84);
+      filter: blur(3px);
+      position: absolute;
+      z-index: -1;
+      margin: 0px;
+      padding: 0px;
+    }
+    .color-4{
+      border-radius: 50%;
+      /* top: 0; */
+      left: 54%;
+      width: 32px;
+      height: 32px;
+      transform: translateY(-16%);
+      background-color: rgb(86, 184, 89);
+      filter: blur(2px);
+      position: absolute;
+      z-index: -1;
+      margin: 0px;
+      padding: 0px;
+    }
+    .color-5{
+      border-radius: 50%;
+      /* top: 0; */
+      left: 59%;
+      width: 30px;
+      height: 30px;
+      transform: translateY(-28%);
+      background-color: rgb(112, 216, 209);
+      filter: blur(2px);
+      position: absolute;
+      z-index: -1;
+      margin: 0px;
+      padding: 0px;
+    }
+    .color-6{
+      border-radius: 50%;
+      /* top: 0; */
+      left: 40%;
+      width: 26px;
+      height: 26px;
+      transform: translateY(15%);
+      background-color: rgb(182, 184, 86);
+      filter: blur(4px);
+      position: absolute;
+      z-index: -1;
+      margin: 0px;
+      padding: 0px;
+    }
+    .color-7{
+      border-radius: 50%;
+      /* top: 0; */
+      left: 59.5%;
+      width: 23px;
+      height: 23px;
+      transform: translate(18% , 14%);
+      background-color: rgb(112, 197, 216);
+      filter: blur(1.2px);
+      position: absolute;
+      z-index: -1;
+      margin: 0px;
+      padding: 0px;
     }
 
 }

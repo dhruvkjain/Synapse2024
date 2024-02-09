@@ -265,16 +265,18 @@
 
 	.event-desc {
 		font-size: 1.1rem;
+	}
 
+	.parent-event-cards-container{
+		height: 70lvh;
 	}
 
 	.event-cards-container {
 		padding: 0;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
-		flex-direction: column;
-
+		display: grid;
+		grid-template-rows: 1fr;
+		width: fit-content;
+		overflow-x: scroll;
 	}
 
 	.flip-card {

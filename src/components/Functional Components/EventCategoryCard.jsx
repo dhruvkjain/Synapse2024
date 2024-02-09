@@ -25,6 +25,13 @@ const EventCategoryCard = ({id, imageUrl, title, onClickExplore }) => {
             <h2 className="card-title phonk">{title}</h2>
             <button className="explore-button custom-box-shadow" onClick={()=> onClickExplore(id)}>
               Explore
+              <span className='color-1'></span>
+              <span className='color-2'></span>
+              <span className='color-3'></span>
+              <span className='color-4'></span>
+              <span className='color-5'></span>
+              <span className='color-6'></span>
+              <span className='color-7'></span>
             </button>
           </div>
         </div>

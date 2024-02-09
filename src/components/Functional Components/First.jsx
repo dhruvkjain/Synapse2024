@@ -67,7 +67,7 @@ class First extends React.Component {
                             <div className='themeflexout'>
                                 <div className='themegrid'>
                                     <div className='themeflex'>
-                                        <img data-aos="fade-right" className='themeimg custom-box-shadow' src={theme}></img>
+                                        <img loading="eager" data-aos="fade-right" className='themeimg custom-box-shadow' src={theme}></img>
                                         {/* <div className="glasscont"></div> */}
                                     </div>
                                     <div className='themetxt stickytxt'>
