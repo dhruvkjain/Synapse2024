@@ -25,7 +25,7 @@
         "id": 3,
         "name": "Showdown",
         "description": "Get ready to groove at our Hip-Hop Jam! A celebration of urban dance culture with beats that will make you move.",
-        "url": "https://c1.wallpaperflare.com/preview/126/548/39/dancing-dance-ballroom-elegance.jpg",
+        "url": "./assets/synapse/events/showdown.png",
         "rulebookLink": "https://drive.google.com/file/d/10MnY1IE0r-BG5VWksyn6bEqH2VQr6pUZ/view",
         "registerLink": "https://forms.gle/RK2dLBsV9mywvPW17"
       }
@@ -58,9 +58,17 @@
         "id": 3,
         "name": "Rap Showdown",
         "description": "Indulge in the elegance of classical music at our Classical Soiree. An evening of symphonies and timeless compositions.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "url": "./assets/synapse/events/rap_battle.png",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/vR8zd2kxKSex4gth9"
+      },
+      {
+        "id": 4,
+        "name": "Rave Knight",
+        "description": "A high-energy battle of beats where DJs showcase their skills, battling it out on the decks to win crowd favor and bragging rights.",
+        "url": "./assets/synapse/events/raveknight.png",
+        "rulebookLink": "https://1drv.ms/b/s!Ano25IBAWCkhghCjKhAnWg0iTQsF?e=w7UPtW",
+        "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSc70MOk152IonGGfHtsQ5I1wSkjHRwgjng2eApz7RLxpmSJ1A/viewform"
       }
     ]    
   },
@@ -122,8 +130,8 @@
         "id": 2,
         "name": "CosCon",
         "description": "",
-        "url": "https://res.cloudinary.com/dzeuvqdbl/image/upload/v1705772154/synapse/photos%20sort%20drive/rampage/PD__9478_n1liru.jpg",
-        "rulebookLink": "hhttps://docs.google.com/document/d/1gzkvVC98sgtsEGWQR67f_n6xLVVidVwArllVQ3HHEVs/edit#heading=h.872luicxxia6",
+        "url": "./assets/synapse/events/coscon.png",
+        "rulebookLink": "https://docs.google.com/document/d/1gzkvVC98sgtsEGWQR67f_n6xLVVidVwArllVQ3HHEVs/edit#heading=h.872luicxxia6",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeaWdK0XHyTfLLXF_04-NoRA0MlaI8qvOrrPcEelBcklkeuLA/viewform"
       }
     ]
@@ -138,7 +146,7 @@
         "id": 1,
         "name": "Concieve",
         "description": "Hone your photography skills in our exclusive Masterclass. Learn from renowned photographers and capture the essence of visual storytelling.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "url": "./assets/synapse/events/conceive.png",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/oRqpJBULJV4Vg1RG6"
       },
@@ -146,7 +154,7 @@
         "id": 2,
         "name": "Stroke Of Genius",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://c0.wallpaperflare.com/preview/269/214/574/chaplin-charlie-portrait-painting.jpg",
+        "url": "./assets/synapse/events/stroke_of_genius.png",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/eTAaLAdFdYNvrot56"
       },
@@ -154,7 +162,7 @@
         "id": 3,
         "name": "Synapshot",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "url": "./assets/synapse/events/synapshot.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSewqj7fpuXEzdNE6ndTxtMh6XR3AFoORtBBJpZiYFpTTKFq5g/viewform"
       },
@@ -162,7 +170,7 @@
         "id": 4,
         "name": "ClipFlicks",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "url": "./assets/synapse/events/clipflicks.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSfARttQIxCGu13crJsU0PkBqeXLfpL_8FjEMMvBgYroIe4z0g/viewform"
       },
@@ -170,7 +178,7 @@
         "id": 5,
         "name": "Shailee",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "url": "./assets/synapse/events/shailee_2.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLScBJV3eiAgJvDxe1_J7Tyimt5LkJBm9SIRwNmoBKwVmI5oI0A/viewform"
       }
@@ -187,7 +195,7 @@
         "id": 1,
         "name": "Battledrome",
         "description": "Immerse yourself in the magic of music with our Virtual Concert. Experience live performances from talented artists in the comfort of your own space.",
-        "url": "https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg",
+        "url": "./assets/synapse/events/battle_drome.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdcMzSJZtaAh_OXBYKQOg76bBe_xagXK8kWQa0aEM4lWY7DNg/viewform"
       },
@@ -203,17 +211,9 @@
         "id": 3,
         "name": "Crimes & Clues",
         "description": "Explore groundbreaking digital art in our Digital Art Exhibition. Witness the convergence of technology and creativity in the digital realm.",
-        "url": "https://c0.wallpaperflare.com/preview/476/114/482/street-art-graffiti-wall-william-shakespeare.jpg",
+        "url": "./assets/synapse/events/crimes_and_clues.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSeCqRqHXgVB-7Jz5lYFkemm_V_LcLPcT6_ijKL6UV-c2v72hA/viewform"
-      },
-      {
-        "id": 4,
-        "name": "UpDating",
-        "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
-        "rulebookLink": "",
-        "registerLink": ""
       },
       {
         "id": 5,
@@ -260,7 +260,7 @@
         "id": 3,
         "name": "Anweshan",
         "description": "Get hands-on with the latest gadgets at our Gadget Expo. Experience the future of consumer electronics with live demonstrations and interactive displays.",
-        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg",
+        "url": "./assets/synapse/events/anweshan.png",
         "rulebookLink": "https://drive.google.com/file/d/16GLyL9CS4_SWCTzKvQfpN6wZSIOLA75_/view",
         "registerLink": "https://forms.gle/dcAv6TpeCtiy2dfc6"
       }
@@ -282,9 +282,9 @@
       },
       {
         "id": 2,
-        "name": "Quiz-A-Palooza",
+        "name": "Quizception",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "url": "./assets/synapse/events/quizception.png",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/JnMuSq3ehxFQYXq69"
       }
@@ -308,7 +308,7 @@
         "id": 2,
         "name": "Math-ify",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "url": "./assets/synapse/events/math-ify.png",
         "rulebookLink": "",
         "registerLink": "https://forms.gle/kRwugxXP9D9SXzAZ6"
       },
@@ -316,7 +316,7 @@
         "id": 3,
         "name": "Samwaad",
         "description": "Witness the unveiling of exquisite artworks at our Art Gallery Opening. Immerse yourself in a world of creativity and expression.",
-        "url": "https://media.gettyimages.com/id/1674137895/photo/kempton-park-south-africa-dr-mbongeni-ngema-during-the-black-musical-extravaganza-at-the.jpg?s=612x612&w=gi&k=20&c=zFtoN4c8n5Tc2gVx6oqIrLKmhZzczonZsFwQPveiDvI=",
+        "url": "./assets/synapse/events/samwaad.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdKUYnOyBGJ-mRCmSnRUm6cfLAXoYbzXu77UYzdmgF_uqujPQ/viewform"
       }
