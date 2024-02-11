@@ -22,13 +22,6 @@
         ]
     },
     {
-        "id": 2,
-        "teamtitle": "",
-        "members": [
-            
-        ]
-    },
-    {
         "id": 6,
         "teamtitle": "",
         "members": [
@@ -110,7 +103,7 @@
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Vivek_Chaudhari_yhq20i.jpg",
                 "linkedin": "",
-                "instagram": ""
+                "instagram": "https://www.instagram.com/vivek.chaudhari_30/"
             },
             {
                 "id": 6,
@@ -118,7 +111,7 @@
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Devamm_Patel_zxir8z.jpg",
                 "linkedin": "",
-                "instagram": ""
+                "instagram": "https://www.instagram.com/_devamm_12/"
             },
             {
                 "id": 7,
@@ -134,7 +127,7 @@
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Siddhant_gupta_k9cubj.jpg",
                 "linkedin": "",
-                "instagram": ""
+                "instagram": "https://www.instagram.com/siddhant_g86/"
             },
             {
                 "id": 10,
@@ -142,7 +135,7 @@
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/kushal_Desai_ex6lzj.jpg",
                 "linkedin": "",
-                "instagram": ""
+                "instagram": "https://www.instagram.com/kushal_16_22/"
             },
             {
                 "id": 11,
@@ -176,7 +169,7 @@
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Jayant_Sharma_hckfvt.jpg",
                 "linkedin": "",
-                "instagram": ""
+                "instagram": "https://www.instagram.com/sh61_jayant/"
             },
             {
                 "id": 17,
@@ -184,7 +177,7 @@
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Bhavya_Shah_lc6tip.jpg",
                 "linkedin": "",
-                "instagram": ""
+                "instagram": "https://www.instagram.com/bhavya_1918/"
             }
         ]
     },
@@ -294,7 +287,7 @@
     },
     {
         "id": 8,
-        "teamtitle": "Honorable Mentors",
+        "teamtitle": "Honorable Mentions",
         "members": [
             {
                 "id": 1,
@@ -302,7 +295,7 @@
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/manav.jpg",
                 "linkedin": "",
-                "instagram": ""
+                "instagram": "https://www.instagram.com/manavchinchavde/"
             },
             {
                 "id": 2,
@@ -317,6 +310,14 @@
                 "name": "Janvi Garg",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Janvi_Garg_jjgugv.jpg",
+                "linkedin": "",
+                "instagram": ""
+            },
+            {
+                "id": 4,
+                "name": "Dhruv Patel",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/Dhruvpatel.png",
                 "linkedin": "",
                 "instagram": ""
             }

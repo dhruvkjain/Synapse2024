@@ -5,9 +5,10 @@
 * Browsers: last 4 version
 */
 
-.navbar{
+.navbar {
     overflow: auto;
 }
+
 .contlogo {
     width: 100%;
     height: 15vh;
@@ -50,6 +51,71 @@ a {
     cursor: pointer;
 }
 
+/* <reset-style> ============================ */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* ============================ */
+/* <style for bg> ======== */
+.backgroundmenuicon {
+    border-radius: 16px;
+    border: 1px solid #1a1a1a;
+    background: #0009;
+    mix-blend-mode: luminosity;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(15px);
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* <style for menu__icon> ======== */
+.menu__icon {
+    width: 28px;
+    height: 28px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu__icon > .child1 , .menu__icon > .child2 , .menu__icon > .child3 {
+    width: 100%;
+    height: 0.125rem;
+    border-radius: 0.125rem;
+    background-color: white;
+    box-shadow: 0 .5px 2px 0 hsla(0, 0%, 0%, .2);
+    transition: transform .4s, background-color .4s, width .4s, opacity .4s;
+}
+
+.menu__icon span:nth-child(2) {
+    width: 60%;
+}
+
+.changeham1 {
+    background-color: orange;
+    transform: translateY(7.5px) rotate(-45deg);
+}
+
+.changeham2 {
+    width: 0;
+    opacity: 0;
+}
+
+.changeham3 {
+    background-color: orange;
+    transform: translateY(-7.5px) rotate(45deg);
+}
+
 .shownavbar {
     min-height: 100vh;
     height: fit-content;
@@ -69,7 +135,7 @@ a {
     display: block;
 }
 
-.overflowgrid{
+.overflowgrid {
     z-index: 101;
     padding-bottom: 40px;
 }
@@ -77,9 +143,12 @@ a {
 .navptags>span {
     display: flex;
     align-items: center;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none;     /* IE 10 and IE 11 */
-    user-select: none;         /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .navptags {
@@ -102,61 +171,71 @@ a {
     color: orange;
 }
 
-.navptags:hover a{
+.navptags:hover a {
     -webkit-transition: all ease-in 0.5s;
     -o-transition: all ease-in 0.5s;
     transition: all ease-in 0.5s;
     color: orange;
 }
 
-.navp1{
+.navp1 {
     animation: comeback 1s ease-in-out 0.02s 1 normal forwards;
 }
-.navp2{
+
+.navp2 {
     animation: comeback 1s ease-in-out 0.06s 1 normal forwards;
 }
-.navp3{
+
+.navp3 {
     animation: comeback 1s ease-in-out 0.10s 1 normal forwards;
 }
-.navp4{
+
+.navp4 {
     animation: comeback 1s ease-in-out 0.14s 1 normal forwards;
 }
-.navp5{
+
+.navp5 {
     animation: comeback 1s ease-in-out 0.18s 1 normal forwards;
 }
-.navp6{
+
+.navp6 {
     animation: comeback 1s ease-in-out 0.22s 1 normal forwards;
 }
 
 @keyframes comeback {
-    0%{transform: translateX(-100%);}
-    100%{transform: translateX(0%);}
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
-.arrowsvg1{
-    width: 6vw; 
-    height: 6vw; 
+.arrowsvg1 {
+    width: 6vw;
+    height: 6vw;
 }
 
-.arrowsvgcontainer{
-    width: 6vw; 
-    height: 6vw; 
+.arrowsvgcontainer {
+    width: 6vw;
+    height: 6vw;
     overflow: hidden;
     margin-left: 5vw;
 }
 
-.navptags:hover .arrowsvg1{
+.navptags:hover .arrowsvg1 {
     animation: arrowanimation 0.628s linear 0s 1 normal forwards;
 }
 
-.navptags:hover .arrowsvgcolor{
+.navptags:hover .arrowsvgcolor {
     -webkit-transition: all ease-in 0.5s;
     -o-transition: all ease-in 0.5s;
     transition: all ease-in 0.5s;
     fill: orange;
 }
 
-.arrowsvgcolor{
+.arrowsvgcolor {
     -webkit-transition: all ease-in 0.5s;
     -o-transition: all ease-in 0.5s;
     transition: all ease-in 0.5s;
@@ -164,10 +243,21 @@ a {
 }
 
 @keyframes arrowanimation {
-    0%{transform: translateX(0%);}
-    50%{transform: translateX(100%);}
-    50.1%{transform: translateX(-100%);}
-    100%{transform: translateX(0%);}
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(100%);
+    }
+
+    50.1% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 .navgrid {
@@ -197,18 +287,19 @@ a {
     }
 
     .navflex {
-        padding-right: 1.5rem;
+        padding-right: 1rem;
     }
 
     .navflex2 {
         padding: 0.5rem;
     }
 
-    .menuimg {
-        width: 30px;
+    .backgroundmenuicon {
+        width: 40px;
+        height: 40px;
     }
-    
-    .arrowsvgcontainer{
+
+    .arrowsvgcontainer {
         display: none;
     }
 
@@ -220,7 +311,7 @@ a {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .navptags:hover {
         transform: translateX(0%);
         -webkit-transition: all linear 0.614s;

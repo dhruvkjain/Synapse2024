@@ -148,7 +148,7 @@
     display: flex;
     align-items:last baseline;
     justify-content: center;
-    font-size: 7vw;
+    font-size: 5.5vw;
     font-weight: 700;
     padding-bottom: 5vw;
 }
@@ -198,7 +198,7 @@
     }
 
     .pronightartistname{
-        font-size: 16vw;
+        font-size: 11vw;
     }
 
     .txt_align_left{

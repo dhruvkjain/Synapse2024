@@ -133,7 +133,7 @@ function Events({ changePageinApp }) {
 
                 </div>
                 <div className='eventpageevent'>
-                    <p data-aos="fade-up" data-aos-delay="300" className="phonk">
+                    <p data-aos="fade-up" data-aos-delay="500" className="phonk">
                         Embrace The
                         Energy Pulse
                         where joy knows
@@ -145,7 +145,7 @@ function Events({ changePageinApp }) {
                 <div className="aboutus aboutus2">
                     <div className='cont3'>
                         <p className='aboutusheading phonk'>About Us</p>
-                        <p data-aos="fade-up" data-aos-delay="300" className='cont2 phonk'>
+                        <p data-aos="fade-up" data-aos-delay="500" className='cont2 phonk'>
                             Synapse<span className="satoshi">,</span> DAIICT<span className="satoshi">’</span>s annual college fest<span className="satoshi">,</span> unites global artists and creative
                             minds to showcase unique collages<span className="satoshi">,</span> share creative processes<span className="satoshi">,</span> and transforms
                             into a vibrant night of live music<span className="satoshi">,</span> DJ performances<span className="satoshi">,</span> and dance parties<span className="satoshi">,</span> fostering

@@ -45,7 +45,7 @@ const Slider = () => {
               </div>
             </div>
             <div>
-              <p data-aos="fade-up" data-aos-delay="600" className='satoshi pronightartistname'>Amit Trivedi</p>
+              <p data-aos="fade-up" data-aos-delay="400" className='pronightartistname phonk'>Amit Trivedi</p>
             </div>
           </div>
         </section>
@@ -53,7 +53,7 @@ const Slider = () => {
         <section className='pronightpageslide' style={{ backgroundImage: 'url(./assets/synapse/pronight/salim.png)' }}>
           <div className='pronighttxtgrid'>
           <div>
-              <p data-aos="fade-up" data-aos-delay="600" className='satoshi pronightartistname txt_align_left'>
+              <p data-aos="fade-up" data-aos-delay="600" className='pronightartistname txt_align_left phonk'>
                 Salim Sulaiman
               </p>
             </div>

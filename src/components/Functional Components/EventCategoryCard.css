@@ -10,10 +10,12 @@
 .card {
   position: relative;
   width: 6.5rem;
-  height: 400px; /* Set the desired height */
+  height: 400px;
+  /* Set the desired height */
   background-size: cover;
   background-position: center;
-  color: #fff; /* Text color for better contrast with the background image */
+  color: #fff;
+  /* Text color for better contrast with the background image */
   text-shadow: 5px 2px 5px black;
   border-radius: 5px;
   -webkit-transition: width 1.2s;
@@ -35,31 +37,31 @@
   top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   bottom: -80px;
   -webkit-transition: left top 1.2s;
   -o-transition: left top 1.2s;
   transition: left top 1.2s;
   padding-left: 1em;
   /* margin: 0 auto; */
-  
+
 }
-.card-content h2{
+
+.card-content h2 {
   width: 200px;
 }
 
 .card-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 10px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
   text-align: right;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   -o-transition: transform 0.2s;
@@ -69,11 +71,11 @@
 
 
 .explore-button {
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(255, 255, 255, .2);
   color: black;
   padding: 10px 14px;
   font-size: 16px;
-  font-weight:bolder;
+  font-weight: bolder;
   cursor: pointer;
   display: none;
   border-radius: 28px;
@@ -81,10 +83,10 @@
   margin-bottom: 20px;
   font-weight: bolder;
   border: none;
-  box-shadow: inset 0 3px 12px rgba(255, 223, 52, .9), inset 0 -3px 4px rgba(255, 250, 215, .8) ;
+  box-shadow: inset 0 3px 12px rgba(255, 223, 52, .9), inset 0 -3px 4px rgba(255, 250, 215, .8);
 }
 
-.card:hover .color-1{
+.card:hover .color-1 {
   border-radius: 50%;
   /* top: 0; */
   left: 50%;
@@ -98,7 +100,8 @@
   margin: 0px;
   padding: 0px;
 }
-.card:hover .color-2{
+
+.card:hover .color-2 {
   border-radius: 50%;
   /* top: 0; */
   left: 40%;
@@ -112,7 +115,8 @@
   margin: 0px;
   padding: 0px;
 }
-.card:hover .color-3{
+
+.card:hover .color-3 {
   border-radius: 50%;
   /* top: 0; */
   left: 33%;
@@ -126,7 +130,8 @@
   margin: 0px;
   padding: 0px;
 }
-.card:hover .color-4{
+
+.card:hover .color-4 {
   border-radius: 50%;
   /* top: 0; */
   left: 54%;
@@ -140,7 +145,8 @@
   margin: 0px;
   padding: 0px;
 }
-.card:hover .color-5{
+
+.card:hover .color-5 {
   border-radius: 50%;
   /* top: 0; */
   left: 59%;
@@ -154,7 +160,8 @@
   margin: 0px;
   padding: 0px;
 }
-.card:hover .color-6{
+
+.card:hover .color-6 {
   border-radius: 50%;
   /* top: 0; */
   left: 40%;
@@ -168,13 +175,14 @@
   margin: 0px;
   padding: 0px;
 }
-.card:hover .color-7{
+
+.card:hover .color-7 {
   border-radius: 50%;
   /* top: 0; */
   left: 59.5%;
   width: 23px;
   height: 23px;
-  transform: translate(18% , 14%);
+  transform: translate(18%, 14%);
   background-color: rgb(112, 197, 216);
   filter: blur(1.2px);
   position: absolute;
@@ -186,88 +194,94 @@
 
 .card:hover {
   width: 25rem;
-  height: 400px; /* Set the desired height */
+  height: 400px;
+  /* Set the desired height */
   background-size: cover;
   background-position: center;
-  color: #fff; /* Text color for better contrast with the background image */
+  color: #fff;
+  /* Text color for better contrast with the background image */
   /* transition: transform 2s ease-in-out; */
-  -webkit-filter:contrast(1);
-          filter:contrast(1);
-  -webkit-filter:brightness(1);
-          filter:brightness(1);
-  
+  -webkit-filter: contrast(1);
+  filter: contrast(1);
+  -webkit-filter: brightness(1);
+  filter: brightness(1);
+
 }
 
 .card:hover .card-title {
   -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
-  background:no-repeat center center;
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  background: no-repeat center center;
   background-size: 100%;
   text-align: center;
-  
+
   /* color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   background-image: url('/src/assets/mainimg.png'); */
   -webkit-filter: brightness(8);
-          filter: brightness(8);
-          
+  filter: brightness(8);
+
 }
+
 .card:hover .explore-button {
   display: block;
 }
-.card:hover .card-content{
+
+.card:hover .card-content {
   position: absolute;
   top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   bottom: -96px;
 }
 
 @media (max-width: 768px) {
   .card {
-      width: 45%;
-      height: 300px; /* Set the desired height */
-      background-size: cover;
-      background-position: center;
-      color: #fff; /* Text color for better contrast with the background image */
-      /* transition: transform 2s ease-in-out; */
-      -webkit-filter:contrast(1);
-              filter:contrast(1);
-      -webkit-filter:brightness(1);
-              filter:brightness(1);
-      text-align: center;
-      
-      
-    }
-    .card-content {
-      position: absolute;
-      top: 70%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%);
-      bottom: -96px;
-      -webkit-transition: left top 1.2s;
-      -o-transition: left top 1.2s;
-      transition: left top 1.2s;
-      padding-left: 1em;
-      text-align: center;
-      /* margin: 0 auto; */
-      
-    }
-    
-    .card-content h2{
-      width: 200px;
-      font-size: 17px;
-    }
-    
-    .card:hover{
-      width: 45%;
-      height: 300px;
+    width: 45%;
+    height: 300px;
+    /* Set the desired height */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* Text color for better contrast with the background image */
+    /* transition: transform 2s ease-in-out; */
+    -webkit-filter: contrast(1);
+    filter: contrast(1);
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+    text-align: center;
+
+
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    bottom: -96px;
+    -webkit-transition: left top 1.2s;
+    -o-transition: left top 1.2s;
+    transition: left top 1.2s;
+    padding-left: 1em;
+    text-align: center;
+    /* margin: 0 auto; */
+  }
+
+  .card-content h2 {
+    width: 200px;
+    font-size: 0.9rem;
+  }
+
+  .card:hover {
+    width: 45%;
+    height: 300px;
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -276,121 +290,130 @@
     filter: contrast(1);
     -webkit-filter: brightness(1);
     filter: brightness(1);
-    }
-    .card-title {
-      -webkit-transform: rotate(0deg);
-          -ms-transform: rotate(0deg);
-              transform: rotate(0deg);
-              text-align: center;
-    }
-    .explore-button {
-      display: block;
-    }
-    .card-content{
-      position: absolute;
-      top: 70%;
-      left: 50%;
-      /* transform: translate(-50%, -50%); */
-      bottom: -96px;
-    }
+  }
 
-    .color-1{
-      border-radius: 50%;
-      /* top: 0; */
-      left: 50%;
-      width: 36px;
-      height: 36px;
-      transform: translateY(-25%);
-      background-color: palevioletred;
-      filter: blur(3px);
-      position: absolute;
-      z-index: -1;
-      margin: 0px;
-      padding: 0px;
-    }
-    .color-2{
-      border-radius: 50%;
-      /* top: 0; */
-      left: 40%;
-      width: 40px;
-      height: 40px;
-      transform: translateY(-28%);
-      background-color: blueviolet;
-      filter: blur(2px);
-      position: absolute;
-      z-index: -1;
-      margin: 0px;
-      padding: 0px;
-    }
-    .color-3{
-      border-radius: 50%;
-      /* top: 0; */
-      left: 33%;
-      width: 35px;
-      height: 35px;
-      transform: translateY(-23%);
-      background-color: rgb(253, 166, 84);
-      filter: blur(3px);
-      position: absolute;
-      z-index: -1;
-      margin: 0px;
-      padding: 0px;
-    }
-    .color-4{
-      border-radius: 50%;
-      /* top: 0; */
-      left: 54%;
-      width: 32px;
-      height: 32px;
-      transform: translateY(-16%);
-      background-color: rgb(86, 184, 89);
-      filter: blur(2px);
-      position: absolute;
-      z-index: -1;
-      margin: 0px;
-      padding: 0px;
-    }
-    .color-5{
-      border-radius: 50%;
-      /* top: 0; */
-      left: 59%;
-      width: 30px;
-      height: 30px;
-      transform: translateY(-28%);
-      background-color: rgb(112, 216, 209);
-      filter: blur(2px);
-      position: absolute;
-      z-index: -1;
-      margin: 0px;
-      padding: 0px;
-    }
-    .color-6{
-      border-radius: 50%;
-      /* top: 0; */
-      left: 40%;
-      width: 26px;
-      height: 26px;
-      transform: translateY(15%);
-      background-color: rgb(182, 184, 86);
-      filter: blur(4px);
-      position: absolute;
-      z-index: -1;
-      margin: 0px;
-      padding: 0px;
-    }
-    .color-7{
-      border-radius: 50%;
-      /* top: 0; */
-      left: 59.5%;
-      width: 23px;
-      height: 23px;
-      transform: translate(18% , 14%);
-      background-color: rgb(112, 197, 216);
-      filter: blur(1.2px);
-      position: absolute;
-      z-index: -1;
-      margin: 0px;
-      padding: 0px;
-    }
+  .card-title {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    text-align: center;
+  }
+
+  .explore-button {
+    display: block;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    bottom: -96px;
+  }
+
+  .color-1 {
+    border-radius: 50%;
+    /* top: 0; */
+    left: 50%;
+    width: 36px;
+    height: 36px;
+    transform: translateY(-25%);
+    background-color: palevioletred;
+    filter: blur(3px);
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .color-2 {
+    border-radius: 50%;
+    /* top: 0; */
+    left: 40%;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-28%);
+    background-color: blueviolet;
+    filter: blur(2px);
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .color-3 {
+    border-radius: 50%;
+    /* top: 0; */
+    left: 33%;
+    width: 35px;
+    height: 35px;
+    transform: translateY(-23%);
+    background-color: rgb(253, 166, 84);
+    filter: blur(3px);
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .color-4 {
+    border-radius: 50%;
+    /* top: 0; */
+    left: 54%;
+    width: 32px;
+    height: 32px;
+    transform: translateY(-16%);
+    background-color: rgb(86, 184, 89);
+    filter: blur(2px);
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .color-5 {
+    border-radius: 50%;
+    /* top: 0; */
+    left: 59%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-28%);
+    background-color: rgb(112, 216, 209);
+    filter: blur(2px);
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .color-6 {
+    border-radius: 50%;
+    /* top: 0; */
+    left: 40%;
+    width: 26px;
+    height: 26px;
+    transform: translateY(15%);
+    background-color: rgb(182, 184, 86);
+    filter: blur(4px);
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .color-7 {
+    border-radius: 50%;
+    /* top: 0; */
+    left: 59.5%;
+    width: 23px;
+    height: 23px;
+    transform: translate(18%, 14%);
+    background-color: rgb(112, 197, 216);
+    filter: blur(1.2px);
+    position: absolute;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+  }
 
 }

@@ -5,6 +5,16 @@
 * Browsers: last 4 version
 */
 
+.alinks{
+  width: fit-content;
+}
+
+.alinks:hover{
+  color: #4d92eb;
+  text-decoration-line:underline;
+}
+
+
 .footern {
   width: 100vw;
   height: 60vh;

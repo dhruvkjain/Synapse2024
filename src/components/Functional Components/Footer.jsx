@@ -23,9 +23,9 @@ function Footer() {
                     <div className='footer2'>
                         <div className="">
                             <p className='reachusoutat phonk'>Past Websites</p>
-                            <p className='satoshi footer-font-size'>Synapse 2023</p>
-                            <p className='satoshi footer-font-size'>Synapse 2022</p>
-                            <p className='satoshi footer-font-size'>Synapse 2021</p>
+                            <p className='satoshi footer-font-size'><a className="alinks" href="http://synapse.daiict.ac.in/sy-23/index.html">Synapse 2023</a></p>
+                            <p className='satoshi footer-font-size'><a className="alinks" href="http://synapse.daiict.ac.in/sy-22/index.html">Synapse 2022</a></p>
+                            <p className='satoshi footer-font-size'><a className="alinks" href="http://synapse.daiict.ac.in/sy-21/index.html">Synapse 2021</a></p>
                             <div className='social-link'>
                                 <div className="social-card">
                                     <a className="Btn instagram" href="https://www.instagram.com/synapsedaiict/">
