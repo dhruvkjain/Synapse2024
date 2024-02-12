@@ -24,7 +24,9 @@
   /* background: linear-gradient(130deg, #ff7a18, #af002d 41.07%, #319197 76.05%); */
   background-repeat: no-repeat;
   background-attachment: local;
-  background-size: cover;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
 }
 
 .footer-grid {
