@@ -42,6 +42,14 @@
                 "instagram": ""
             },
             {
+                "id": 14,
+                "name": "Kanishk Pareek",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Kanishk_Pareek_uf0zd7.jpg",
+                "linkedin": "",
+                "instagram": ""
+            },
+            {
                 "id": 3,
                 "name": "Kirtan Mevada",
                 "post": "",
@@ -74,14 +82,6 @@
                 "instagram": ""
             },
             {
-                "id": 14,
-                "name": "Kanishk Pareek",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Kanishk_Pareek_uf0zd7.jpg",
-                "linkedin": "",
-                "instagram": ""
-            },
-            {
                 "id": 9,
                 "name": "Meet Desai",
                 "post": "",
@@ -96,6 +96,14 @@
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Yash_Tiwari_pdwvyx.jpg",
                 "linkedin": "",
                 "instagram": "https://www.instagram.com/yashtiwari48/"
+            },
+            {
+                "id": 10,
+                "name": "Kushal Desai",
+                "post": "",
+                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/kushal_Desai_ex6lzj.jpg",
+                "linkedin": "",
+                "instagram": "https://www.instagram.com/kushal_16_22/"
             },
             {
                 "id": 1,
@@ -128,14 +136,6 @@
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/Siddhant_gupta_k9cubj.jpg",
                 "linkedin": "",
                 "instagram": "https://www.instagram.com/siddhant_g86/"
-            },
-            {
-                "id": 10,
-                "name": "Kushal Desai",
-                "post": "",
-                "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Team/kushal_Desai_ex6lzj.jpg",
-                "linkedin": "",
-                "instagram": "https://www.instagram.com/kushal_16_22/"
             },
             {
                 "id": 11,
@@ -277,7 +277,7 @@
         "members": [
             {
                 "id": 1,
-                "name": "Mana Gohil",
+                "name": "Manan Gohil",
                 "post": "",
                 "imgurl": "./assets/synapse/team_page/PicturesForwebsite/Mentors/manan_gohil.jpg",
                 "linkedin": "",

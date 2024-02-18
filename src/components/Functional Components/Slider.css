@@ -170,9 +170,10 @@
         flex-wrap: wrap;
     } */
     .pronightpageslide{
-         -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-attachment:scroll ;
     }
 
     .pronighttxtgrid{
