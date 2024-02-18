@@ -7,7 +7,7 @@
 
 .bg-event {
 	width: 100vw;
-	height: 200vh;
+	height: 100vh;
 	background-image: url('../assets/eventshpimg.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -293,10 +293,12 @@
 	.bg-event {
 		background-position: center;
 		background-size: auto;
+		background-attachment: scroll;
 	}
 
 	.eventpageevent{
 		background-size: auto;
+		background-attachment: scroll;
 	}
 
 	.exploreevents {

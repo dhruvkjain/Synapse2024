@@ -7,7 +7,7 @@
 
 .bg-pronight {
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     background-image: url('../assets/pronighthpimg.png');
     background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -31,5 +31,6 @@
     .bg-pronight{
         background-position: center;
         background-size: auto;
+        background-attachment: scroll;
     }
 }

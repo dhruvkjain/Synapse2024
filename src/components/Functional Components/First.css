@@ -279,7 +279,11 @@
     .bg-1 {
         background-position: center;
         background-size:auto;
-        min-height: -webkit-fill-available;
+        background-attachment: scroll;
+    }
+
+    .aboutus{
+        background-attachment: scroll;
     }
 
     .aboutusheading {
@@ -462,6 +466,7 @@
     .homepageevent {
         background-position: center;
         background-size: auto;
+        background-attachment: scroll;
     }
 
     .glasscont{
