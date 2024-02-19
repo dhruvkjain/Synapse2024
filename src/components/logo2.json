@@ -181,7 +181,7 @@
             {
                 "id":1,
                 "name": "Meta Apply" ,
-                "url":  "",
+                "url":  "./assets/sponsors/metaapply.png",
                 "desc" : "",
                 "hlink": "https://metaapply.io/" 
             }
