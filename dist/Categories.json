@@ -196,7 +196,7 @@
         "name": "Battledrome",
         "description": "Immerse yourself in the magic of music with our Virtual Concert. Experience live performances from talented artists in the comfort of your own space.",
         "url": "./assets/synapse/events/battle_drome.png",
-        "rulebookLink": "",
+        "rulebookLink": "https://docs.google.com/document/d/1qU76gRro_nyyKx46rGwmsSVIMmU4llQq/edit?usp=sharing&ouid=116486715790429417430&rtpof=true&sd=true",
         "registerLink": "https://docs.google.com/forms/d/e/1FAIpQLSdcMzSJZtaAh_OXBYKQOg76bBe_xagXK8kWQa0aEM4lWY7DNg/viewform"
       },
       {
@@ -244,7 +244,7 @@
         "id": 1,
         "name": "Code Mutants",
         "description": "Stay on the forefront of technology with our Tech Symposium. Explore the latest innovations, hear from industry experts, and glimpse into the future of consumer electronics.",
-        "url": "https://wallpaperbat.com/img/319935-jazz-in-neon-fondo-de-pantalla-musical-jazz-artes-musicales.jpg",
+        "url": "./assets/synapse/events/codemutant.png",
         "rulebookLink": "",
         "registerLink": "https://docs.google.com/forms/d/1aiRfK-PnsAXWaNLO2GLs8vMoyDXYJWKwsRKSLvLUv-s/edit"
       },
