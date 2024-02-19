@@ -1,6 +1,6 @@
 .slidercover {
     width: 100vw;
-    height: 300vh;
+    height: 600lvh;
 }
 
 .slider2 {
@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center; */
     width: 100vw;
-    height: 100vh;
+    height: 600lvh;
 }
 
 .slider2::-webkit-scrollbar {

@@ -131,6 +131,14 @@ button {
     overflow-y: auto;
 }
 
+.navgrid2::-webkit-scrollbar{
+    background-color: transparent;
+}
+/* body::-webkit-scrollbar-thumb{
+    background: linear-gradient( #ff7a18, #af002d 41.07%, #319197 76.05%);
+    border-radius: 20px;
+} */
+
 .navgrid2display {
     display: block;
 }
@@ -158,7 +166,7 @@ button {
     transition: all ease-in 0.3s;
     transform: translateX(-100%);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.2fr 1fr;
     cursor: pointer;
     z-index: 101;
 }
@@ -200,6 +208,10 @@ button {
 
 .navp6 {
     animation: comeback 1s ease-in-out 0.22s 1 normal forwards;
+}
+
+.navp7 {
+    animation: comeback 1s ease-in-out 0.26s 1 normal forwards;
 }
 
 @keyframes comeback {
@@ -280,10 +292,14 @@ button {
         height: 90px;
     }
 
+    .navgrid2 {
+        padding-left: 20px;
+    }
+
     .navptags {
         padding: 0px;
         font-size: 12vw;
-        line-height: 90px;
+        line-height: 70px;
     }
 
     .navflex {
@@ -304,6 +320,7 @@ button {
     }
 
     .navptags {
+        font-size: 10vw;
         -webkit-transition: all linear 0.314s;
         -o-transition: all linear 0.314s;
         transition: all linear 0.314s;

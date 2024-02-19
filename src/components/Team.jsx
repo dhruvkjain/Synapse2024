@@ -51,7 +51,7 @@ function Team({ changePageinApp }) {
                                 {
                                     (team.teamtitle != "")
                                         ? <div>
-                                            <div className="phonk team-heading heading-flex">{team.teamtitle}</div>
+                                            <div className="phonk team-heading heading-flex"><span>{team.teamtitle}</span></div>
                                             {
                                                 <div className="team-flex">
                                                     {
@@ -209,10 +209,6 @@ function Team({ changePageinApp }) {
             </div>
 
             <div className=''>
-                {/* <div className=''>
-                    <p className="thetheme heading-20vh heading-flex phonk">Gallery</p>
-                    <Gallery />
-                </div> */}
                 <Footer />
             </div>
         </div>

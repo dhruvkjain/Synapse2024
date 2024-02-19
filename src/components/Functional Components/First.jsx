@@ -9,6 +9,7 @@ import ProNight from '../ProNight';
 import Team from '../Team';
 import HackOut from '../HackOut';
 import Sponsors from '../Sponsors';
+import Merchandise from '../Merchandise';
 
 // import ScrollToBottom from "./scrollToBottom";
 import Gallery from "./Gallery";
@@ -148,6 +149,13 @@ class First extends React.Component {
             return (
                 <div>
                     <Sponsors changePageinApp={this.changePageinApp} />
+                </div>
+            )
+        }
+        else if (this.state.page == 'merchandise') {
+            return (
+                <div>
+                    <Merchandise changePageinApp={this.changePageinApp} />
                 </div>
             )
         }
