@@ -214,6 +214,10 @@ button {
     animation: comeback 1s ease-in-out 0.26s 1 normal forwards;
 }
 
+.navp8 {
+    animation: comeback 1s ease-in-out 0.30s 1 normal forwards;
+}
+
 @keyframes comeback {
     0% {
         transform: translateX(-100%);

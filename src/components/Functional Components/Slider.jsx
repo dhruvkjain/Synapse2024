@@ -33,7 +33,7 @@ const Slider = () => {
               <div>
                 <p className='satoshi pronighttxt1'>Stand Up</p>
                 <p className='satoshi pronighttxt2'>Featuring</p>
-                <p className='satoshi pronighttxt3'>The Multi Award Winner, Composer and Singer of Songs 'Kaise Hua', 'Phela Pyar', 'Aaj Bhi', 'Teri Hogayiyan', 'Nai Lagda' and Many More....Get ready to feel the beat, the rhythm, and the soul of the music. From the moment they step onto the stage, you'll be transported to another world, where every note, every chord, and every lyric will take you on a journey you'll never forget!</p>
+                <p className='satoshi pronighttxt3'>Gurleen Pannu is a stand-up comedian known for <span className='highlighttxt'>Comicstaan (2018) and Chalo Koi Baat Nahi (2021).</span> Her performances are a delightful blend of clever storytelling, witty one-liners, and spontaneous interactions, making her a rising star in the comedy scene.</p>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ const Slider = () => {
               <div>
                 <p className='satoshi pronighttxt1'>Ragna Rock </p>
                 <p className='satoshi pronighttxt2'>Featuring</p>
-                <p className='satoshi pronighttxt3'>The Multi Award Winner, Composer and Singer of Songs <span className='highlighttxt'>'Kaise Hua', 'Phela Pyar', 'Aaj Bhi', 'Teri Hogayiyan', 'Nai Lagda'</span> and Many More....Get ready to feel the beat, the rhythm, and the soul of the music. From the moment they step onto the stage, you'll be transported to another world, where every note, every chord, and every lyric will take you on a journey you'll never forget!</p>
+                <p className='satoshi pronighttxt3'>The Multi Award Winner, Composer and Singer of Songs <span className='highlighttxt'>'Kesariya', 'Janam Janam', 'Mehrama', 'Itni Si Baat Hain', 'Sun Soniye'</span> and Many More....Get ready to feel the beat, the rhythm, and the soul of the music. From the moment they step onto the stage, you'll be transported to another world, where every note, every chord, and every lyric will take you on a journey you'll never forget!</p>
               </div>
             </div>
             <div>
@@ -90,7 +90,7 @@ const Slider = () => {
           <div className='pronighttxtgrid'>
           <div>
               <p data-aos="fade-up" data-aos-delay="600" className='pronightartistname txt_align_left phonk'>
-               Teri Mico
+               Teri Miko
               </p>
             </div>
             <div className='pronighttxtgrid2'>

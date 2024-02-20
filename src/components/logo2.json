@@ -97,14 +97,28 @@
                 "name":"GIL" ,
                 "url": "./assets/sponsors/gil.png" ,
                 "desc" : "",
-                "hlink": ""
+                "hlink": "https://gil.gujarat.gov.in/"
             },
             {
                 "id":11,
                 "name":"GP" ,
                 "url": "./assets/sponsors/gp.png" ,
                 "desc" : "",
-                "hlink": ""
+                "hlink": "https://www.gspcgroup.com/"
+            },
+            {
+                "id":12,
+                "name":"Gujcost" ,
+                "url": "./assets/sponsors/gujcost.png" ,
+                "desc" : "",
+                "hlink": "https://gujcost.gujarat.gov.in/Index"
+            },
+            {
+                "id":13,
+                "name":"DST" ,
+                "url": "./assets/sponsors/dis.png" ,
+                "desc" : "",
+                "hlink": "https://dst.gujarat.gov.in/"
             }
         ]
     },
@@ -157,7 +171,7 @@
                 "name":"Kosol" ,
                 "url": "./assets/sponsors/kosol.png" ,
                 "desc" : "",
-                "hlink": ""
+                "hlink": "https://kosolenergie.com/"
             }
         ]
     },
@@ -196,7 +210,7 @@
                 "name": "Araha Fitness",
                 "url": "./assets/sponsors/arha.png" ,
                 "desc" : "",
-                "hlink": " http://arhafitness.com/"
+                "hlink": "http://arhafitness.com/"
             }
         ]
     },
@@ -232,10 +246,10 @@
         "members" : [
             {
                 "id":1,
-                "name":"Spykar" ,
-                "url": "./assets/sponsors/spykar.jpg" ,
+                "name":"upGrad" ,
+                "url": "./assets/sponsors/upGrad.jpg" ,
                 "desc" : "",
-                "hlink": "https://spykar.com/"
+                "hlink": "https://www.upgrad.com/"
             }
         ]
     },
@@ -248,7 +262,7 @@
                 "name":"Banana Smartplex" ,
                 "url": "./assets/sponsors/banana.png" ,
                 "desc" : "",
-                "hlink": "https://www.instagram.com/banana_smartplex/?hl=en"
+                "hlink": "https://www.instagram.com/banana_smartplex?igsh=MXJreHhjNnJwbWUzbg=="
             }
         ]
     },
@@ -274,14 +288,14 @@
                 "name": "Flits" ,
                 "url":  "./assets/sponsors/flits.png",
                 "desc" : "",
-                "hlink": "" 
+                "hlink": "https://getflits.com/" 
             },
             {
                 "id":2,
                 "name": "INTECH" ,
                 "url":  "./assets/sponsors/intech.png",
                 "desc" : "",
-                "hlink": "" 
+                "hlink": "https://theintechgroup.com/" 
             }
         ]
     },
@@ -341,7 +355,7 @@
                 "name": "Abzo Motors" ,
                 "url":  "./assets/sponsors/abzo.png",
                 "desc" : "",
-                "hlink": "https://abzomotors.com/?gad_source=1&gclid=CjwKCAiAlcyuBhBnEiwAOGZ2S3K7MzKFQM26n6vI7bv5yjmPv08fVSG4FTs6NuhX6wHb69_EOpCT_BoCwzsQAvD_BwE"
+                "hlink": "https://abzomotors.com"
             }
         ]
     },
@@ -441,9 +455,9 @@
             {
                 "id":1,
                 "name": "Urban Theka" ,
-                "url":  "https://urbanthekacafe.com/wp-content/uploads/2022/09/ll.jpg",
+                "url":  "./assets/sponsors/urbantheka.png",
                 "desc" : "",
-                "hlink": ""
+                "hlink": "https://www.instagram.com/urbantheka_gandhinagar?igsh=MWlrdmhsb3MzdWNzeg=="
             }
         ]
     }
